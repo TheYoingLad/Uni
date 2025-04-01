@@ -1,0 +1,14 @@
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\bin\Debug\net6.0\nevsornovekvo.exe
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\bin\Debug\net6.0\nevsornovekvo.deps.json
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\bin\Debug\net6.0\nevsornovekvo.runtimeconfig.json
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\bin\Debug\net6.0\nevsornovekvo.dll
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\bin\Debug\net6.0\nevsornovekvo.pdb
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\obj\Debug\net6.0\nevsornovekvo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\obj\Debug\net6.0\nevsornovekvo.AssemblyInfoInputs.cache
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\obj\Debug\net6.0\nevsornovekvo.AssemblyInfo.cs
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\obj\Debug\net6.0\nevsornovekvo.csproj.CoreCompileInputs.cache
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\obj\Debug\net6.0\nevsornovekvo.dll
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\obj\Debug\net6.0\refint\nevsornovekvo.dll
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\obj\Debug\net6.0\nevsornovekvo.pdb
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\obj\Debug\net6.0\nevsornovekvo.genruntimeconfig.cache
+C:\Users\a7mmz1\Desktop\2023.10.11\nevsornovekvo\obj\Debug\net6.0\ref\nevsornovekvo.dll

@@ -1,0 +1,47 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:ImageDownloader.Avalonia.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ImageDownloader.Avalonia.Views.MainView"
+             x:DataType="vm:MainViewModel">
+	<Design.DataContext>
+		<!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+		<vm:MainViewModel />
+	</Design.DataContext>
+
+	<DockPanel Name="Panel">
+		<TextBox x:Name="urlTextBox" Text="https://www.inf.elte.hu/" DockPanel.Dock="Top" />
+		<Button Content="{Binding DownloadButtonLabel}" DockPanel.Dock="Top"
+                Command="{Binding DownloadCommand}" CommandParameter="{Binding #urlTextBox.Text}" 
+				HorizontalContentAlignment="Center"
+				HorizontalAlignment="Stretch" />
+		<StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom">
+			<TextBlock Text="Képek száma:" />
+			<TextBlock Text="{Binding Images.Count}" />
+			<ProgressBar Value="{Binding Progress, Mode=OneWay}"
+                         IsVisible="{Binding IsDownloading}"
+                         Height="10" Width="200" />
+		</StackPanel>
+		<ScrollViewer>
+			<ItemsControl ItemsSource="{Binding Images}">
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<WrapPanel></WrapPanel>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+				<ItemsControl.ItemTemplate>
+					<DataTemplate>
+						<Button Command="{Binding #Panel.((vm:MainViewModel)DataContext).ImageSelectedCommand}"
+                                CommandParameter="{Binding}"
+                                Margin="2">
+							<Image Source="{Binding}" Width="100" Height="100" />
+						</Button>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+		</ScrollViewer>
+	</DockPanel>
+</UserControl>

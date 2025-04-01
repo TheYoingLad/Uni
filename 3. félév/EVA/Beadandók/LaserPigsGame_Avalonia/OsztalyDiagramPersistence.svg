@@ -1,0 +1,4788 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="1201"
+   height="741.5"
+   id="svg6595"
+   sodipodi:docname="OsztalyDiagramPersistence.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   inkscape:export-filename="OsztalyDiagramPersistence.png"
+   inkscape:export-xdpi="1000"
+   inkscape:export-ydpi="1000"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6595"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.8175165"
+     inkscape:cx="1087.4398"
+     inkscape:cy="186.54058"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6595"
+     inkscape:export-bgcolor="#ffffffff" />
+  <defs
+     id="defs1" />
+  <g
+     id="g5611"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#c0c0c0"
+       stroke="none"
+       x="23"
+       y="1679"
+       width="320"
+       height="106"
+       transform="translate(45,-6)"
+       fill-opacity="0.2"
+       id="rect5610" />
+  </g>
+  <g
+     id="g5612"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="16"
+       y="1672"
+       width="320"
+       height="106"
+       transform="translate(45,-6)"
+       id="rect5611" />
+  </g>
+  <g
+     id="g5613"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 61,1666 h 320 v 106 H 61 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5612" />
+  </g>
+  <g
+     id="g5614"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 61,1704 H 381"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5613" />
+  </g>
+  <g
+     id="g5616"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5615">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5614"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="176.5"
+         y="1683.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5614">«interface»</text>
+    </g>
+  </g>
+  <g
+     id="g5618"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5617">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5616"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="176.5"
+         y="1698.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5616">Persistence::IFileManager</text>
+    </g>
+  </g>
+  <g
+     id="g5620"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5619">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5618"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1721.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5618">+LoadAsync(Stream): Task&lt;(Player, Player, int)&gt;</text>
+    </g>
+  </g>
+  <g
+     id="g5622"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5621">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5620"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1736.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5620">+LoadAsync(string): Task&lt;(Player, Player, int)&gt;</text>
+    </g>
+  </g>
+  <g
+     id="g5624"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5623">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5622"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1751.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5622">+SaveAsync(Stream, Player, Player, int): Task</text>
+    </g>
+  </g>
+  <g
+     id="g5626"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5625">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5624"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1766.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5624">+SaveAsync(string, Player, Player, int): Task</text>
+    </g>
+  </g>
+  <g
+     id="g5627"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#c0c0c0"
+       stroke="none"
+       x="23"
+       y="1815"
+       width="320"
+       height="153"
+       transform="translate(45,-6)"
+       fill-opacity="0.2"
+       id="rect5626" />
+  </g>
+  <g
+     id="g5628"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="16"
+       y="1808"
+       width="320"
+       height="153"
+       transform="translate(45,-6)"
+       id="rect5627" />
+  </g>
+  <g
+     id="g5629"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 61,1802 h 320 v 153 H 61 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5628" />
+  </g>
+  <g
+     id="g5630"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 61,1827 H 381"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5629" />
+  </g>
+  <g
+     id="g5632"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5631">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5630"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="176.5"
+         y="1821.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5630">Persistence::FileManager</text>
+    </g>
+  </g>
+  <g
+     id="g5634"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5633">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5632"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1844.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5632">-GetDataFromPlayer(Player, ref string[]): void</text>
+    </g>
+  </g>
+  <g
+     id="g5636"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5635">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5634"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1859.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5634">-GetPlayerFromData(string[], bool): Player</text>
+    </g>
+  </g>
+  <g
+     id="g5638"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5637">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5636"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1874.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5636">+Operation1()</text>
+    </g>
+  </g>
+  <g
+     id="g5640"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5639">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5638"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1889.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5638">+Operation2()</text>
+    </g>
+  </g>
+  <g
+     id="g5642"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5641">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5640"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1904.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5640">+LoadAsync(Stream): Task&lt;(Player, Player, int)&gt;</text>
+    </g>
+  </g>
+  <g
+     id="g5644"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5643">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5642"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1919.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5642">+LoadAsync(string): Task&lt;(Player, Player, int)&gt;</text>
+    </g>
+  </g>
+  <g
+     id="g5646"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5645">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5644"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1934.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5644">+SaveAsync(Stream, Player, Player, int): Task</text>
+    </g>
+  </g>
+  <g
+     id="g5648"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5647">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5646"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1949.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5646">+SaveAsync(string, Player, Player, int): Task</text>
+    </g>
+  </g>
+  <g
+     id="g5649"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#c0c0c0"
+       stroke="none"
+       x="375"
+       y="1495"
+       width="336"
+       height="551"
+       transform="translate(45,-6)"
+       fill-opacity="0.2"
+       id="rect5648" />
+  </g>
+  <g
+     id="g5650"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="368"
+       y="1488"
+       width="336"
+       height="551"
+       transform="translate(45,-6)"
+       id="rect5649" />
+  </g>
+  <g
+     id="g5651"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 413,1482 h 336 v 551 H 413 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5650" />
+  </g>
+  <g
+     id="g5652"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 413,1507 H 749"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5651" />
+  </g>
+  <g
+     id="g5653"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 413,1635 H 749"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5652" />
+  </g>
+  <g
+     id="g5655"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5654">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5653"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="536.5"
+         y="1501.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5653">Persistence::Player</text>
+    </g>
+  </g>
+  <g
+     id="g5657"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5656">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5655"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1524.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5655">-BaseMaxHp: int = 3</text>
+    </g>
+  </g>
+  <g
+     id="g5659"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5658">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5657"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1539.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5657">-BaseHp: int = 3</text>
+    </g>
+  </g>
+  <g
+     id="g5661"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5660">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5659"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1554.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5659">-BaseInstructionsLength: int = 5</text>
+    </g>
+  </g>
+  <g
+     id="g5663"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5662">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5661"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1569.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5661">-_size: int {readOnly}</text>
+    </g>
+  </g>
+  <g
+     id="g5665"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5664">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5663"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1584.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5663">-_maxHp: int {readOnly}</text>
+    </g>
+  </g>
+  <g
+     id="g5667"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5666">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5665"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1599.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5665">-_hp: int</text>
+    </g>
+  </g>
+  <g
+     id="g5669"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5668">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5667"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1614.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5667">-_instructionCount: int</text>
+    </g>
+  </g>
+  <g
+     id="g5671"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5670">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5669"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1629.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5669">-_instructionsLocked: bool</text>
+    </g>
+  </g>
+  <g
+     id="g5673"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5672">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5671"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1652.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5671">+Player(bool, int)</text>
+    </g>
+  </g>
+  <g
+     id="g5675"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5674">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5673"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1667.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5673">+Player(int, Coordinate, int, int, Direction, int)</text>
+    </g>
+  </g>
+  <g
+     id="g5677"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5676">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5675"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1682.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5675">+StepTo(Coordinate): void</text>
+    </g>
+  </g>
+  <g
+     id="g5679"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5678">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5677"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1697.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5677">+Turn(Rotation): void</text>
+    </g>
+  </g>
+  <g
+     id="g5681"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5680">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5679"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1712.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5679">+TakeDamage(): void</text>
+    </g>
+  </g>
+  <g
+     id="g5683"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5682">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5681"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1727.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5681">+AddInstruction(Instruction): void</text>
+    </g>
+  </g>
+  <g
+     id="g5685"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5684">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5683"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1742.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5683">+RemoveInstruction(): void</text>
+    </g>
+  </g>
+  <g
+     id="g5687"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5686">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5685"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1757.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5685">+GetInstruction(int): Instruction</text>
+    </g>
+  </g>
+  <g
+     id="g5689"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5688">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5687"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1772.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5687">+ResetInstructions(): void</text>
+    </g>
+  </g>
+  <g
+     id="g5691"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5690">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5689"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1787.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5689">-TakeDamage(int): void</text>
+    </g>
+  </g>
+  <g
+     id="g5693"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5692">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5691"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1802.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5691">-StartingCoordinate(bool, int): Coordinate</text>
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d="M 418,1803 H 655.73877"
+         stroke-miterlimit="10"
+         stroke-dasharray="none"
+         id="path5692" />
+    </g>
+  </g>
+  <g
+     id="g5695"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5694">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5693"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1817.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5693">-StartingDirection(bool): Direction</text>
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d="M 418,1818 H 610.18164"
+         stroke-miterlimit="10"
+         stroke-dasharray="none"
+         id="path5694" />
+    </g>
+  </g>
+  <g
+     id="g5697"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5696">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5695"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1832.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5695">+Operation8()</text>
+    </g>
+  </g>
+  <g
+     id="g5699"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5698">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5697"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1847.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5697">+Operation9()</text>
+    </g>
+  </g>
+  <g
+     id="g5701"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5700">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5699"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1862.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5699">+GetCoordinate(): Coordinate</text>
+    </g>
+  </g>
+  <g
+     id="g5703"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5702">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5701"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1877.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5701">+GetHp(): int</text>
+    </g>
+  </g>
+  <g
+     id="g5705"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5704">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5703"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1892.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5703">+GetMaxHp(): int</text>
+    </g>
+  </g>
+  <g
+     id="g5707"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5706">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5705"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1907.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5705">+IsDead(): bool</text>
+    </g>
+  </g>
+  <g
+     id="g5709"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5708">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5707"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1922.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5707">+GetDirection(): Direction</text>
+    </g>
+  </g>
+  <g
+     id="g5711"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5710">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5709"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1937.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5709">+GetInstructions(): Instruction[]</text>
+    </g>
+  </g>
+  <g
+     id="g5713"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5712">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5711"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1952.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5711">+GetSize(): int</text>
+    </g>
+  </g>
+  <g
+     id="g5715"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5714">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5713"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1967.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5713">+GetMaxInstructions(): int</text>
+    </g>
+  </g>
+  <g
+     id="g5717"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5716">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5715"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1982.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5715">+GetInstructionCount(): int</text>
+    </g>
+  </g>
+  <g
+     id="g5719"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5718">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5717"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="1997.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5717">+IsEmpty(): bool</text>
+    </g>
+  </g>
+  <g
+     id="g5721"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5720">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5719"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="2012.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5719">+IsFull(): bool</text>
+    </g>
+  </g>
+  <g
+     id="g5723"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5722">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5721"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="373"
+         y="2027.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5721">+Locked(bool): bool</text>
+    </g>
+  </g>
+  <g
+     id="g5724"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#c0c0c0"
+       stroke="none"
+       x="823"
+       y="1456"
+       width="304"
+       height="116"
+       transform="translate(45,-6)"
+       fill-opacity="0.2"
+       id="rect5723" />
+  </g>
+  <g
+     id="g5725"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="816"
+       y="1449"
+       width="304"
+       height="116"
+       transform="translate(45,-6)"
+       id="rect5724" />
+  </g>
+  <g
+     id="g5726"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 861,1443 h 304 v 116 H 861 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5725" />
+  </g>
+  <g
+     id="g5727"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 861,1468 h 304"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5726" />
+  </g>
+  <g
+     id="g5728"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 861,1491 h 304"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5727" />
+  </g>
+  <g
+     id="g5730"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5729">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5728"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="italic"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="968.5"
+         y="1462.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5728">Persistence::Instructions::Instruction</text>
+    </g>
+  </g>
+  <g
+     id="g5732"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5731">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5730"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1485.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5730">-_priority: int {readOnly}</text>
+    </g>
+  </g>
+  <g
+     id="g5734"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5733">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5732"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1508.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5732">+Instruction(int)</text>
+    </g>
+  </g>
+  <g
+     id="g5736"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5735">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5734"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1523.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5734">+Operation2()</text>
+    </g>
+  </g>
+  <g
+     id="g5738"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5737">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5736"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1538.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5736">+Operation3()</text>
+    </g>
+  </g>
+  <g
+     id="g5740"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5739">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5738"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1553.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5738">+GetPriority(): int</text>
+    </g>
+  </g>
+  <g
+     id="g5866"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#c0c0c0"
+       stroke="none"
+       x="823"
+       y="1872"
+       width="328"
+       height="63"
+       transform="translate(45,-6)"
+       fill-opacity="0.2"
+       id="rect5865" />
+  </g>
+  <g
+     id="g5867"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="816"
+       y="1865"
+       width="328"
+       height="63"
+       transform="translate(45,-6)"
+       id="rect5866" />
+  </g>
+  <g
+     id="g5868"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 861,1859 h 328 v 63 H 861 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5867" />
+  </g>
+  <g
+     id="g5869"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 861,1884 h 328"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5868" />
+  </g>
+  <g
+     id="g5871"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5870">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5869"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="italic"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="980.5"
+         y="1878.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5869">Persistence::Instructions::Attack</text>
+    </g>
+  </g>
+  <g
+     id="g5873"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5872">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5871"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1901.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5871">+Attack(int)</text>
+    </g>
+  </g>
+  <g
+     id="g5875"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5874">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5873"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="italic"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1916.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5873">+WouldBeHit(Coordinate, Coordinate, Direction): bool</text>
+    </g>
+  </g>
+  <g
+     id="g5876"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#c0c0c0"
+       stroke="none"
+       x="823"
+       y="1968"
+       width="384"
+       height="78"
+       transform="translate(45,-6)"
+       fill-opacity="0.2"
+       id="rect5875" />
+  </g>
+  <g
+     id="g5877"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="816"
+       y="1961"
+       width="384"
+       height="78"
+       transform="translate(45,-6)"
+       id="rect5876" />
+  </g>
+  <g
+     id="g5878"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 861,1955 h 384 v 78 H 861 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5877" />
+  </g>
+  <g
+     id="g5879"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 861,1980 h 384"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5878" />
+  </g>
+  <g
+     id="g5881"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5880">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5879"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="1008.5"
+         y="1974.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5879">Persistence::Instructions::Shoot</text>
+    </g>
+  </g>
+  <g
+     id="g5883"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5882">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5881"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1997.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5881">+Shoot()</text>
+    </g>
+  </g>
+  <g
+     id="g5885"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5884">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5883"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="2012.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5883">+WouldBeHit(Coordinate, Coordinate, Direction): bool {override}</text>
+    </g>
+  </g>
+  <g
+     id="g5887"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5886">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5885"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="2027.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5885">+ToString(): string {override}</text>
+    </g>
+  </g>
+  <g
+     id="g5888"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#c0c0c0"
+       stroke="none"
+       x="823"
+       y="1312"
+       width="208"
+       height="108"
+       transform="translate(45,-6)"
+       fill-opacity="0.2"
+       id="rect5887" />
+  </g>
+  <g
+     id="g5889"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="816"
+       y="1305"
+       width="208"
+       height="108"
+       transform="translate(45,-6)"
+       id="rect5888" />
+  </g>
+  <g
+     id="g5890"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 861,1299 h 208 v 108 H 861 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5889" />
+  </g>
+  <g
+     id="g5891"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 861,1324 h 208"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5890" />
+  </g>
+  <g
+     id="g5893"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5892">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5891"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="920.5"
+         y="1318.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5891">Persistence::Instructions::Turn</text>
+    </g>
+  </g>
+  <g
+     id="g5895"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5894">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5893"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1341.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5893">+Turn(Rotation)</text>
+    </g>
+  </g>
+  <g
+     id="g5897"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5896">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5895"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1356.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5895">+ToString(): string {override}</text>
+    </g>
+  </g>
+  <g
+     id="g5899"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5898">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5897"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1371.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5897">+Operation2()</text>
+    </g>
+  </g>
+  <g
+     id="g5901"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5900">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5899"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1386.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5899">+Operation3()</text>
+    </g>
+  </g>
+  <g
+     id="g5903"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5902">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5901"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1401.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5901">+GetRotation(): Rotation</text>
+    </g>
+  </g>
+  <g
+     id="g5904"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#c0c0c0"
+       stroke="none"
+       x="999"
+       y="1608"
+       width="208"
+       height="123"
+       transform="translate(45,-6)"
+       fill-opacity="0.2"
+       id="rect5903" />
+  </g>
+  <g
+     id="g5905"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="992"
+       y="1601"
+       width="208"
+       height="123"
+       transform="translate(45,-6)"
+       id="rect5904" />
+  </g>
+  <g
+     id="g5906"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 1037,1595 h 208 v 123 h -208 z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5905" />
+  </g>
+  <g
+     id="g5907"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 1037,1620 h 208"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5906" />
+  </g>
+  <g
+     id="g5909"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5908">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5907"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="1096.5"
+         y="1614.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5907">Persistence::Instructions::Step</text>
+    </g>
+  </g>
+  <g
+     id="g5911"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5910">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5909"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="997"
+         y="1637.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5909">+Step(Direction)</text>
+    </g>
+  </g>
+  <g
+     id="g5913"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5912">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5911"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="997"
+         y="1652.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5911">+SimulateStep(): Coordinate</text>
+    </g>
+  </g>
+  <g
+     id="g5915"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5914">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5913"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="997"
+         y="1667.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5913">+ToString(): string {override}</text>
+    </g>
+  </g>
+  <g
+     id="g5917"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5916">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5915"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="997"
+         y="1682.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5915">+Operation1()</text>
+    </g>
+  </g>
+  <g
+     id="g5919"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5918">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5917"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="997"
+         y="1697.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5917">+Operation2()</text>
+    </g>
+  </g>
+  <g
+     id="g5921"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5920">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5919"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="997"
+         y="1712.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5919">+GetDirection(): Direction</text>
+    </g>
+  </g>
+  <g
+     id="g5922"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#c0c0c0"
+       stroke="none"
+       x="823"
+       y="1760"
+       width="384"
+       height="78"
+       transform="translate(45,-6)"
+       fill-opacity="0.2"
+       id="rect5921" />
+  </g>
+  <g
+     id="g5923"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="816"
+       y="1753"
+       width="384"
+       height="78"
+       transform="translate(45,-6)"
+       id="rect5922" />
+  </g>
+  <g
+     id="g5924"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 861,1747 h 384 v 78 H 861 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5923" />
+  </g>
+  <g
+     id="g5925"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 861,1772 h 384"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5924" />
+  </g>
+  <g
+     id="g5927"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5926">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5925"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="1008.5"
+         y="1766.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5925">Persistence::Instructions::Punch</text>
+    </g>
+  </g>
+  <g
+     id="g5929"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5928">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5927"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1789.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5927">+Punch()</text>
+    </g>
+  </g>
+  <g
+     id="g5931"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5930">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5929"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1804.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5929">+WouldBeHit(Coordinate, Coordinate, Direction): bool {override}</text>
+    </g>
+  </g>
+  <g
+     id="g5933"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5932">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5931"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="821"
+         y="1819.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5931">+ToString(): string {override}</text>
+    </g>
+  </g>
+  <g
+     id="g5960"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#c0c0c0"
+       stroke="none"
+       x="23"
+       y="1399"
+       width="320"
+       height="266"
+       transform="translate(45,-6)"
+       fill-opacity="0.2"
+       id="rect5959" />
+  </g>
+  <g
+     id="g5961"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="16"
+       y="1392"
+       width="320"
+       height="266"
+       transform="translate(45,-6)"
+       id="rect5960" />
+  </g>
+  <g
+     id="g5962"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 61,1386 h 320 v 266 H 61 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5961" />
+  </g>
+  <g
+     id="g5963"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 61,1411 H 381"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5962" />
+  </g>
+  <g
+     id="g5964"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 61,1449 H 381"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5963" />
+  </g>
+  <g
+     id="g5966"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5965">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5964"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="176.5"
+         y="1405.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5964">Persistence::Coordinate</text>
+    </g>
+  </g>
+  <g
+     id="g5968"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5967">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5966"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1428.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5966">-_x: int</text>
+    </g>
+  </g>
+  <g
+     id="g5970"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5969">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5968"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1443.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5968">-_y: int</text>
+    </g>
+  </g>
+  <g
+     id="g5972"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5971">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5970"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1466.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5970">+Coordinate(int, int)</text>
+    </g>
+  </g>
+  <g
+     id="g5974"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5973">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5972"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1481.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5972">+InBounds(int): void</text>
+    </g>
+  </g>
+  <g
+     id="g5976"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5975">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5974"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1496.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5974">+Validate(int): void</text>
+    </g>
+  </g>
+  <g
+     id="g5978"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5977">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5976"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1511.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5976">+ToString(): string {override}</text>
+    </g>
+  </g>
+  <g
+     id="g5980"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5979">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5978"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1526.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5978">+Operation3()</text>
+    </g>
+  </g>
+  <g
+     id="g5982"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5981">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5980"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1541.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5980">+Operation4()</text>
+    </g>
+  </g>
+  <g
+     id="g5984"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5983">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5982"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1556.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5982">+operator+(Coordinate, Coordinate): Coordinate</text>
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d="M 66,1557 H 343.50049"
+         stroke-miterlimit="10"
+         stroke-dasharray="none"
+         id="path5983" />
+    </g>
+  </g>
+  <g
+     id="g5986"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5985">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5984"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1571.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5984">+operator==(Coordinate, Coordinate): bool</text>
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d="M 66,1572 H 312.07324"
+         stroke-miterlimit="10"
+         stroke-dasharray="none"
+         id="path5985" />
+    </g>
+  </g>
+  <g
+     id="g5988"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5987">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5986"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1586.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5986">+operator!=(Coordinate, Coordinate): bool</text>
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d="M 66,1587 H 308.09326"
+         stroke-miterlimit="10"
+         stroke-dasharray="none"
+         id="path5987" />
+    </g>
+  </g>
+  <g
+     id="g5990"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5989">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5988"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1601.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5988">+Operation1()</text>
+    </g>
+  </g>
+  <g
+     id="g5992"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5991">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5990"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1616.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5990">+Operation2()</text>
+    </g>
+  </g>
+  <g
+     id="g5994"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5993">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5992"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1631.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5992">+GetX(): int</text>
+    </g>
+  </g>
+  <g
+     id="g5996"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g5995">
+      <path
+         fill="none"
+         stroke="none"
+         id="path5994"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="1646.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text5994">+GetY(): int</text>
+    </g>
+  </g>
+  <g
+     id="g5997"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 1189,1890 h 72 v -391 h -96"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5996" />
+  </g>
+  <g
+     id="g5998"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="#ffffff"
+       stroke="none"
+       paint-order="stroke fill markers"
+       d="M 1185.3253,1490.581 1165,1499 l 20.3253,8.419"
+       id="path5997" />
+  </g>
+  <g
+     id="g5999"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 1185.3253,1490.581 1165,1499 l 20.3253,8.419 v -16.838"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5998" />
+  </g>
+  <g
+     id="g6000"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 965,1407 v 36"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path5999" />
+  </g>
+  <g
+     id="g6001"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="#ffffff"
+       stroke="none"
+       paint-order="stroke fill markers"
+       d="M 956.58096,1422.6747 965,1443 l 8.41904,-20.3253"
+       id="path6000" />
+  </g>
+  <g
+     id="g6002"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 956.58096,1422.6747 965,1443 l 8.41904,-20.3253 h -16.83808"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6001" />
+  </g>
+  <g
+     id="g6003"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 1101,1595 v -36"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6002" />
+  </g>
+  <g
+     id="g6004"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="#ffffff"
+       stroke="none"
+       paint-order="stroke fill markers"
+       d="M 1109.419,1579.3253 1101,1559 l -8.419,20.3253"
+       id="path6003" />
+  </g>
+  <g
+     id="g6005"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 1109.419,1579.3253 1101,1559 l -8.419,20.3253 h 16.838"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6004" />
+  </g>
+  <g
+     id="g6006"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 1034,1955 v -33"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6005" />
+  </g>
+  <g
+     id="g6007"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="#ffffff"
+       stroke="none"
+       paint-order="stroke fill markers"
+       d="M 1042.419,1942.3253 1034,1922 l -8.419,20.3253"
+       id="path6006" />
+  </g>
+  <g
+     id="g6008"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 1042.419,1942.3253 1034,1922 l -8.419,20.3253 h 16.838"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6007" />
+  </g>
+  <g
+     id="g6009"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 1029,1825 v 34"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6008" />
+  </g>
+  <g
+     id="g6010"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="#ffffff"
+       stroke="none"
+       paint-order="stroke fill markers"
+       d="M 1020.581,1838.6747 1029,1859 l 8.419,-20.3253"
+       id="path6009" />
+  </g>
+  <g
+     id="g6011"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 1020.581,1838.6747 1029,1859 l 8.419,-20.3253 h -16.838"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6010" />
+  </g>
+  <g
+     id="g6012"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 302,1802 v -30"
+       stroke-miterlimit="10"
+       stroke-dasharray="3"
+       id="path6011" />
+  </g>
+  <g
+     id="g6013"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="#ffffff"
+       stroke="none"
+       paint-order="stroke fill markers"
+       d="M 310.41904,1792.3253 302,1772 l -8.41904,20.3253"
+       id="path6012" />
+  </g>
+  <g
+     id="g6014"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 310.41904,1792.3253 302,1772 l -8.41904,20.3253 h 16.83808"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6013" />
+  </g>
+  <g
+     id="g6015"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#c0c0c0"
+       stroke="none"
+       x="725"
+       y="1616"
+       width="176"
+       height="121"
+       transform="translate(45,-6)"
+       fill-opacity="0.2"
+       id="rect6014" />
+  </g>
+  <g
+     id="g6016"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="718"
+       y="1609"
+       width="176"
+       height="121"
+       transform="translate(45,-6)"
+       id="rect6015" />
+  </g>
+  <g
+     id="g6017"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 763,1603 h 176 v 121 H 763 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6016" />
+  </g>
+  <g
+     id="g6018"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 763,1641 H 939"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6017" />
+  </g>
+  <g
+     id="g6020"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6019">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6018"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="806.5"
+         y="1620.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6018">«enumeration»</text>
+    </g>
+  </g>
+  <g
+     id="g6022"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6021">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6020"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="806.5"
+         y="1635.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6020">Persistence::Direction</text>
+    </g>
+  </g>
+  <g
+     id="g6024"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6023">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6022"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="723"
+         y="1658.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6022">Up</text>
+    </g>
+  </g>
+  <g
+     id="g6026"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6025">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6024"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="723"
+         y="1673.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6024">Right</text>
+    </g>
+  </g>
+  <g
+     id="g6028"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6027">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6026"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="723"
+         y="1688.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6026">Down</text>
+    </g>
+  </g>
+  <g
+     id="g6030"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6029">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6028"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="723"
+         y="1703.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6028">Left</text>
+    </g>
+  </g>
+  <g
+     id="g6032"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6031">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6030"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="723"
+         y="1718.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6030">None</text>
+    </g>
+  </g>
+  <g
+     id="g6033"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 381,1442 h 96 v 40"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6032" />
+  </g>
+  <g
+     id="g6034"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="#ffffff"
+       stroke="none"
+       paint-order="stroke fill markers"
+       d="M 472.79048,1471.8373 477,1482 481.20952,1471.8373 477,1460"
+       id="path6033" />
+  </g>
+  <g
+     id="g6035"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 472.79048,1471.8373 477,1482 481.20952,1471.8373 477,1460 l -4.20952,11.8373"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6034" />
+  </g>
+  <g
+     id="g6036"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#ffffff"
+       stroke="none"
+       x="346"
+       y="1432"
+       width="72.268066"
+       height="13"
+       transform="translate(45,-6)"
+       id="rect6035" />
+  </g>
+  <g
+     id="g6038"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6037">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6036"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="382.13403"
+         y="1438.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6036">-_coordinate</text>
+    </g>
+  </g>
+  <g
+     id="g6041"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 821,1724 v 214 h -72"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6040" />
+  </g>
+  <g
+     id="g6042"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="#ffffff"
+       stroke="none"
+       paint-order="stroke fill markers"
+       d="M 759.16267,1933.7905 749,1938 759.16267,1942.2095 771,1938"
+       id="path6041" />
+  </g>
+  <g
+     id="g6043"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 759.16267,1933.7905 749,1938 759.16267,1942.2095 771,1938 l -11.83733,-4.2095"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6042" />
+  </g>
+  <g
+     id="g6044"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#ffffff"
+       stroke="none"
+       x="738"
+       y="1741"
+       width="63.958984"
+       height="13"
+       transform="translate(45,-6)"
+       id="rect6043" />
+  </g>
+  <g
+     id="g6046"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6045">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6044"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="769.97949"
+         y="1747.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6044">-_direction</text>
+    </g>
+  </g>
+  <g
+     id="g6047"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#c0c0c0"
+       stroke="none"
+       x="487"
+       y="1356"
+       width="160"
+       height="76"
+       transform="translate(45,-6)"
+       fill-opacity="0.2"
+       id="rect6046" />
+  </g>
+  <g
+     id="g6048"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="480"
+       y="1349"
+       width="160"
+       height="76"
+       transform="translate(45,-6)"
+       id="rect6047" />
+  </g>
+  <g
+     id="g6049"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 525,1343 h 160 v 76 H 525 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6048" />
+  </g>
+  <g
+     id="g6050"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 525,1381 H 685"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6049" />
+  </g>
+  <g
+     id="g6052"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6051">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6050"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="560.5"
+         y="1360.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6050">«enumeration»</text>
+    </g>
+  </g>
+  <g
+     id="g6054"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6053">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6052"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="560.5"
+         y="1375.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6052">Persistence::Rotation</text>
+    </g>
+  </g>
+  <g
+     id="g6056"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6055">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6054"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="485"
+         y="1398.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6054">CW</text>
+    </g>
+  </g>
+  <g
+     id="g6058"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6057">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6056"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="485"
+         y="1413.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6056">CCW</text>
+    </g>
+  </g>
+  <g
+     id="g6059"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 861,1510 H 749"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6058" />
+  </g>
+  <g
+     id="g6060"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="#ffffff"
+       stroke="none"
+       paint-order="stroke fill markers"
+       d="M 759.16267,1505.7905 749,1510 759.16267,1514.2095 771,1510"
+       id="path6059" />
+  </g>
+  <g
+     id="g6061"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 759.16267,1505.7905 749,1510 759.16267,1514.2095 771,1510 l -11.83733,-4.2095"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6060" />
+  </g>
+  <g
+     id="g6062"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#ffffff"
+       stroke="none"
+       x="733"
+       y="1519"
+       width="80.570801"
+       height="13"
+       transform="translate(45,-6)"
+       id="rect6061" />
+  </g>
+  <g
+     id="g6064"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6063">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6062"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="773.2854"
+         y="1525.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6062">-_instructions</text>
+    </g>
+  </g>
+  <g
+     id="g6065"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#ffffff"
+       stroke="none"
+       x="784"
+       y="1498"
+       width="28.170898"
+       height="13"
+       transform="translate(45,-6)"
+       id="rect6064" />
+  </g>
+  <g
+     id="g6067"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6066">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6065"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="798.08545"
+         y="1504.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6065">*</text>
+    </g>
+  </g>
+  <g
+     id="g6068"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#c0c0c0"
+       stroke="none"
+       x="23"
+       y="1984"
+       width="335"
+       height="61"
+       transform="translate(45,-6)"
+       fill-opacity="0.2"
+       id="rect6067" />
+  </g>
+  <g
+     id="g6069"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="16"
+       y="1977"
+       width="335"
+       height="61"
+       transform="translate(45,-6)"
+       id="rect6068" />
+  </g>
+  <g
+     id="g6070"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 61,1971 h 335 v 61 H 61 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6069" />
+  </g>
+  <g
+     id="g6071"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 367,1976 h 24 v 24 h -24 z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6070" />
+  </g>
+  <g
+     id="g6072"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 367,1976 24,24"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6071" />
+  </g>
+  <g
+     id="g6073"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 391,1976 -24,24"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6072" />
+  </g>
+  <g
+     id="g6074"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 61,2009 H 396"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6073" />
+  </g>
+  <g
+     id="g6078"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6077">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6076"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="171.5"
+         y="2003.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6076">Persistence::FileManagerException</text>
+    </g>
+  </g>
+  <g
+     id="g6080"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6079">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6078"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="21"
+         y="2026.5"
+         text-anchor="start"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6078">+FileManagerException(string, Exception)</text>
+    </g>
+  </g>
+  <g
+     id="g6081"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 302,1955 v 16"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6080" />
+  </g>
+  <g
+     id="g6082"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 297.79048,1960.8373 302,1971 l 4.20952,-10.1627"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6081" />
+  </g>
+  <g
+     id="g6083"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 381,1730 h 32"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6082" />
+  </g>
+  <g
+     id="g6084"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 402.83733,1734.2095 413,1730 l -10.16267,-4.2095"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6083" />
+  </g>
+  <g
+     id="g6085"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="291"
+       y="1979"
+       width="57.788086"
+       height="29"
+       transform="translate(45,-6)"
+       id="rect6084" />
+  </g>
+  <g
+     id="g6086"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#fff5d8"
+       paint-order="fill stroke markers"
+       d="m 336,1973 h 57.78809 v 29 H 336 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6085" />
+  </g>
+  <g
+     id="g6088"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6087">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6086"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="10px"
+         font-style="normal"
+         font-weight="bold"
+         text-decoration="undefined"
+         x="320.39404"
+         y="1991"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6086">Exception</text>
+    </g>
+  </g>
+  <g
+     id="g6089"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 685,1382 H 861"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6088" />
+  </g>
+  <g
+     id="g6090"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="#ffffff"
+       stroke="none"
+       paint-order="stroke fill markers"
+       d="M 850.83733,1386.2095 861,1382 850.83733,1377.7905 839,1382"
+       id="path6089" />
+  </g>
+  <g
+     id="g6091"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 850.83733,1386.2095 861,1382 850.83733,1377.7905 839,1382 l 11.83733,4.2095"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6090" />
+  </g>
+  <g
+     id="g6092"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#ffffff"
+       stroke="none"
+       x="650"
+       y="1372"
+       width="58.182617"
+       height="13"
+       transform="translate(45,-6)"
+       id="rect6091" />
+  </g>
+  <g
+     id="g6094"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6093">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6092"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="679.09131"
+         y="1378.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6092">-_rotation</text>
+    </g>
+  </g>
+  <g
+     id="g6095"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#ffffff"
+       stroke="none"
+       x="650"
+       y="1392"
+       width="61.432617"
+       height="13"
+       transform="translate(45,-6)"
+       id="rect6094" />
+  </g>
+  <g
+     id="g6097"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6096">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6095"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="680.71631"
+         y="1398.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6095">{readOnly}</text>
+    </g>
+  </g>
+  <g
+     id="g6098"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="m 939,1675 h 98"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6097" />
+  </g>
+  <g
+     id="g6099"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="#ffffff"
+       stroke="none"
+       paint-order="stroke fill markers"
+       d="M 1026.8373,1679.2095 1037,1675 1026.8373,1670.7905 1015,1675"
+       id="path6098" />
+  </g>
+  <g
+     id="g6100"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#000000"
+       paint-order="fill stroke markers"
+       d="M 1026.8373,1679.2095 1037,1675 1026.8373,1670.7905 1015,1675 l 11.8373,4.2095"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6099" />
+  </g>
+  <g
+     id="g6101"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#ffffff"
+       stroke="none"
+       x="903"
+       y="1664"
+       width="63.958984"
+       height="13"
+       transform="translate(45,-6)"
+       id="rect6100" />
+  </g>
+  <g
+     id="g6103"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6102">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6101"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="934.97949"
+         y="1670.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6101">-_direction</text>
+    </g>
+  </g>
+  <g
+     id="g6104"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#ffffff"
+       stroke="none"
+       x="903"
+       y="1686"
+       width="61.432617"
+       height="13"
+       transform="translate(45,-6)"
+       id="rect6103" />
+  </g>
+  <g
+     id="g6106"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6105">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6104"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="933.71631"
+         y="1692.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6104">{readOnly}</text>
+    </g>
+  </g>
+  <g
+     id="g6107"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="818"
+       y="1515"
+       width="106.1499"
+       height="30"
+       transform="translate(45,-6)"
+       id="rect6106" />
+  </g>
+  <g
+     id="g6108"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#fff5d8"
+       paint-order="fill stroke markers"
+       d="m 863,1509 h 106.1499 v 30 H 863 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6107" />
+  </g>
+  <g
+     id="g6110"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6109">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6108"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="859.07495"
+         y="1526.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6108">«property»</text>
+    </g>
+  </g>
+  <g
+     id="g6113"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="370"
+       y="1826"
+       width="106.1499"
+       height="29"
+       transform="translate(45,-6)"
+       id="rect6112" />
+  </g>
+  <g
+     id="g6114"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#fff5d8"
+       paint-order="fill stroke markers"
+       d="m 415,1820 h 106.1499 v 29 H 415 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6113" />
+  </g>
+  <g
+     id="g6116"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6115">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6114"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="411.07495"
+         y="1837.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6114">«property»</text>
+    </g>
+  </g>
+  <g
+     id="g6119"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="994"
+       y="1675"
+       width="106.1499"
+       height="29"
+       transform="translate(45,-6)"
+       id="rect6118" />
+  </g>
+  <g
+     id="g6120"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#fff5d8"
+       paint-order="fill stroke markers"
+       d="m 1039,1669 h 106.1499 v 29 H 1039 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6119" />
+  </g>
+  <g
+     id="g6122"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6121">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6120"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="1035.075"
+         y="1686.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6120">«property»</text>
+    </g>
+  </g>
+  <g
+     id="g6125"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="818"
+       y="1365"
+       width="106.1499"
+       height="29"
+       transform="translate(45,-6)"
+       id="rect6124" />
+  </g>
+  <g
+     id="g6126"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#fff5d8"
+       paint-order="fill stroke markers"
+       d="m 863,1359 h 106.1499 v 29 H 863 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6125" />
+  </g>
+  <g
+     id="g6128"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6127">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6126"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="859.07495"
+         y="1376.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6126">«property»</text>
+    </g>
+  </g>
+  <g
+     id="g6131"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="18"
+       y="1596"
+       width="106.1499"
+       height="29"
+       transform="translate(45,-6)"
+       id="rect6130" />
+  </g>
+  <g
+     id="g6132"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#fff5d8"
+       paint-order="fill stroke markers"
+       d="m 63,1590 h 106.1499 v 29 H 63 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6131" />
+  </g>
+  <g
+     id="g6134"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6133">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6132"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="59.074951"
+         y="1607.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6132">«property»</text>
+    </g>
+  </g>
+  <g
+     id="g6521"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="18"
+       y="1520"
+       width="106.87988"
+       height="28"
+       transform="translate(45,-6)"
+       id="rect6520" />
+  </g>
+  <g
+     id="g6522"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#fff5d8"
+       paint-order="fill stroke markers"
+       d="m 63,1514 h 106.87988 v 28 H 63 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6521" />
+  </g>
+  <g
+     id="g6524"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6523">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6522"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="59.439941"
+         y="1531.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6522">«operator»</text>
+    </g>
+  </g>
+  <g
+     id="g6577"
+     transform="translate(-60.5,-1298.5)">
+    <rect
+       fill="#fff5d8"
+       stroke="none"
+       x="18"
+       y="1867"
+       width="92.419922"
+       height="29"
+       transform="translate(45,-6)"
+       id="rect6576" />
+  </g>
+  <g
+     id="g6578"
+     transform="translate(-60.5,-1298.5)">
+    <path
+       fill="none"
+       stroke="#fff5d8"
+       paint-order="fill stroke markers"
+       d="m 63,1861 h 92.41992 v 29 H 63 Z"
+       stroke-miterlimit="10"
+       stroke-dasharray="none"
+       id="path6577" />
+  </g>
+  <g
+     id="g6580"
+     transform="translate(-60.5,-1298.5)">
+    <g
+       id="g6579">
+      <path
+         fill="none"
+         stroke="none"
+         id="path6578"
+         d="" />
+      <text
+         fill="#000000"
+         stroke="none"
+         font-family="Arial"
+         font-size="13px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="undefined"
+         x="52.209961"
+         y="1878.5"
+         text-anchor="middle"
+         dominant-baseline="central"
+         transform="translate(45,-6)"
+         id="text6578">«async»</text>
+    </g>
+  </g>
+</svg>

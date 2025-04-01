@@ -1,0 +1,7 @@
+#!/bin/sh
+if [$# -lt 1]
+then
+    echo "no file given"
+    return 0
+fi
+cat $1 | awk '{print $2,$1}'

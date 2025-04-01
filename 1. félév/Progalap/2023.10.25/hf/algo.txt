@@ -1,0 +1,16 @@
+db:=0
+FOR: i=1..n
+IF: lsz[i]<k(lsz[i])
+db:=db+1
+bov[i]:=lsz[i]
+ENDIF:
+ENDFOR:
+
+#k(x:Egész):Egész
+s:=0
+FOR: i=1..x-1
+IF:i|x
+s:=s+i
+ENDIF:
+ENDFOR:
+k:=s

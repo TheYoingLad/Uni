@@ -1,0 +1,14 @@
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\bin\Debug\net6.0\HfHomerseklet.exe
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\bin\Debug\net6.0\HfHomerseklet.deps.json
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\bin\Debug\net6.0\HfHomerseklet.runtimeconfig.json
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\bin\Debug\net6.0\HfHomerseklet.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\bin\Debug\net6.0\HfHomerseklet.pdb
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\obj\Debug\net6.0\HfHomerseklet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\obj\Debug\net6.0\HfHomerseklet.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\obj\Debug\net6.0\HfHomerseklet.AssemblyInfo.cs
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\obj\Debug\net6.0\HfHomerseklet.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\obj\Debug\net6.0\HfHomerseklet.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\obj\Debug\net6.0\refint\HfHomerseklet.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\obj\Debug\net6.0\HfHomerseklet.pdb
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\obj\Debug\net6.0\HfHomerseklet.genruntimeconfig.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.14\HfHomerseklet\obj\Debug\net6.0\ref\HfHomerseklet.dll

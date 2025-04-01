@@ -1,0 +1,35 @@
+Speci:
+
+https://progalap.elte.hu/specifikacio/?data=H4sIAAAAAAAACk3OSwrCMBAG4KsMWbXQilWKMtiFgisfKwWh7SLUFEJtKkkUUdz3Kp7Dm3gSk9aAq3xkZv6ZB1FnVvCSF1TzRhAkC4YgPm27DaDqH3WnddM5jQYDkWcyEyuOUNPb%2ByV133Sldmhta8sSIbTYG3imEAS%2FVj%2FZzA8eT2yMy015%2FsdZ5ZOAaKa0Ipg%2ByJFqao4SCLFNrBCioUU%2FgJYAIUSx09hh4jB1GHWTv1Ow%2FzfXIezkhZmtgtbM7DKSTF1OmmD0zJ9fy2hrtCIBAAA%3D
+
+Be: n∈N, k∈N, szamok∈N[1..n]
+Ki: maxért∈N, van∈L
+Ef: -
+Uf: (van,,maxért)=MAX(i=1..n, szamok[i], szamok[i]<k)
+
+
+VV:
+
+MAX:
+e..u	~	1..n
+f(i)	~	szamok[i]
+T(i)	~	szamok[i]<k
+
+
+Algo:
+
+van:=hamis
+FOR:i=1..n
+IF: nem (szamok[i]<k)
+-
+ELSE:
+IF: nem van
+van:=igaz
+maxért:=szamok[i]
+maxind:=i
+ELSE:
+maxért:=szamok[i]
+maxind:=i
+ENDIF:
+ENDIF:
+ENDFOR:

@@ -1,0 +1,201 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:Snake.Avalonia.ViewModels"
+			 xmlns:v="clr-namespace:Snake.Avalonia.Views"
+             mc:Ignorable="d" d:DesignWidth="750" d:DesignHeight="750"
+             x:Class="Snake.Avalonia.Views.MainView"
+             x:DataType="vm:MainViewModel">
+	<Design.DataContext>
+		<!-- This only sets the DataContext for the previewer in an IDE,
+            to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+		<vm:MainViewModel />
+	</Design.DataContext>
+
+	<UserControl.Resources>
+		<SolidColorBrush x:Key="DefaultBrush" Color="White" />
+
+		<LinearGradientBrush x:Key="EmptyBrush" StartPoint="0,0" EndPoint="1,1" SpreadMethod="Pad">
+			<GradientStop Color="White" Offset="0.0"/>
+			<GradientStop Color="#eeeeee" Offset="1.0"/>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="SnakeBrush" StartPoint="0,0" EndPoint="1,1" SpreadMethod="Pad">
+			<GradientStop Color="#6CBB3C" Offset="0.0"/>
+			<GradientStop Color="#55AA22" Offset="1.0"/>
+		</LinearGradientBrush>
+		<LinearGradientBrush x:Key="WallBrush" StartPoint="0,0" EndPoint="1,1" SpreadMethod="Pad">
+			<GradientStop Color="#300000" Offset="0.0" />
+			<GradientStop Color="Firebrick" Offset="1.0" />
+		</LinearGradientBrush>
+		<RadialGradientBrush x:Key="EggBrush" GradientOrigin="0.25,0.25"
+							 Center="0.25,0.25" RadiusX="0.5" RadiusY="0.5">
+			<GradientStop Color="#C0BBAA" Offset="0.0"/>
+			<GradientStop Color="#999689" Offset="1.0"/>
+		</RadialGradientBrush>
+		<RadialGradientBrush x:Key="SnakeHeadBrush"
+            GradientOrigin="0.25,0.25" Center="0.25,0.25" RadiusX="0.367" RadiusY="0.367">
+			<GradientStop Color="#569630" Offset="0.00" />
+			<GradientStop Color="#5A9E34" Offset="0.25" />
+			<GradientStop Color="#6CBB3C" Offset="0.67" />
+		</RadialGradientBrush>
+
+	</UserControl.Resources>
+
+	<UserControl.KeyBindings>
+		<KeyBinding Gesture="Left" Command="{Binding KeyDownCommand}" CommandParameter="Left"/>
+		<KeyBinding Gesture="A" Command="{Binding KeyDownCommand}" CommandParameter="Left"/>
+		<KeyBinding Gesture="Right" Command="{Binding KeyDownCommand}" CommandParameter="Right"/>
+		<KeyBinding Gesture="D" Command="{Binding KeyDownCommand}" CommandParameter="Right"/>
+		<KeyBinding Gesture="Escape" Command="{Binding KeyDownCommand}" CommandParameter="Esc"/>
+	</UserControl.KeyBindings>
+
+		
+	<Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+		<Viewbox Stretch="Uniform">
+
+			<UniformGrid>
+				<ItemsControl ItemsSource="{Binding Tiles}">
+					<ItemsControl.ItemsPanel>
+						<ItemsPanelTemplate>
+							<UniformGrid Rows="{Binding Resolution}" Columns="{Binding Resolution}"/>
+						</ItemsPanelTemplate>
+					</ItemsControl.ItemsPanel>
+				
+					<ItemsControl.ItemTemplate>
+						<DataTemplate>
+							
+							<Rectangle 
+								Width="{Binding Width}" Height="{Binding Height}" 
+								Margin="-1" Classes="Default"
+								Classes.Empty="{Binding IsEmpty}" Classes.Snake="{Binding IsSnake}"
+								Classes.Wall="{Binding IsWall}" Classes.Egg="{Binding IsEgg}"
+								Classes.SnakeHead="{Binding IsSnakeHead}">
+								<Rectangle.Styles>
+									<Style Selector="Rectangle.Default">
+										<Setter Property="Fill" Value="{StaticResource DefaultBrush}" />
+									</Style>
+									<Style Selector="Rectangle.Empty">
+										<Setter Property="Fill" Value="{StaticResource EmptyBrush}" />
+									</Style>
+									<Style Selector="Rectangle.Snake">
+										<Setter Property="Fill" Value="{StaticResource SnakeBrush}"/>
+									</Style>
+									<Style Selector="Rectangle.Wall">
+										<Setter Property="Fill" Value="{StaticResource WallBrush}"/>
+									</Style>
+									<Style Selector="Rectangle.Egg">
+										<Setter Property="Fill" Value="{StaticResource EggBrush}"/>
+									</Style>
+									<Style Selector="Rectangle.SnakeHead">
+										<Setter Property="Fill" Value="{StaticResource SnakeHeadBrush}"/>
+									</Style>
+								</Rectangle.Styles>
+							</Rectangle>
+							
+						</DataTemplate>
+					</ItemsControl.ItemTemplate>
+					
+				</ItemsControl>
+			</UniformGrid>
+		
+		</Viewbox>
+
+		<Viewbox MaxHeight="100" HorizontalAlignment="Left" VerticalAlignment="Top">
+			<Button IsVisible="{Binding ArrowBtnVisibility}"
+					MaxHeight="30" MaxWidth="30"
+					HorizontalAlignment="Center" VerticalAlignment="Center"
+					Command="{Binding KeyDownCommand}" CommandParameter="Esc">
+				<TextBlock Text="⏸" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+			</Button>
+		</Viewbox>
+		<Viewbox VerticalAlignment="Bottom">
+			<DockPanel Width="750" VerticalAlignment="Bottom">
+				<Viewbox DockPanel.Dock="Left" MaxHeight="100" HorizontalAlignment="Left">
+					<Button IsVisible="{Binding ArrowBtnVisibility}" Content="←"
+							Command="{Binding KeyDownCommand}" CommandParameter="Left"/>
+				</Viewbox>
+				<Viewbox DockPanel.Dock="Right" MaxHeight="100" HorizontalAlignment="Right">
+					<Button IsVisible="{Binding ArrowBtnVisibility}" Content="→"
+							Command="{Binding KeyDownCommand}" CommandParameter="Right"/>
+				</Viewbox>
+			</DockPanel>
+		</Viewbox>
+		
+		<Viewbox Stretch="Uniform">
+			<Border BorderThickness="1" BorderBrush="Gray" CornerRadius="4"
+					Padding="10" Background="Silver" Width="500" Height="500"
+					IsVisible="{Binding MenuBoxVisibility}" Margin="100">
+				<StackPanel>
+					
+					<TextBlock Text="Menu" FontFamily="Impact" FontSize="48"/>
+					
+					<DockPanel>
+						<StackPanel DockPanel.Dock="Top">
+							<StackPanel>
+							
+								<Label FontFamily="Impact" FontSize="34" Foreground="{Binding GameOverLabelColor}"
+								HorizontalAlignment="Center" TabIndex="4"
+								Content="{Binding GameOverLabelText}"></Label>
+
+								<Label FontFamily="Impact" FontSize="27" Foreground="Navy"
+								HorizontalAlignment="Center" TabIndex="5"
+								IsVisible="{Binding ScoreLabelVisibility}"
+								Content="{Binding ScoreLabelText}"></Label>
+							
+							</StackPanel>
+
+							<StackPanel Margin="0 25 0 0">
+							
+								<Button Background="RosyBrown" Foreground="DarkRed"
+										FontFamily="Impact" FontSize="38"
+										Width="250" Height="75" Margin="0 0 0 15"
+										HorizontalAlignment="Center" VerticalAlignment="Center"
+										BorderBrush="White" BorderThickness="3"
+										TabIndex="0" Command="{Binding PlayCommand}">
+									<Button.Content>
+										<TextBlock Text="{Binding StartBtnText}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+									</Button.Content>
+								</Button>
+
+								<Button Background="LightSalmon" Foreground="#004000"
+										FontFamily="Impact" FontSize="38"
+										Width="250" Height="75" Margin="0 0 0 15"
+										HorizontalAlignment="Center" VerticalAlignment="Center"
+										BorderBrush="White" BorderThickness="3"
+										TabIndex="1" Command="{Binding LoadCommand}">
+									<Button.Content>
+										<TextBlock Text="Load Map" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+									</Button.Content>
+								</Button>
+
+								<Button Background="LightSkyBlue" Foreground="DarkMagenta"
+										FontFamily="Impact" FontSize="38"
+										Width="250" Height="75" Margin="0 0 0 0"
+										HorizontalAlignment="Center" VerticalAlignment="Center"
+										BorderBrush="White" BorderThickness="3"
+										TabIndex="2" Command="{Binding ExitCommand}"
+										IsVisible="{Binding IsDesktop}">
+									<Button.Content>
+										<TextBlock Text="Exit" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+									</Button.Content>
+								</Button>
+							
+							</StackPanel>
+						</StackPanel>
+
+						<Label FontFamily="Impact" FontSize="28" FontWeight="UltraBlack" Foreground="#003000"
+							HorizontalAlignment="Right" DockPanel.Dock="Bottom" TabIndex="3" VerticalAlignment="Bottom"
+							IsVisible="{Binding LoadedLabelVisibility}">
+							💾
+						</Label>
+
+					</DockPanel>
+					
+				</StackPanel>
+			</Border>
+		
+		</Viewbox>
+	</Grid>
+		
+</UserControl>

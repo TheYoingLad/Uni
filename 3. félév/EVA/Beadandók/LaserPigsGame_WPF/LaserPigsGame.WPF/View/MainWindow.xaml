@@ -1,0 +1,113 @@
+﻿<Window x:Class="LaserPigsGame.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LaserPigsGame.View"
+        mc:Ignorable="d"
+        Title="Laser Pigs" Height="784" Width="1111" ResizeMode="NoResize">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="VisibilityConverter"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="Options">
+                <MenuItem Header="New Game">
+                    <MenuItem Command="{Binding NewGameCommand}" CommandParameter="4" IsChecked="{Binding Is4x4, Mode=OneWay}" Header="4x4"/>
+                    <MenuItem Command="{Binding NewGameCommand}" CommandParameter="6" IsChecked="{Binding Is6x6, Mode=OneWay}" Header="6x6"/>
+                    <MenuItem Command="{Binding NewGameCommand}" CommandParameter="8" IsChecked="{Binding Is8x8, Mode=OneWay}" Header="8x8"/>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Command="{Binding LoadGameCommand}" Header="Load Game"/>
+                <MenuItem Command="{Binding SaveGameCommand}" Header="Save Game"/>
+                <Separator/>
+                <MenuItem Command="{Binding ExitGameCommand}" Header="Exit"/>
+            </MenuItem>
+        </Menu>
+        <StatusBar Grid.Row="2">
+            <StatusBar.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </StatusBar.ItemsPanel>
+            <StatusBarItem HorizontalAlignment="Left">
+                <Label Content="Player 1:"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Left" Grid.Column="1">
+                <Label Content="{Binding P1Hp}" Foreground="{Binding P1HpColour}"/>
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="2"/>
+            <StatusBarItem Grid.Column="3" HorizontalAlignment="Right">
+                <Label Content="Player 2:"/>
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="4" HorizontalAlignment="Right">
+                <Label Content="{Binding P2Hp}" Foreground="{Binding P2HpColour}"/>
+            </StatusBarItem>
+        </StatusBar>
+        <ItemsControl ItemsSource="{Binding Map}" Grid.Row="1" Width="{Binding MapSize}" Height="{Binding MapSize}" Margin="10,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="{Binding Size}" Columns="{Binding Size}"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Label Content="{Binding Text}" Foreground="{Binding TextColour}" Background="{Binding BackColour}" FontSize="{Binding DataContext.FontSize, RelativeSource={RelativeSource AncestorType=Window}}"
+                           BorderThickness="1" BorderBrush="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <!--<Label x:Name="placeholder" Content="PLACEHOLDER" Width="600" Height="600" Grid.Row="1" Margin="10,50,0,0" FontSize="60" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left"  VerticalAlignment="Top"/>-->
+        <Label Content="Phase:" Grid.Row="1" Height="40" FontSize="20" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="640,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Label Content="{Binding PhaseLabel}" Grid.Row="1" Height="40" FontSize="20" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="715,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Command="{Binding DeleteCommand}" IsEnabled="{Binding CanDelete}" Content="DELETE" Height="80" Width="80" Grid.Row="1" Margin="725,153,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Command="{Binding AddCommand}" CommandParameter="0" IsEnabled="{Binding CanAdd}" Content="UP" Height="80" Width="80" Grid.Row="1" Margin="725,68,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Command="{Binding AddCommand}" CommandParameter="1" IsEnabled="{Binding CanAdd}" Content="RIGHT" Height="80" Width="80" Grid.Row="1" Margin="810,153,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Command="{Binding AddCommand}" CommandParameter="2" IsEnabled="{Binding CanAdd}" Content="DOWN" Height="80" Width="80" Grid.Row="1" Margin="725,238,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Command="{Binding AddCommand}" CommandParameter="3" IsEnabled="{Binding CanAdd}" Content="LEFT" Height="80" Width="80" Grid.Row="1" Margin="640,153,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Command="{Binding AddCommand}" CommandParameter="4" IsEnabled="{Binding CanAdd}" Content="ROTATE CW" Height="80" Width="80" Grid.Row="1" Margin="1005,68,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Command="{Binding AddCommand}" CommandParameter="5" IsEnabled="{Binding CanAdd}" Content="ROTATE CCW" Height="80" Width="80" Grid.Row="1" Margin="920,68,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Command="{Binding AddCommand}" CommandParameter="6" IsEnabled="{Binding CanAdd}" Content="PUNCH" Height="80" Width="80" Grid.Row="1" Margin="920,238,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Command="{Binding AddCommand}" CommandParameter="7" IsEnabled="{Binding CanAdd}" Content="SHOOT" Height="80" Width="80" Grid.Row="1" Margin="1005,238,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <ListBox Height="170" Width="110"  Grid.Row="1" ItemsSource="{Binding P1Instructions}" Margin="640,377,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <ListBox Height="170" Width="110"  Grid.Row="1" ItemsSource="{Binding P2Instructions}" Margin="780,377,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button Command="{Binding ConfirmCommand}" IsEnabled="{Binding CanConfirm}" Content="CONFIRM" Height="80" Width="110" Grid.Row="1" Margin="640,605,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Command="{Binding NextCommand}" IsEnabled="{Binding CanNext}" Content="NEXT" Width="110" Grid.Row="1" Margin="780,605,0,0" HorizontalAlignment="Left" Height="80" VerticalAlignment="Top"/>
+        <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1" Margin="920,377,10,0" Height="308" VerticalAlignment="Top">
+            <TextBlock TextWrapping="Wrap" Margin="0,-1,0,-1" Grid.Row="1" HorizontalAlignment="Left" Width="165" Padding="2,2,2,2" VerticalAlignment="Top">
+                <Bold>Welcome to Laser Pigs!</Bold>
+                <LineBreak/>
+                The goal of the game is to hit the other pig until their HP runs out!
+                <LineBreak/><LineBreak/>
+                <Bold>How to Play:</Bold>
+                <LineBreak/>
+                Use the buttons above to program the pigs.
+                <LineBreak/>
+                Confirm to go to the next phase.
+                <LineBreak/>
+                Run the simulation to see the fight.
+                <LineBreak/><LineBreak/>
+                May the smartest pig win!
+            </TextBlock>
+        </Border>
+        <Label Visibility="{Binding IsInstructionPhase, Converter={StaticResource VisibilityConverter}}" Content="Instructions remainig:" HorizontalAlignment="Left" Margin="640,564,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Visibility="{Binding IsInstructionPhase, Converter={StaticResource VisibilityConverter}}" Content="{Binding InstructionsRemainig}" HorizontalAlignment="Left" Margin="765,564,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Content="Player 1" HorizontalAlignment="Left" Margin="669,346,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Content="Player 2" HorizontalAlignment="Left" Margin="809,346,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Foreground="{Binding P1Colour}" Content="█" HorizontalAlignment="Left" Margin="648,346,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Foreground="{Binding P2Colour}" Content="█" HorizontalAlignment="Left" Margin="788,346,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

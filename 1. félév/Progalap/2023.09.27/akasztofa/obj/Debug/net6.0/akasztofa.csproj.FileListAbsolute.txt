@@ -1,0 +1,28 @@
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\bin\Debug\net6.0\akasztofa.exe
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\bin\Debug\net6.0\akasztofa.deps.json
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\bin\Debug\net6.0\akasztofa.runtimeconfig.json
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\bin\Debug\net6.0\akasztofa.dll
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\bin\Debug\net6.0\akasztofa.pdb
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.AssemblyInfoInputs.cache
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.AssemblyInfo.cs
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.csproj.CoreCompileInputs.cache
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.dll
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\obj\Debug\net6.0\refint\akasztofa.dll
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.pdb
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.genruntimeconfig.cache
+C:\Users\a7mmz1\Desktop\2023.09.27\akasztofa\obj\Debug\net6.0\ref\akasztofa.dll
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\bin\Debug\net6.0\akasztofa.exe
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\bin\Debug\net6.0\akasztofa.deps.json
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\bin\Debug\net6.0\akasztofa.runtimeconfig.json
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\bin\Debug\net6.0\akasztofa.dll
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\bin\Debug\net6.0\akasztofa.pdb
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.AssemblyInfoInputs.cache
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.AssemblyInfo.cs
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.csproj.CoreCompileInputs.cache
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.dll
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\obj\Debug\net6.0\refint\akasztofa.dll
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.pdb
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\obj\Debug\net6.0\akasztofa.genruntimeconfig.cache
+C:\Users\a7mmz1\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.27\akasztofa\obj\Debug\net6.0\ref\akasztofa.dll

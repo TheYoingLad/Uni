@@ -1,0 +1,14 @@
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\bin\Debug\net6.0\HfBevetel.exe
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\bin\Debug\net6.0\HfBevetel.deps.json
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\bin\Debug\net6.0\HfBevetel.runtimeconfig.json
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\bin\Debug\net6.0\HfBevetel.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\bin\Debug\net6.0\HfBevetel.pdb
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\obj\Debug\net6.0\HfBevetel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\obj\Debug\net6.0\HfBevetel.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\obj\Debug\net6.0\HfBevetel.AssemblyInfo.cs
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\obj\Debug\net6.0\HfBevetel.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\obj\Debug\net6.0\HfBevetel.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\obj\Debug\net6.0\refint\HfBevetel.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\obj\Debug\net6.0\HfBevetel.pdb
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\obj\Debug\net6.0\HfBevetel.genruntimeconfig.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.03.21\HfBevetel\obj\Debug\net6.0\ref\HfBevetel.dll

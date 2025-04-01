@@ -1,0 +1,4 @@
+C:\Users\a7mmz1\Downloads\2024.02.29\AHM\obj\Debug\net6.0\AHM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a7mmz1\Downloads\2024.02.29\AHM\obj\Debug\net6.0\AHM.AssemblyInfoInputs.cache
+C:\Users\a7mmz1\Downloads\2024.02.29\AHM\obj\Debug\net6.0\AHM.AssemblyInfo.cs
+C:\Users\a7mmz1\Downloads\2024.02.29\AHM\obj\Debug\net6.0\AHM.csproj.CoreCompileInputs.cache

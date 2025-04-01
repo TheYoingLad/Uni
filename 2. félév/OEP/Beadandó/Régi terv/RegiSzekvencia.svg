@@ -1,0 +1,1964 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="876"
+   height="900"
+   id="svg1141"
+   sodipodi:docname="Szekvencia.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1141"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.3122222"
+     inkscape:cx="408.08637"
+     inkscape:cy="437.80695"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1141" />
+  <defs
+     id="defs1" />
+  <g
+     id="g1141">
+    <g
+       id="g975">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 10 10 L 866 10 L 866 890 L 10 890 L 10 10"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path975" />
+    </g>
+    <g
+       id="g976">
+      <path
+         fill="#ffffff"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 10 10 L 10 33 L 140.87353515625 33 L 152.37353515625 21.5 L 152.37353515625 10 L 10 10"
+         id="path976" />
+    </g>
+    <g
+       id="g977">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 10 10 L 10 33 L 140.87353515625 33 L 152.37353515625 21.5 L 152.37353515625 10 L 10 10 L 10 10"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path977" />
+    </g>
+    <g
+       id="g979">
+      <g
+         id="g978">
+        <path
+           fill="none"
+           stroke="none"
+           id="path978" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="219.3017578125"
+           y="19.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text978">Harc Szimulálása</text>
+      </g>
+    </g>
+    <g
+       id="g981">
+      <g
+         id="g980">
+        <path
+           fill="none"
+           stroke="none"
+           id="path979" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="155.864990234375"
+           y="19.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text979">sd</text>
+      </g>
+    </g>
+    <g
+       id="g982">
+      <rect
+         fill="#C0C0C0"
+         stroke="none"
+         x="623"
+         y="47"
+         width="72.736328125"
+         height="40"
+         transform="matrix(1 0 0 1 -134 2)"
+         fill-opacity="0.2"
+         id="rect981" />
+    </g>
+    <g
+       id="g983"
+       style="fill:#ffeeaa">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="616"
+         y="40"
+         width="72.736328125"
+         height="40"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect982"
+         style="fill:#ffeeaa" />
+    </g>
+    <g
+       id="g984">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 482 42 L 554.736328125 42 L 554.736328125 82 L 482 82 L 482 42 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path983" />
+    </g>
+    <g
+       id="g986">
+      <g
+         id="g985">
+        <path
+           fill="none"
+           stroke="none"
+           id="path984" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="652.8681640625"
+           y="53.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text984">: Elf</text>
+      </g>
+    </g>
+    <g
+       id="g987">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 518.5 83 L 518.5 890"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path986" />
+    </g>
+    <g
+       id="g988">
+      <rect
+         fill="#C0C0C0"
+         stroke="none"
+         x="831"
+         y="47"
+         width="72.736328125"
+         height="40"
+         transform="matrix(1 0 0 1 -134 2)"
+         fill-opacity="0.2"
+         id="rect987" />
+    </g>
+    <g
+       id="g989"
+       style="fill:#ffeeaa">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="824"
+         y="40"
+         width="72.736328125"
+         height="40"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect988"
+         style="fill:#ffeeaa" />
+    </g>
+    <g
+       id="g990">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 690 42 L 762.736328125 42 L 762.736328125 82 L 690 82 L 690 42 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path989" />
+    </g>
+    <g
+       id="g992">
+      <g
+         id="g991">
+        <path
+           fill="none"
+           stroke="none"
+           id="path990" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="860.8681640625"
+           y="53.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text990">: Ork</text>
+      </g>
+    </g>
+    <g
+       id="g993">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 726.5 83 L 726.5 890"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path992" />
+    </g>
+    <g
+       id="g994"
+       style="fill:#fff6d5">
+      <path
+         fill="#ffffff"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 53.36314541903411 49.3 C 53.36314541903411 45.82060576 56.241547141215904 43 59.792236328125 43 C 63.342925515034096 43 66.22132723721592 45.82060576 66.22132723721592 49.3 C 66.22132723721592 52.779394239999995 63.342925515034096 55.6 59.792236328125 55.6 C 56.241547141215904 55.6 53.36314541903411 52.779394239999995 53.36314541903411 49.3 Z"
+         id="path993"
+         style="fill:#fff6d5" />
+    </g>
+    <g
+       id="g995">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 53.36314541903411 49.3 C 53.36314541903411 45.82060576 56.241547141215904 43 59.792236328125 43 C 63.342925515034096 43 66.22132723721592 45.82060576 66.22132723721592 49.3 C 66.22132723721592 52.779394239999995 63.342925515034096 55.6 59.792236328125 55.6 C 56.241547141215904 55.6 53.36314541903411 52.779394239999995 53.36314541903411 49.3 Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path994" />
+    </g>
+    <g
+       id="g996">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 59.792236328125 55.6 L 59.792236328125 68.4"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path995" />
+    </g>
+    <g
+       id="g997">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 52.984963600852296 60.4 L 66.59950905539773 60.4"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path996" />
+    </g>
+    <g
+       id="g998">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 59.792236328125 68.4 L 50.33769087357956 81"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path997" />
+    </g>
+    <g
+       id="g999">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 59.792236328125 68.4 L 69.24678178267047 81"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path998" />
+    </g>
+    <g
+       id="g1001">
+      <g
+         id="g1000">
+        <path
+           fill="none"
+           stroke="none"
+           id="path999" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="194.292236328125"
+           y="93.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text999">User</text>
+      </g>
+    </g>
+    <g
+       id="g1002">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 60.5 108 L 60.5 890"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1001" />
+    </g>
+    <g
+       id="g1003">
+      <rect
+         fill="#C0C0C0"
+         stroke="none"
+         x="359"
+         y="47"
+         width="88"
+         height="40"
+         transform="matrix(1 0 0 1 -134 2)"
+         fill-opacity="0.2"
+         id="rect1002" />
+    </g>
+    <g
+       id="g1004"
+       style="fill:#ffeeaa">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="352"
+         y="40"
+         width="88"
+         height="40"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1003"
+         style="fill:#ffeeaa" />
+    </g>
+    <g
+       id="g1005">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 218 42 L 306 42 L 306 82 L 218 82 L 218 42 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1004" />
+    </g>
+    <g
+       id="g1007">
+      <g
+         id="g1006">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1005" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="396.5"
+           y="53.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1005">: Csata</text>
+      </g>
+    </g>
+    <g
+       id="g1008">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 262.5 83 L 262.5 888"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1007" />
+    </g>
+    <g
+       id="g1009">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 61 154 L 255 154"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1008" />
+    </g>
+    <g
+       id="g1010">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 244.83732514237585 158.209517756016 L 255 154 L 244.83732514237585 149.790482243984"
+         id="path1009" />
+    </g>
+    <g
+       id="g1011">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 244.83732514237585 158.209517756016 L 255 154 L 244.83732514237585 149.790482243984 L 244.83732514237585 158.209517756016"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1010" />
+    </g>
+    <g
+       id="g1012">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="256"
+         y="136"
+         width="73.6708984375"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1011" />
+    </g>
+    <g
+       id="g1014">
+      <g
+         id="g1013">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1012" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="292.83544921875"
+           y="142.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1012">Szimulal()</text>
+      </g>
+    </g>
+    <g
+       id="g1015">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="389"
+         y="152"
+         width="14"
+         height="720"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1014" />
+    </g>
+    <g
+       id="g1016"
+       style="fill:#fff6d5">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 255 154 L 269 154 L 269 874 L 255 874 L 255 154 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1015"
+         style="fill:#fff6d5" />
+    </g>
+    <g
+       id="g1017">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 269 258 L 299 258 L 299 278 L 276 278"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1016" />
+    </g>
+    <g
+       id="g1018">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 286.16267485762415 273.790482243984 L 276 278 L 286.16267485762415 282.209517756016"
+         id="path1017" />
+    </g>
+    <g
+       id="g1019">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 286.16267485762415 273.790482243984 L 276 278 L 286.16267485762415 282.209517756016 L 286.16267485762415 273.790482243984"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1018" />
+    </g>
+    <g
+       id="g1020">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="413"
+         y="259"
+         width="59.97900390625"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1019" />
+    </g>
+    <g
+       id="g1022">
+      <g
+         id="g1021">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1020" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="442.989501953125"
+           y="265.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1020">Menet()</text>
+      </g>
+    </g>
+    <g
+       id="g1023"
+       style="fill:#ffeeaa">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="396"
+         y="276"
+         width="14"
+         height="532"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1022"
+         style="fill:#ffeeaa" />
+    </g>
+    <g
+       id="g1024"
+       style="fill:#fff6d5">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 262 278 L 276 278 L 276 810 L 262 810 L 262 278 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1023"
+         style="fill:#fff6d5" />
+    </g>
+    <g
+       id="g1025">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 276 290 L 306 290 L 306 310 L 283 310"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1024" />
+    </g>
+    <g
+       id="g1026">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 293.16267485762415 305.790482243984 L 283 310 L 293.16267485762415 314.209517756016"
+         id="path1025" />
+    </g>
+    <g
+       id="g1027">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 293.16267485762415 305.790482243984 L 283 310 L 293.16267485762415 314.209517756016 L 293.16267485762415 305.790482243984"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1026" />
+    </g>
+    <g
+       id="g1028">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="432"
+         y="288"
+         width="103.30810546875"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1027" />
+    </g>
+    <g
+       id="g1030">
+      <g
+         id="g1029">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1028" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="483.654052734375"
+           y="294.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1028">Kuzd(e:Elf, o:Ork)</text>
+      </g>
+    </g>
+    <g
+       id="g1031">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="403"
+         y="308"
+         width="14"
+         height="308"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1030" />
+    </g>
+    <g
+       id="g1032"
+       style="fill:#fff6d5">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 269 310 L 283 310 L 283 618 L 269 618 L 269 310 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1031"
+         style="fill:#fff6d5" />
+    </g>
+    <g
+       id="g1033"
+       style="fill:#ffeeaa">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 283 330 L 511 330"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1032"
+         style="fill:#ffeeaa" />
+    </g>
+    <g
+       id="g1034">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 500.8373251423759 334.209517756016 L 511 330 L 500.8373251423758 325.790482243984"
+         id="path1033" />
+    </g>
+    <g
+       id="g1035">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 500.8373251423759 334.209517756016 L 511 330 L 500.8373251423758 325.790482243984 L 500.8373251423759 334.209517756016"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1034" />
+    </g>
+    <g
+       id="g1036">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="483"
+         y="335"
+         width="99.6962890625"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1035" />
+    </g>
+    <g
+       id="g1038">
+      <g
+         id="g1037">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1036" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="532.84814453125"
+           y="341.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1036">Tamad(h:Harcos)</text>
+      </g>
+    </g>
+    <g
+       id="g1039"
+       style="fill:#fff6d5">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="645"
+         y="328"
+         width="14"
+         height="96"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1038"
+         style="fill:#fff6d5" />
+    </g>
+    <g
+       id="g1040">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 511 330 L 525 330 L 525 426 L 511 426 L 511 330 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1039" />
+    </g>
+    <g
+       id="g1041">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 525 341 L 719 341"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1040" />
+    </g>
+    <g
+       id="g1042">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 708.8373251423759 345.209517756016 L 719 341 L 708.8373251423758 336.790482243984"
+         id="path1041" />
+    </g>
+    <g
+       id="g1043">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 708.8373251423759 345.209517756016 L 719 341 L 708.8373251423758 336.790482243984 L 708.8373251423759 345.209517756016"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1042" />
+    </g>
+    <g
+       id="g1044">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="717"
+         y="323"
+         width="79.4853515625"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1043" />
+    </g>
+    <g
+       id="g1046">
+      <g
+         id="g1045">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1044" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="756.74267578125"
+           y="329.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1044">Vedekez(t:int)</text>
+      </g>
+    </g>
+    <g
+       id="g1047">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="853"
+         y="339"
+         width="14"
+         height="85"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1046" />
+    </g>
+    <g
+       id="g1048"
+       style="fill:#fff6d5">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 719 341 L 733 341 L 733 426 L 719 426 L 719 341 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1047"
+         style="fill:#fff6d5" />
+    </g>
+    <g
+       id="g1049">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 733 362 L 763 362 L 763 382 L 740 382"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1048" />
+    </g>
+    <g
+       id="g1050">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 750.1626748576241 377.790482243984 L 740 382 L 750.1626748576241 386.209517756016"
+         id="path1049" />
+    </g>
+    <g
+       id="g1051">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 750.1626748576241 377.790482243984 L 740 382 L 750.1626748576241 386.209517756016 L 750.1626748576241 377.790482243984"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1050" />
+    </g>
+    <g
+       id="g1052">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="831"
+         y="363"
+         width="150.64892578125"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1051" />
+    </g>
+    <g
+       id="g1054">
+      <g
+         id="g1053">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1052" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="906.324462890625"
+           y="369.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1052">[t≥Pajzs()+hp] : Meghal()</text>
+      </g>
+    </g>
+    <g
+       id="g1055"
+       style="fill:#ffeeaa">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="860"
+         y="380"
+         width="14"
+         height="28"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1054"
+         style="fill:#ffeeaa" />
+    </g>
+    <g
+       id="g1056"
+       style="fill:#fff6d5">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 726 382 L 740 382 L 740 410 L 726 410 L 726 382 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1055"
+         style="fill:#fff6d5" />
+    </g>
+    <g
+       id="g1057">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 511 420 L 283 420"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1056" />
+    </g>
+    <g
+       id="g1058">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 293.16267485762415 415.790482243984 L 283 420 L 293.16267485762415 424.209517756016"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1057" />
+    </g>
+    <g
+       id="g1059">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="504"
+         y="422"
+         width="52.01904296875"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1058" />
+    </g>
+    <g
+       id="g1061">
+      <g
+         id="g1060">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1059" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="530.009521484375"
+           y="428.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1059">orkHalott</text>
+      </g>
+    </g>
+    <g
+       id="g1062">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 719 420 L 525 420"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1061" />
+    </g>
+    <g
+       id="g1063">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 535.1626748576241 415.790482243984 L 525 420 L 535.1626748576241 424.209517756016"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1062" />
+    </g>
+    <g
+       id="g1064">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="717"
+         y="422"
+         width="76.2353515625"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1063" />
+    </g>
+    <g
+       id="g1066">
+      <g
+         id="g1065">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1064" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="755.11767578125"
+           y="428.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1064">halott × kincs</text>
+      </g>
+    </g>
+    <g
+       id="g1067">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 283 468 L 719 468"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1066" />
+    </g>
+    <g
+       id="g1068">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 708.8373251423759 472.209517756016 L 719 468 L 708.8373251423758 463.790482243984"
+         id="path1067" />
+    </g>
+    <g
+       id="g1069">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 708.8373251423759 472.209517756016 L 719 468 L 708.8373251423758 463.790482243984 L 708.8373251423759 472.209517756016"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1068" />
+    </g>
+    <g
+       id="g1070">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="431"
+         y="472"
+         width="173.38623046875"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1069" />
+    </g>
+    <g
+       id="g1072">
+      <g
+         id="g1071">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1070" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="517.693115234375"
+           y="478.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1070">[!orkHalott] : Tamad(h:Harcos)</text>
+      </g>
+    </g>
+    <g
+       id="g1073"
+       style="fill:#fff6d5">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="853"
+         y="466"
+         width="14"
+         height="142"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1072"
+         style="fill:#fff6d5" />
+    </g>
+    <g
+       id="g1074">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 719 468 L 733 468 L 733 610 L 719 610 L 719 468 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1073" />
+    </g>
+    <g
+       id="g1075">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 719 486 L 525 486"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1074" />
+    </g>
+    <g
+       id="g1076">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 535.1626748576241 481.790482243984 L 525 486 L 535.1626748576241 490.209517756016"
+         id="path1075" />
+    </g>
+    <g
+       id="g1077">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 535.1626748576241 481.790482243984 L 525 486 L 535.1626748576241 490.209517756016 L 535.1626748576241 481.790482243984"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1076" />
+    </g>
+    <g
+       id="g1078">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="716"
+         y="480"
+         width="79.4853515625"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1077" />
+    </g>
+    <g
+       id="g1080">
+      <g
+         id="g1079">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1078" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="755.74267578125"
+           y="486.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1078">Vedekez(t:int)</text>
+      </g>
+    </g>
+    <g
+       id="g1081"
+       style="fill:#ffeeaa">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="645"
+         y="484"
+         width="14"
+         height="92"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1080"
+         style="fill:#ffeeaa" />
+    </g>
+    <g
+       id="g1082"
+       style="fill:#fff6d5">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 511 486 L 525 486 L 525 578 L 511 578 L 511 486 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1081"
+         style="fill:#fff6d5" />
+    </g>
+    <g
+       id="g1083">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 525 514 L 555 514 L 555 534 L 532 534"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1082" />
+    </g>
+    <g
+       id="g1084">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 542.1626748576241 529.790482243984 L 532 534 L 542.1626748576241 538.209517756016"
+         id="path1083" />
+    </g>
+    <g
+       id="g1085">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 542.1626748576241 529.790482243984 L 532 534 L 542.1626748576241 538.209517756016 L 542.1626748576241 529.790482243984"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1084" />
+    </g>
+    <g
+       id="g1086">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="627"
+         y="515"
+         width="142.60009765625"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1085" />
+    </g>
+    <g
+       id="g1088">
+      <g
+         id="g1087">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1086" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="698.300048828125"
+           y="521.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1086">[t≥Pajzs()+hp] : Meghal()</text>
+      </g>
+    </g>
+    <g
+       id="g1089"
+       style="fill:#ffeeaa">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="652"
+         y="532"
+         width="14"
+         height="28"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1088"
+         style="fill:#ffeeaa" />
+    </g>
+    <g
+       id="g1090"
+       style="fill:#fff6d5">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 518 534 L 532 534 L 532 562 L 518 562 L 518 534 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1089"
+         style="fill:#fff6d5" />
+    </g>
+    <g
+       id="g1091">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 525 573 L 719 573"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1090" />
+    </g>
+    <g
+       id="g1092">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 708.8373251423759 577.209517756016 L 719 573 L 708.8373251423758 568.790482243984"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1091" />
+    </g>
+    <g
+       id="g1093">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="718"
+         y="552"
+         width="76.2353515625"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1092" />
+    </g>
+    <g
+       id="g1095">
+      <g
+         id="g1094">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1093" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="756.11767578125"
+           y="558.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1093">halott × kincs</text>
+      </g>
+    </g>
+    <g
+       id="g1096">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 719 599 L 283 599"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1095" />
+    </g>
+    <g
+       id="g1097">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 293.16267485762415 594.790482243984 L 283 599 L 293.16267485762415 603.209517756016"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1096" />
+    </g>
+    <g
+       id="g1098">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="696"
+         y="599"
+         width="104.0380859375"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1097" />
+    </g>
+    <g
+       id="g1100">
+      <g
+         id="g1099">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1098" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="748.01904296875"
+           y="605.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1098">elfHalott</text>
+      </g>
+    </g>
+    <g
+       id="g1101">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 283 610 L 313 610 L 313 630 L 276 630"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1100" />
+    </g>
+    <g
+       id="g1102">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 286.16267485762415 625.790482243984 L 276 630 L 286.16267485762415 634.209517756016"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1101" />
+    </g>
+    <g
+       id="g1103">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="424"
+         y="611"
+         width="114.5244140625"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1102" />
+    </g>
+    <g
+       id="g1105">
+      <g
+         id="g1104">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1103" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="481.26220703125"
+           y="617.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1103">elfHalott × orkHalott</text>
+      </g>
+    </g>
+    <g
+       id="g1106">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 276 674 L 511 674"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1105" />
+    </g>
+    <g
+       id="g1107">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 500.8373251423759 678.209517756016 L 511 674 L 500.8373251423758 669.790482243984"
+         id="path1106" />
+    </g>
+    <g
+       id="g1108">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 500.8373251423759 678.209517756016 L 511 674 L 500.8373251423758 669.790482243984 L 500.8373251423759 678.209517756016"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1107" />
+    </g>
+    <g
+       id="g1109">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="456"
+         y="680"
+         width="125.708984375"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1108" />
+    </g>
+    <g
+       id="g1111">
+      <g
+         id="g1110">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1109" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="518.8544921875"
+           y="686.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1109">[!elfHalott] : Gyogyul()</text>
+      </g>
+    </g>
+    <g
+       id="g1112"
+       style="fill:#fff6d5">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="645"
+         y="672"
+         width="14"
+         height="131"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1111"
+         style="fill:#fff6d5" />
+    </g>
+    <g
+       id="g1113">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 511 674 L 525 674 L 525 805 L 511 805 L 511 674 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1112" />
+    </g>
+    <g
+       id="g1114">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 525 682 L 555 682 L 555 702 L 532 702"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1113" />
+    </g>
+    <g
+       id="g1115">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 542.1626748576241 697.790482243984 L 532 702 L 542.1626748576241 706.209517756016"
+         id="path1114" />
+    </g>
+    <g
+       id="g1116">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 542.1626748576241 697.790482243984 L 532 702 L 542.1626748576241 706.209517756016 L 542.1626748576241 697.790482243984"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1115" />
+    </g>
+    <g
+       id="g1117">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="666"
+         y="683"
+         width="65.74267578125"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1116" />
+    </g>
+    <g
+       id="g1119">
+      <g
+         id="g1118">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1117" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="698.871337890625"
+           y="689.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1117">Atvalt(n:int)</text>
+      </g>
+    </g>
+    <g
+       id="g1120">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="652"
+         y="700"
+         width="14"
+         height="28"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1119" />
+    </g>
+    <g
+       id="g1121"
+       style="fill:#fff6d5">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 518 702 L 532 702 L 532 730 L 518 730 L 518 702 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1120"
+         style="fill:#fff6d5" />
+    </g>
+    <g
+       id="g1122">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 525 738 L 555 738 L 555 758 L 532 758"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1121" />
+    </g>
+    <g
+       id="g1123">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 542.1626748576241 753.790482243984 L 532 758 L 542.1626748576241 762.209517756016"
+         id="path1122" />
+    </g>
+    <g
+       id="g1124">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 542.1626748576241 753.790482243984 L 532 758 L 542.1626748576241 762.209517756016 L 542.1626748576241 753.790482243984"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1123" />
+    </g>
+    <g
+       id="g1125">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="669"
+         y="739"
+         width="59.97900390625"
+         height="13"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1124" />
+    </g>
+    <g
+       id="g1127">
+      <g
+         id="g1126">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1125" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="698.989501953125"
+           y="745.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1125">Iszik(n:int)</text>
+      </g>
+    </g>
+    <g
+       id="g1128"
+       style="fill:#ffeeaa">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="652"
+         y="756"
+         width="14"
+         height="28"
+         transform="matrix(1 0 0 1 -134 2)"
+         id="rect1127"
+         style="fill:#ffeeaa" />
+    </g>
+    <g
+       id="g1129"
+       style="fill:#fff6d5">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 518 758 L 532 758 L 532 786 L 518 786 L 518 758 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1128"
+         style="fill:#fff6d5" />
+    </g>
+    <g
+       id="g1130">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 511 796 L 276 796"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1129" />
+    </g>
+    <g
+       id="g1131">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 286.16267485762415 791.790482243984 L 276 796 L 286.16267485762415 800.209517756016"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1130" />
+    </g>
+    <g
+       id="g1132">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 255 866 L 61 866"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1131" />
+    </g>
+    <g
+       id="g1133">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 71.16267485762415 861.790482243984 L 61 866 L 71.16267485762415 870.209517756016"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1132" />
+    </g>
+    <g
+       id="g1134">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 82 178 L 850 178 L 850 858 L 82 858 L 82 178"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1133" />
+    </g>
+    <g
+       id="g1135">
+      <path
+         fill="#ffffff"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 82 178 L 82 201 L 122.578125 201 L 134.078125 189.5 L 134.078125 178 L 82 178"
+         id="path1134" />
+    </g>
+    <g
+       id="g1136">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 82 178 L 82 201 L 122.578125 201 L 134.078125 189.5 L 134.078125 178 L 82 178 L 82 178"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1135" />
+    </g>
+    <g
+       id="g1138">
+      <g
+         id="g1137">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1136" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="233.2890625"
+           y="187.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1136">loop</text>
+      </g>
+    </g>
+    <g
+       id="g1140">
+      <g
+         id="g1139">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1138" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="305.268798828125"
+           y="220.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -134 2)"
+           id="text1138">[|elfek|&gt;0 and |orkok|&gt;0]</text>
+      </g>
+    </g>
+  </g>
+</svg>

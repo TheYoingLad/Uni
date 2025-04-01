@@ -1,0 +1,170 @@
+/* alap stílus */
+
+/*betűtípus importálás*/
+ @import 'https://fonts.googleapis.com/css?family=Oswald';
+
+ 
+body {
+    background-color: black;
+    background-image: url("../kepek/hatter_felso.jpg"), url("../kepek/hatter_also.jpg");
+    background-repeat: no-repeat, repeat-x;
+    background-position: 10px 0, left bottom;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+main, header, footer {
+    width: 70%;
+    min-width: 400px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+}
+
+header, footer {
+    opacity: 0.9;
+}
+
+header{
+    border-radius: 10px 10px 0 0;
+}
+
+footer {
+    border-radius: 0 0 10px 10px;
+}
+
+article {
+    margin: 20px ;
+}
+
+article#leiras {
+    overflow: hidden;
+}
+
+article#leiras aside {
+    background-color: #fdd295;
+    border-radius: 10px;
+    border: solid 2px darkgray;
+    text-align: justify;
+    padding: 10px;
+    float: right;
+    width: 33%;
+    margin: 0 10px 10px 20px;
+    box-shadow: #ccc 10px 10px 3px;
+}
+
+article#leiras aside p {
+    text-align: right;
+    font-weight: bold;
+}
+
+article#kirakas {
+    column-count: 2;
+    column-gap: 10px;
+}
+
+article#kirakas p:first-of-type {
+    margin-top: 0;
+}
+
+article#kirakas h2 {
+    float: left;
+    margin-right: 20px;
+}
+
+article#valtozatai {
+    position: relative;
+    padding-bottom: 250px;
+}
+
+article#valtozatai figure {
+    background-color: #fdd295;
+    border: darkgray 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    width: 140px;
+    padding: 10px;
+    position: absolute;
+    transition: background linear 0.1s;
+}
+
+article#valtozatai figure img{
+    border: darkgray 2px dotted;
+    background-color: white;
+}
+
+article#valtozatai figure:hover {
+    z-index: 100;
+    border: #d57d02 2px solid;
+    background-color: white;
+}
+
+article#valtozatai figure:hover img {
+    border: 0;
+}
+
+article#valtozatai figure:nth-of-type(1){
+    transform: rotate(0deg);
+    bottom: 20px;
+    left: 0px;
+}
+
+article#valtozatai figure:nth-of-type(2){
+    transform: rotate(-7deg);
+    bottom: 50px;
+    left: 150px;
+}
+
+article#valtozatai figure:nth-of-type(3){
+    transform: rotate(7deg);
+    bottom: 20px;
+    left: 300px;
+}
+
+article#valtozatai figure:nth-of-type(4){
+    transform: rotate(-10deg);
+    bottom: 20px;
+    left: 450px;
+}
+
+main nav {
+    clear: both;
+    text-align: right;
+    border-top: darkgray 2px dotted;
+}
+
+main nav:last-of-type {
+    border: 0
+}
+
+q {
+    font-style: italic;
+}
+
+h1,h2 {
+    font-family: 'Oswald', sans-serif;
+	text-shadow: #ccc 5px 5px 3px;
+}
+
+table {
+    border: darkgray 4px double;
+    margin: auto;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+    border: darkgray 1px solid;
+
+}
+
+th {
+    background-color: #fdd295;
+    text-align: center;
+}

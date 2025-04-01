@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.Avalonia", "Minefield.Avalonia\Minefield.Avalonia.csproj", "{3DAC63A8-D76B-443D-8B2F-0D29C6F933AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.Avalonia.Android", "Minefield.Avalonia.Android\Minefield.Avalonia.Android.csproj", "{78644D4D-5BD4-4937-B840-BBA32311D33E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.Avalonia.Desktop", "Minefield.Avalonia.Desktop\Minefield.Avalonia.Desktop.csproj", "{EDF0C8F7-2BD6-4A46-949E-D7D1C1859F5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield", "Minefield\Minefield.csproj", "{03478051-E3AC-4C97-8976-4B0E2A6B0C70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinefieldTest", "MinefieldTest\MinefieldTest.csproj", "{5E5BB7BD-F9C9-40E1-9D67-F904FD849024}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DAC63A8-D76B-443D-8B2F-0D29C6F933AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DAC63A8-D76B-443D-8B2F-0D29C6F933AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DAC63A8-D76B-443D-8B2F-0D29C6F933AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DAC63A8-D76B-443D-8B2F-0D29C6F933AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78644D4D-5BD4-4937-B840-BBA32311D33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78644D4D-5BD4-4937-B840-BBA32311D33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78644D4D-5BD4-4937-B840-BBA32311D33E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{78644D4D-5BD4-4937-B840-BBA32311D33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78644D4D-5BD4-4937-B840-BBA32311D33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78644D4D-5BD4-4937-B840-BBA32311D33E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EDF0C8F7-2BD6-4A46-949E-D7D1C1859F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF0C8F7-2BD6-4A46-949E-D7D1C1859F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF0C8F7-2BD6-4A46-949E-D7D1C1859F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF0C8F7-2BD6-4A46-949E-D7D1C1859F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03478051-E3AC-4C97-8976-4B0E2A6B0C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03478051-E3AC-4C97-8976-4B0E2A6B0C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03478051-E3AC-4C97-8976-4B0E2A6B0C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03478051-E3AC-4C97-8976-4B0E2A6B0C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5BB7BD-F9C9-40E1-9D67-F904FD849024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5BB7BD-F9C9-40E1-9D67-F904FD849024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5BB7BD-F9C9-40E1-9D67-F904FD849024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5BB7BD-F9C9-40E1-9D67-F904FD849024}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56116819-870C-46D1-BFF3-26C2D03C4142}
+	EndGlobalSection
+EndGlobal

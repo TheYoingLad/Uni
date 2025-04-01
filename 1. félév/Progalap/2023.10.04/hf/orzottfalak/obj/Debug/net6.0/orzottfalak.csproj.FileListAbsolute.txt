@@ -1,0 +1,15 @@
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\bin\Debug\net6.0\orzottfalak.exe
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\bin\Debug\net6.0\orzottfalak.deps.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\bin\Debug\net6.0\orzottfalak.runtimeconfig.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\bin\Debug\net6.0\orzottfalak.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\bin\Debug\net6.0\orzottfalak.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\obj\Debug\net6.0\orzottfalak.csproj.AssemblyReference.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\obj\Debug\net6.0\orzottfalak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\obj\Debug\net6.0\orzottfalak.AssemblyInfoInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\obj\Debug\net6.0\orzottfalak.AssemblyInfo.cs
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\obj\Debug\net6.0\orzottfalak.csproj.CoreCompileInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\obj\Debug\net6.0\orzottfalak.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\obj\Debug\net6.0\refint\orzottfalak.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\obj\Debug\net6.0\orzottfalak.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\obj\Debug\net6.0\orzottfalak.genruntimeconfig.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\orzottfalak\obj\Debug\net6.0\ref\orzottfalak.dll

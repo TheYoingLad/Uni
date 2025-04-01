@@ -1,0 +1,14 @@
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\bin\Debug\net6.0\terulet.exe
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\bin\Debug\net6.0\terulet.deps.json
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\bin\Debug\net6.0\terulet.runtimeconfig.json
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\bin\Debug\net6.0\terulet.dll
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\bin\Debug\net6.0\terulet.pdb
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\obj\Debug\net6.0\terulet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\obj\Debug\net6.0\terulet.AssemblyInfoInputs.cache
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\obj\Debug\net6.0\terulet.AssemblyInfo.cs
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\obj\Debug\net6.0\terulet.csproj.CoreCompileInputs.cache
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\obj\Debug\net6.0\terulet.dll
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\obj\Debug\net6.0\refint\terulet.dll
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\obj\Debug\net6.0\terulet.pdb
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\obj\Debug\net6.0\terulet.genruntimeconfig.cache
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\terulet\obj\Debug\net6.0\ref\terulet.dll

@@ -1,0 +1,103 @@
+﻿<Window x:Class="Minefield.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Minefield.View"
+        mc:Ignorable="d"
+        Title="Minefield" Height="800" Width="800" MinHeight="800" MinWidth="800" MaxHeight="800" MaxWidth="800">
+    <Window.InputBindings>
+        <KeyBinding Key="W" Command="{Binding KeyPressedWCommand}"/>
+        <KeyBinding Key="S" Command="{Binding KeyPressedSCommand}"/>
+        <KeyBinding Key="A" Command="{Binding KeyPressedACommand}"/>
+        <KeyBinding Key="D" Command="{Binding KeyPressedDCommand}"/>
+        <KeyBinding Key="Space" Command="{Binding KeyPressedSpaceCommand}"/>
+    </Window.InputBindings>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0" IsEnabled="{Binding IsPaused}">
+            <MenuItem Header="Menu">
+                <MenuItem Header="New Game" Command="{Binding NewGameCommand}" />
+                <Separator />
+                <MenuItem Header="Load Game" Command="{Binding LoadGameCommand}" />
+                <MenuItem Header="Save Game" Command="{Binding SaveGameCommand}" IsEnabled="{Binding IsRunning}" />
+            </MenuItem>
+        </Menu>
+        <ItemsControl Grid.Row="1" ItemsSource="{Binding GameFields}">
+            <ItemsControl.Style>
+                <Style TargetType="ItemsControl">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsPaused}" Value="True">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <SolidColorBrush Color="LightGray"/>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding IsPaused}" Value="False">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <SolidColorBrush Color="MidnightBlue"/>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ItemsControl.Style>
+            <ItemsControl.Resources>
+                <BitmapImage x:Key="ImgPlayer" UriSource="../Img/Submarine.png" />
+                <BitmapImage x:Key="ImgMineEasy" UriSource="../Img/EasyMine.png" />
+                <BitmapImage x:Key="ImgMineMedium" UriSource="../Img/MediumMine.png" />
+                <BitmapImage x:Key="ImgMineHard" UriSource="../Img/HardMine.png" />
+                
+            </ItemsControl.Resources>
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="16" Columns="16" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemContainerStyle>
+                <Style>
+                    <Setter Property="Grid.Row" Value="{Binding X}" />
+                    <Setter Property="Grid.Column" Value="{Binding Y}" />
+                </Style>
+            </ItemsControl.ItemContainerStyle>
+
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Image IsEnabled="{Binding NotEmpty}">
+                        <Image.Style>
+                            <Style TargetType="Image">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding Entity}" Value="player">
+                                        <Setter Property="Source" Value="{StaticResource ImgPlayer}" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding Entity}" Value="easymine">
+                                        <Setter Property="Source" Value="{StaticResource ImgMineEasy}" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding Entity}" Value="mediummine">
+                                        <Setter Property="Source" Value="{StaticResource ImgMineMedium}" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding Entity}" Value="hardmine">
+                                        <Setter Property="Source" Value="{StaticResource ImgMineHard}" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Image.Style>
+                    </Image>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+            
+        </ItemsControl>
+        <StatusBar Grid.Row="2" VerticalAlignment="Bottom">
+            <StatusBarItem HorizontalAlignment="Center" >
+                <TextBlock Text="{Binding GameTime}" />
+            </StatusBarItem>
+        </StatusBar>
+
+    </Grid>
+</Window>

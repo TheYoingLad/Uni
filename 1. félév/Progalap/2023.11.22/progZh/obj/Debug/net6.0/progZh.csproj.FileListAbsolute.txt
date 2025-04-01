@@ -1,0 +1,14 @@
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\bin\Debug\net6.0\progZh.exe
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\bin\Debug\net6.0\progZh.deps.json
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\bin\Debug\net6.0\progZh.runtimeconfig.json
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\bin\Debug\net6.0\progZh.dll
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\bin\Debug\net6.0\progZh.pdb
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\obj\Debug\net6.0\progZh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\obj\Debug\net6.0\progZh.AssemblyInfoInputs.cache
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\obj\Debug\net6.0\progZh.AssemblyInfo.cs
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\obj\Debug\net6.0\progZh.csproj.CoreCompileInputs.cache
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\obj\Debug\net6.0\progZh.dll
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\obj\Debug\net6.0\refint\progZh.dll
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\obj\Debug\net6.0\progZh.pdb
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\obj\Debug\net6.0\progZh.genruntimeconfig.cache
+C:\Users\a7mmz1\Desktop\2023.11.22\progZh\obj\Debug\net6.0\ref\progZh.dll

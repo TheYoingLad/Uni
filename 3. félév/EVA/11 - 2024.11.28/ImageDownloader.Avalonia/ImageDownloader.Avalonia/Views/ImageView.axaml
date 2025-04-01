@@ -1,0 +1,16 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ImageDownloader.Avalonia.Views.ImageView">
+	<OnPlatform>
+		<OnPlatform.Default>
+			<Control IsVisible="False"/>
+		</OnPlatform.Default>
+		<OnPlatform.Android>
+			<Button Content="Close" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"
+					Command="{Binding CloseCommand}" DockPanel.Dock="Bottom"/>
+		</OnPlatform.Android>
+	</OnPlatform>
+</UserControl>

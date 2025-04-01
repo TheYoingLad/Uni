@@ -1,0 +1,5219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="768.58203125"
+   height="1036"
+   id="svg1412"
+   sodipodi:docname="UjOsztalyElfOrk.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   inkscape:export-filename="UjOsztalyElfOrk.png"
+   inkscape:export-xdpi="1000"
+   inkscape:export-ydpi="1000"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1412"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1399614"
+     inkscape:cx="384.22354"
+     inkscape:cy="518"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1412" />
+  <defs
+     id="defs1" />
+  <g
+     id="g1412">
+    <g
+       id="g957">
+      <rect
+         fill="#D8F2FF"
+         stroke="none"
+         x="656"
+         y="328"
+         width="168"
+         height="101"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect957" />
+    </g>
+    <g
+       id="g958">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 274 10 L 442 10 L 442 111 L 274 111 L 274 10 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path957" />
+    </g>
+    <g
+       id="g959">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 274 48 L 442 48"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path958" />
+    </g>
+    <g
+       id="g960">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 274 101 L 442 101"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path959" />
+    </g>
+    <g
+       id="g962">
+      <g
+         id="g961">
+        <path
+           fill="none"
+           stroke="none"
+           id="path960" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="740.5"
+           y="339.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text960">«abstract»</text>
+      </g>
+    </g>
+    <g
+       id="g964">
+      <g
+         id="g963">
+        <path
+           fill="none"
+           stroke="none"
+           id="path962" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="italic"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="740.5"
+           y="354.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text962">Harcos</text>
+      </g>
+    </g>
+    <g
+       id="g966">
+      <g
+         id="g965">
+        <path
+           fill="none"
+           stroke="none"
+           id="path964" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="661"
+           y="377.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text964">-nev: string</text>
+      </g>
+    </g>
+    <g
+       id="g968">
+      <g
+         id="g967">
+        <path
+           fill="none"
+           stroke="none"
+           id="path966" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="661"
+           y="392.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text966">#hp: int</text>
+      </g>
+    </g>
+    <g
+       id="g970">
+      <g
+         id="g969">
+        <path
+           fill="none"
+           stroke="none"
+           id="path968" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="661"
+           y="407.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text968">#kincs: int</text>
+      </g>
+    </g>
+    <g
+       id="g971">
+      <rect
+         fill="#D8F2FF"
+         stroke="none"
+         x="784"
+         y="672"
+         width="80"
+         height="45"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect970" />
+    </g>
+    <g
+       id="g972">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 402 354 L 482 354 L 482 399 L 402 399 L 402 354 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path971" />
+    </g>
+    <g
+       id="g973">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 402 379 L 482 379"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path972" />
+    </g>
+    <g
+       id="g974">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 402 389 L 482 389"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path973" />
+    </g>
+    <g
+       id="g976">
+      <g
+         id="g975">
+        <path
+           fill="none"
+           stroke="none"
+           id="path974" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="824.5"
+           y="685.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text974">Csata</text>
+      </g>
+    </g>
+    <g
+       id="g977">
+      <rect
+         fill="#D8F2FF"
+         stroke="none"
+         x="576"
+         y="464"
+         width="192"
+         height="129"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect976" />
+    </g>
+    <g
+       id="g978">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 194 146 L 386 146 L 386 275 L 194 275 L 194 146 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path977" />
+    </g>
+    <g
+       id="g979">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 194 184 L 386 184"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path978" />
+    </g>
+    <g
+       id="g980">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 194 207 L 386 207"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path979" />
+    </g>
+    <g
+       id="g982">
+      <g
+         id="g981">
+        <path
+           fill="none"
+           stroke="none"
+           id="path980" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="672.5"
+           y="475.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text980">«abstract»</text>
+      </g>
+    </g>
+    <g
+       id="g984">
+      <g
+         id="g983">
+        <path
+           fill="none"
+           stroke="none"
+           id="path982" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="672.5"
+           y="490.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text982">Elf</text>
+      </g>
+    </g>
+    <g
+       id="g986">
+      <g
+         id="g985">
+        <path
+           fill="none"
+           stroke="none"
+           id="path984" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="581"
+           y="513.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text984">#elixir: int</text>
+      </g>
+    </g>
+    <g
+       id="g988">
+      <g
+         id="g987">
+        <path
+           fill="none"
+           stroke="none"
+           id="path986" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="581"
+           y="536.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text986">+Elf(n: string, h: int)</text>
+      </g>
+    </g>
+    <g
+       id="g990">
+      <g
+         id="g989">
+        <path
+           fill="none"
+           stroke="none"
+           id="path988" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="581"
+           y="551.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text988">+Atvalt(n: int)</text>
+      </g>
+    </g>
+    <g
+       id="g992">
+      <g
+         id="g991">
+        <path
+           fill="none"
+           stroke="none"
+           id="path990" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="581"
+           y="566.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text990">+Iszik(n: int)</text>
+      </g>
+    </g>
+    <g
+       id="g994">
+      <g
+         id="g993">
+        <path
+           fill="none"
+           stroke="none"
+           id="path992" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="italic"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="581"
+           y="581.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text992">+Gyogyul(): {abstract; virtual}</text>
+      </g>
+    </g>
+    <g
+       id="g995">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 386 162 L 411 162 L 411 111"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path994" />
+    </g>
+    <g
+       id="g996">
+      <path
+         fill="#FFFFFF"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 419.419035512032 131.3253497152483 L 411 111 L 402.580964487968 131.3253497152483"
+         id="path995" />
+    </g>
+    <g
+       id="g997">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 419.419035512032 131.3253497152483 L 411 111 L 402.580964487968 131.3253497152483 L 419.419035512032 131.3253497152483"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path996" />
+    </g>
+    <g
+       id="g998">
+      <rect
+         fill="#D8F2FF"
+         stroke="none"
+         x="864"
+         y="495"
+         width="136"
+         height="71"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect997" />
+    </g>
+    <g
+       id="g999">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 482 177 L 618 177 L 618 248 L 482 248 L 482 177 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path998" />
+    </g>
+    <g
+       id="g1000">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 482 215 L 618 215"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path999" />
+    </g>
+    <g
+       id="g1001">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 482 225 L 618 225"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1000" />
+    </g>
+    <g
+       id="g1003">
+      <g
+         id="g1002">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1001" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="932.5"
+           y="506.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1001">«abstract»</text>
+      </g>
+    </g>
+    <g
+       id="g1005">
+      <g
+         id="g1004">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1003" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="932.5"
+           y="521.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1003">Ork</text>
+      </g>
+    </g>
+    <g
+       id="g1007">
+      <g
+         id="g1006">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1005" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="869"
+           y="554.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1005">+Ork(...)</text>
+      </g>
+    </g>
+    <g
+       id="g1008">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 571 177 L 571 162 L 411 162 L 411 111"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1007" />
+    </g>
+    <g
+       id="g1009">
+      <path
+         fill="#FFFFFF"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 419.419035512032 131.3253497152483 L 411 111 L 402.580964487968 131.3253497152483"
+         id="path1008" />
+    </g>
+    <g
+       id="g1010">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 419.419035512032 131.3253497152483 L 411 111 L 402.580964487968 131.3253497152483 L 419.419035512032 131.3253497152483"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1009" />
+    </g>
+    <g
+       id="g1011">
+      <path
+         fill="#FFE2D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 10 66 L 104.97265625 66 L 114.97265625 76 L 114.97265625 105 L 10 105 L 10 66"
+         id="path1010" />
+    </g>
+    <g
+       id="g1012">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 10 66 L 104.97265625 66 L 114.97265625 76 L 114.97265625 105 L 10 105 L 10 66 L 10 66"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1011" />
+    </g>
+    <g
+       id="g1013">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 104.97265625 66 L 104.97265625 76 L 114.97265625 76 L 104.97265625 66"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1012" />
+    </g>
+    <g
+       id="g1015">
+      <g
+         id="g1014">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1013" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="397"
+           y="389"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1013">Harcos(n, h, 0)</text>
+      </g>
+    </g>
+    <g
+       id="g1017">
+      <g
+         id="g1016">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1015" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="397"
+           y="404"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1015">elixir:=0</text>
+      </g>
+    </g>
+    <g
+       id="g1018">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 145 L 194 114 L 117 98"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1017" />
+    </g>
+    <g
+       id="g1019">
+      <path
+         fill="#FFE2D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 10 114 L 165.326171875 114 L 175.326171875 124 L 175.326171875 183 L 10 183 L 10 114"
+         id="path1018" />
+    </g>
+    <g
+       id="g1020">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 10 114 L 165.326171875 114 L 175.326171875 124 L 175.326171875 183 L 10 183 L 10 114 L 10 114"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1019" />
+    </g>
+    <g
+       id="g1021">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 165.326171875 114 L 165.326171875 124 L 175.326171875 124 L 165.326171875 114"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1020" />
+    </g>
+    <g
+       id="g1023">
+      <g
+         id="g1022">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1021" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="397"
+           y="437"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1021">if n&lt;0 then error endif</text>
+      </g>
+    </g>
+    <g
+       id="g1025">
+      <g
+         id="g1024">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1023" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="397"
+           y="452"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1023">if n&gt;kincs then error endif</text>
+      </g>
+    </g>
+    <g
+       id="g1027">
+      <g
+         id="g1026">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1025" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="397"
+           y="467"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1025">kincs:=kincs-n</text>
+      </g>
+    </g>
+    <g
+       id="g1029">
+      <g
+         id="g1028">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1027" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="397"
+           y="482"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1027">elixir:=elixir+n</text>
+      </g>
+    </g>
+    <g
+       id="g1030">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 193 180 L 177 175"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1029" />
+    </g>
+    <g
+       id="g1031">
+      <path
+         fill="#FFE2D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 10 194 L 162.431640625 194 L 172.431640625 204 L 172.431640625 293 L 10 293 L 10 194"
+         id="path1030" />
+    </g>
+    <g
+       id="g1032">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 10 194 L 162.431640625 194 L 172.431640625 204 L 172.431640625 293 L 10 293 L 10 194 L 10 194"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1031" />
+    </g>
+    <g
+       id="g1033">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 162.431640625 194 L 162.431640625 204 L 172.431640625 204 L 162.431640625 194"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1032" />
+    </g>
+    <g
+       id="g1035">
+      <g
+         id="g1034">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1033" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="397"
+           y="517"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1033">if n&lt;0 then error endif</text>
+      </g>
+    </g>
+    <g
+       id="g1037">
+      <g
+         id="g1036">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1035" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="397"
+           y="532"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1035">if n&gt;elixir then error endif</text>
+      </g>
+    </g>
+    <g
+       id="g1039">
+      <g
+         id="g1038">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1037" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="397"
+           y="547"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1037">h:=MaxHp()</text>
+      </g>
+    </g>
+    <g
+       id="g1041">
+      <g
+         id="g1040">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1039" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="397"
+           y="562"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1039">c:=min(n, h-hp)</text>
+      </g>
+    </g>
+    <g
+       id="g1043">
+      <g
+         id="g1042">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1041" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="397"
+           y="577"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1041">elixir:=elixir-c</text>
+      </g>
+    </g>
+    <g
+       id="g1045">
+      <g
+         id="g1044">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1043" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="397"
+           y="592"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1043">hp:=hp+c</text>
+      </g>
+    </g>
+    <g
+       id="g1046">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 193 227 L 174 230"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1045" />
+    </g>
+    <g
+       id="g1047">
+      <rect
+         fill="#D8F2FF"
+         stroke="none"
+         x="608"
+         y="768"
+         width="147.642578125"
+         height="118"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1046" />
+    </g>
+    <g
+       id="g1048">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 226 450 L 373.642578125 450 L 373.642578125 568 L 226 568 L 226 450 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1047" />
+    </g>
+    <g
+       id="g1049">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 226 475 L 373.642578125 475"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1048" />
+    </g>
+    <g
+       id="g1050">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 226 485 L 373.642578125 485"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1049" />
+    </g>
+    <g
+       id="g1052">
+      <g
+         id="g1051">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1050" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="682.3212890625"
+           y="781.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1050">Vakmero</text>
+      </g>
+    </g>
+    <g
+       id="g1054">
+      <g
+         id="g1053">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1052" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="814.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1052">+Vakmero(n: string)</text>
+      </g>
+    </g>
+    <g
+       id="g1056">
+      <g
+         id="g1055">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1054" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="829.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1054">+Gyogyul(): {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1058">
+      <g
+         id="g1057">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1056" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="844.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1056">+Ero(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1060">
+      <g
+         id="g1059">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1058" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="859.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1058">+Pajzs(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1062">
+      <g
+         id="g1061">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1060" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="874.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1060">+MaxHp(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1063">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 330 450 L 330 275"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1062" />
+    </g>
+    <g
+       id="g1064">
+      <path
+         fill="#FFFFFF"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 338.419035512032 295.3253497152483 L 330 275 L 321.580964487968 295.3253497152483"
+         id="path1063" />
+    </g>
+    <g
+       id="g1065">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 338.419035512032 295.3253497152483 L 330 275 L 321.580964487968 295.3253497152483 L 338.419035512032 295.3253497152483"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1064" />
+    </g>
+    <g
+       id="g1066">
+      <rect
+         fill="#D8F2FF"
+         stroke="none"
+         x="608"
+         y="984"
+         width="147.642578125"
+         height="118"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1065" />
+    </g>
+    <g
+       id="g1067">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 226 666 L 373.642578125 666 L 373.642578125 784 L 226 784 L 226 666 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1066" />
+    </g>
+    <g
+       id="g1068">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 226 691 L 373.642578125 691"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1067" />
+    </g>
+    <g
+       id="g1069">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 226 701 L 373.642578125 701"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1068" />
+    </g>
+    <g
+       id="g1071">
+      <g
+         id="g1070">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1069" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="682.3212890625"
+           y="997.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1069">Ugyes</text>
+      </g>
+    </g>
+    <g
+       id="g1073">
+      <g
+         id="g1072">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1071" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="1030.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1071">+Ugyes(n: string)</text>
+      </g>
+    </g>
+    <g
+       id="g1075">
+      <g
+         id="g1074">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1073" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="1045.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1073">+Gyogyul(): {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1077">
+      <g
+         id="g1076">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1075" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="1060.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1075">+Ero(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1079">
+      <g
+         id="g1078">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1077" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="1075.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1077">+Pajzs(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1081">
+      <g
+         id="g1080">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1079" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="1090.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1079">+MaxHp(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1082">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 330 666 L 330 642 L 386 642 L 386 426 L 330 426 L 330 275"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1081" />
+    </g>
+    <g
+       id="g1083">
+      <path
+         fill="#FFFFFF"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 338.419035512032 295.3253497152483 L 330 275 L 321.580964487968 295.3253497152483"
+         id="path1082" />
+    </g>
+    <g
+       id="g1084">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 338.419035512032 295.3253497152483 L 330 275 L 321.580964487968 295.3253497152483 L 338.419035512032 295.3253497152483"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1083" />
+    </g>
+    <g
+       id="g1085">
+      <rect
+         fill="#D8F2FF"
+         stroke="none"
+         x="608"
+         y="1200"
+         width="147.642578125"
+         height="118"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1084" />
+    </g>
+    <g
+       id="g1086">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 226 882 L 373.642578125 882 L 373.642578125 1000 L 226 1000 L 226 882 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1085" />
+    </g>
+    <g
+       id="g1087">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 226 907 L 373.642578125 907"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1086" />
+    </g>
+    <g
+       id="g1088">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 226 917 L 373.642578125 917"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1087" />
+    </g>
+    <g
+       id="g1090">
+      <g
+         id="g1089">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1088" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="682.3212890625"
+           y="1213.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1088">Bolcs</text>
+      </g>
+    </g>
+    <g
+       id="g1092">
+      <g
+         id="g1091">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1090" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="1246.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1090">+Bolcs(n: string)</text>
+      </g>
+    </g>
+    <g
+       id="g1094">
+      <g
+         id="g1093">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1092" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="1261.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1092">+Gyogyul(): {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1096">
+      <g
+         id="g1095">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1094" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="1276.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1094">+Ero(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1098">
+      <g
+         id="g1097">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1096" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="1291.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1096">+Pajzs(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1100">
+      <g
+         id="g1099">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1098" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="613"
+           y="1306.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1098">+MaxHp(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1101">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 330 882 L 330 850 L 386 850 L 386 426 L 330 426 L 330 275"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1100" />
+    </g>
+    <g
+       id="g1102">
+      <path
+         fill="#FFFFFF"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 338.419035512032 295.3253497152483 L 330 275 L 321.580964487968 295.3253497152483"
+         id="path1101" />
+    </g>
+    <g
+       id="g1103">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 338.419035512032 295.3253497152483 L 330 275 L 321.580964487968 295.3253497152483 L 338.419035512032 295.3253497152483"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1102" />
+    </g>
+    <g
+       id="g1104">
+      <path
+         fill="#FFD8D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 378 L 110.97265625 378 L 120.97265625 388 L 120.97265625 402 L 42 402 L 42 378"
+         id="path1103" />
+    </g>
+    <g
+       id="g1105">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 378 L 110.97265625 378 L 120.97265625 388 L 120.97265625 402 L 42 402 L 42 378 L 42 378"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1104" />
+    </g>
+    <g
+       id="g1106">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 110.97265625 378 L 110.97265625 388 L 120.97265625 388 L 110.97265625 378"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1105" />
+    </g>
+    <g
+       id="g1108">
+      <g
+         id="g1107">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1106" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="701"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1106">Elf(n, 100)</text>
+      </g>
+    </g>
+    <g
+       id="g1109">
+      <path
+         fill="#FFE2D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 410 L 292.693359375 410 L 302.693359375 420 L 302.693359375 434 L 42 434 L 42 410"
+         id="path1108" />
+    </g>
+    <g
+       id="g1110">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 410 L 292.693359375 410 L 302.693359375 420 L 302.693359375 434 L 42 434 L 42 410 L 42 410"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1109" />
+    </g>
+    <g
+       id="g1111">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 292.693359375 410 L 292.693359375 420 L 302.693359375 420 L 292.693359375 410"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1110" />
+    </g>
+    <g
+       id="g1113">
+      <g
+         id="g1112">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1111" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="733"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1111">if hp&lt;30 then Iszik(min(elixir, 30-hp)) endif</text>
+      </g>
+    </g>
+    <g
+       id="g1114">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 458 L 192 436"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1113" />
+    </g>
+    <g
+       id="g1115">
+      <path
+         fill="#FFE2D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 618 L 292.693359375 618 L 302.693359375 628 L 302.693359375 657 L 42 657 L 42 618"
+         id="path1114" />
+    </g>
+    <g
+       id="g1116">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 618 L 292.693359375 618 L 302.693359375 628 L 302.693359375 657 L 42 657 L 42 618 L 42 618"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1115" />
+    </g>
+    <g
+       id="g1117">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 292.693359375 618 L 292.693359375 628 L 302.693359375 628 L 292.693359375 618"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1116" />
+    </g>
+    <g
+       id="g1119">
+      <g
+         id="g1118">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1117" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="941"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1117">Atvalt(kincs/2)</text>
+      </g>
+    </g>
+    <g
+       id="g1121">
+      <g
+         id="g1120">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1119" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="956"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1119">if hp&lt;50 then Iszik(min(elixir, 50-hp)) endif</text>
+      </g>
+    </g>
+    <g
+       id="g1122">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 674 L 203 659"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1121" />
+    </g>
+    <g
+       id="g1123">
+      <path
+         fill="#FFD8D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 586 L 103.74267578125 586 L 113.74267578125 596 L 113.74267578125 610 L 42 610 L 42 586"
+         id="path1122" />
+    </g>
+    <g
+       id="g1124">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 586 L 103.74267578125 586 L 113.74267578125 596 L 113.74267578125 610 L 42 610 L 42 586 L 42 586"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1123" />
+    </g>
+    <g
+       id="g1125">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 103.74267578125 586 L 103.74267578125 596 L 113.74267578125 596 L 103.74267578125 586"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1124" />
+    </g>
+    <g
+       id="g1127">
+      <g
+         id="g1126">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1125" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="909"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1125">Elf(n, 80)</text>
+      </g>
+    </g>
+    <g
+       id="g1128">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 306 665 L 314 602 L 116 599"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1127" />
+    </g>
+    <g
+       id="g1129">
+      <path
+         fill="#FFD8D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 810 L 103.74267578125 810 L 113.74267578125 820 L 113.74267578125 834 L 42 834 L 42 810"
+         id="path1128" />
+    </g>
+    <g
+       id="g1130">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 810 L 103.74267578125 810 L 113.74267578125 820 L 113.74267578125 834 L 42 834 L 42 810 L 42 810"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1129" />
+    </g>
+    <g
+       id="g1131">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 103.74267578125 810 L 103.74267578125 820 L 113.74267578125 820 L 103.74267578125 810"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1130" />
+    </g>
+    <g
+       id="g1133">
+      <g
+         id="g1132">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1131" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="1133"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1131">Elf(n, 60)</text>
+      </g>
+    </g>
+    <g
+       id="g1134">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 895 L 154 850 L 116 836"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1133" />
+    </g>
+    <g
+       id="g1135">
+      <path
+         fill="#FFE2D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 842 L 121.7890625 842 L 131.7890625 852 L 131.7890625 881 L 42 881 L 42 842"
+         id="path1134" />
+    </g>
+    <g
+       id="g1136">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 842 L 121.7890625 842 L 131.7890625 852 L 131.7890625 881 L 42 881 L 42 842 L 42 842"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1135" />
+    </g>
+    <g
+       id="g1137">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 121.7890625 842 L 121.7890625 852 L 131.7890625 852 L 121.7890625 842"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1136" />
+    </g>
+    <g
+       id="g1139">
+      <g
+         id="g1138">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1137" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="1165"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1137">Atvalt(kincs)</text>
+      </g>
+    </g>
+    <g
+       id="g1141">
+      <g
+         id="g1140">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1139" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="1180"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1139">Iszik(elixir)</text>
+      </g>
+    </g>
+    <g
+       id="g1142">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 913 L 134 879"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1141" />
+    </g>
+    <g
+       id="g1143">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 387 211 L 481 211"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1142" />
+    </g>
+    <g
+       id="g1144">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 470.8373251423759 215.209517756016 L 481 211 L 470.8373251423758 206.790482243984"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1143" />
+    </g>
+    <g
+       id="g1145">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 397.1626748576241 206.790482243984 L 387 211 L 397.1626748576241 215.209517756016"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1144" />
+    </g>
+    <g
+       id="g1146">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 454.72265625 189.5 L 464.72265625 194.5 L 454.72265625 199.5"
+         id="path1145" />
+    </g>
+    <g
+       id="g1147">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="788"
+         y="506"
+         width="43.72265625"
+         height="13"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1146" />
+    </g>
+    <g
+       id="g1149">
+      <g
+         id="g1148">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1147" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="809.861328125"
+           y="512.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1147">támad</text>
+      </g>
+    </g>
+    <g
+       id="g1150">
+      <rect
+         fill="#D8F2FF"
+         stroke="none"
+         x="816"
+         y="768"
+         width="162.1025390625"
+         height="103"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1149" />
+    </g>
+    <g
+       id="g1151">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 434 450 L 596.1025390625 450 L 596.1025390625 553 L 434 553 L 434 450 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1150" />
+    </g>
+    <g
+       id="g1152">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 434 475 L 596.1025390625 475"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1151" />
+    </g>
+    <g
+       id="g1153">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 434 485 L 596.1025390625 485"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1152" />
+    </g>
+    <g
+       id="g1155">
+      <g
+         id="g1154">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1153" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="897.55126953125"
+           y="781.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1153">Verengzo</text>
+      </g>
+    </g>
+    <g
+       id="g1157">
+      <g
+         id="g1156">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1155" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="821"
+           y="814.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1155">+Verengzo(n: string, k: int)</text>
+      </g>
+    </g>
+    <g
+       id="g1159">
+      <g
+         id="g1158">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1157" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="821"
+           y="829.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1157">+Ero(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1161">
+      <g
+         id="g1160">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1159" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="821"
+           y="844.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1159">+Pajzs(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1163">
+      <g
+         id="g1162">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1161" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="821"
+           y="859.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1161">+MaxHp(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1164">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 554 450 L 554 248"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1163" />
+    </g>
+    <g
+       id="g1165">
+      <path
+         fill="#FFFFFF"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 562.419035512032 268.3253497152483 L 554 248 L 545.580964487968 268.3253497152483"
+         id="path1164" />
+    </g>
+    <g
+       id="g1166">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 562.419035512032 268.3253497152483 L 554 248 L 545.580964487968 268.3253497152483 L 562.419035512032 268.3253497152483"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1165" />
+    </g>
+    <g
+       id="g1167">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 387 211 L 481 211"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1166" />
+    </g>
+    <g
+       id="g1168">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 470.8373251423759 215.209517756016 L 481 211 L 470.8373251423758 206.790482243984"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1167" />
+    </g>
+    <g
+       id="g1169">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 397.1626748576241 206.790482243984 L 387 211 L 397.1626748576241 215.209517756016"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1168" />
+    </g>
+    <g
+       id="g1170">
+      <path
+         fill="#000000"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 398 221.5 L 388 226.5 L 398 231.5"
+         id="path1169" />
+    </g>
+    <g
+       id="g1171">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="785"
+         y="538"
+         width="43.72265625"
+         height="13"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1170" />
+    </g>
+    <g
+       id="g1173">
+      <g
+         id="g1172">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1171" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="806.861328125"
+           y="544.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1171">támad</text>
+      </g>
+    </g>
+    <g
+       id="g1174">
+      <path
+         fill="#FFE2D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 626 418 L 714.46630859375 418 L 724.46630859375 428 L 724.46630859375 442 L 626 442 L 626 418"
+         id="path1173" />
+    </g>
+    <g
+       id="g1175">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 626 418 L 714.46630859375 418 L 724.46630859375 428 L 724.46630859375 442 L 626 442 L 626 418 L 626 418"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1174" />
+    </g>
+    <g
+       id="g1176">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 714.46630859375 418 L 714.46630859375 428 L 724.46630859375 428 L 714.46630859375 418"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1175" />
+    </g>
+    <g
+       id="g1178">
+      <g
+         id="g1177">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1176" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="741"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1176">Ork(n, 100, k)</text>
+      </g>
+    </g>
+    <g
+       id="g1179">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 597 465 L 643 444"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1178" />
+    </g>
+    <g
+       id="g1180">
+      <rect
+         fill="#D8F2FF"
+         stroke="none"
+         x="816"
+         y="984"
+         width="162.1025390625"
+         height="103"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1179" />
+    </g>
+    <g
+       id="g1181">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 434 666 L 596.1025390625 666 L 596.1025390625 769 L 434 769 L 434 666 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1180" />
+    </g>
+    <g
+       id="g1182">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 434 691 L 596.1025390625 691"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1181" />
+    </g>
+    <g
+       id="g1183">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 434 701 L 596.1025390625 701"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1182" />
+    </g>
+    <g
+       id="g1185">
+      <g
+         id="g1184">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1183" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="897.55126953125"
+           y="997.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1183">Ravasz</text>
+      </g>
+    </g>
+    <g
+       id="g1187">
+      <g
+         id="g1186">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1185" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="821"
+           y="1030.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1185">+Ravasz(n: string, k: int)</text>
+      </g>
+    </g>
+    <g
+       id="g1189">
+      <g
+         id="g1188">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1187" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="821"
+           y="1045.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1187">+Ero(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1191">
+      <g
+         id="g1190">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1189" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="821"
+           y="1060.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1189">+Pajzs(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1193">
+      <g
+         id="g1192">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1191" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="821"
+           y="1075.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1191">+MaxHp(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1194">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 514 666 L 514 642 L 426 642 L 426 426 L 554 426 L 554 248"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1193" />
+    </g>
+    <g
+       id="g1195">
+      <path
+         fill="#FFFFFF"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 562.419035512032 268.3253497152483 L 554 248 L 545.580964487968 268.3253497152483"
+         id="path1194" />
+    </g>
+    <g
+       id="g1196">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 562.419035512032 268.3253497152483 L 554 248 L 545.580964487968 268.3253497152483 L 562.419035512032 268.3253497152483"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1195" />
+    </g>
+    <g
+       id="g1197">
+      <rect
+         fill="#D8F2FF"
+         stroke="none"
+         x="816"
+         y="1200"
+         width="162.1025390625"
+         height="103"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1196" />
+    </g>
+    <g
+       id="g1198">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 434 882 L 596.1025390625 882 L 596.1025390625 985 L 434 985 L 434 882 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1197" />
+    </g>
+    <g
+       id="g1199">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 434 907 L 596.1025390625 907"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1198" />
+    </g>
+    <g
+       id="g1200">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 434 917 L 596.1025390625 917"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1199" />
+    </g>
+    <g
+       id="g1202">
+      <g
+         id="g1201">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1200" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="897.55126953125"
+           y="1213.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1200">Ovatos</text>
+      </g>
+    </g>
+    <g
+       id="g1204">
+      <g
+         id="g1203">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1202" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="821"
+           y="1246.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1202">+Ovatos(n: string, k: int)</text>
+      </g>
+    </g>
+    <g
+       id="g1206">
+      <g
+         id="g1205">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1204" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="821"
+           y="1261.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1204">+Ero(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1208">
+      <g
+         id="g1207">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1206" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="821"
+           y="1276.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1206">+Pajzs(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1210">
+      <g
+         id="g1209">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1208" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="821"
+           y="1291.5"
+           text-anchor="start"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1208">+MaxHp(): int {override}</text>
+      </g>
+    </g>
+    <g
+       id="g1211">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 514 882 L 514 850 L 426 850 L 426 426 L 554 426 L 554 248"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1210" />
+    </g>
+    <g
+       id="g1212">
+      <path
+         fill="#FFFFFF"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 562.419035512032 268.3253497152483 L 554 248 L 545.580964487968 268.3253497152483"
+         id="path1211" />
+    </g>
+    <g
+       id="g1213">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 562.419035512032 268.3253497152483 L 554 248 L 545.580964487968 268.3253497152483 L 562.419035512032 268.3253497152483"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1212" />
+    </g>
+    <g
+       id="g1214">
+      <path
+         fill="#FFE2D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 626 634 L 707.236328125 634 L 717.236328125 644 L 717.236328125 658 L 626 658 L 626 634"
+         id="path1213" />
+    </g>
+    <g
+       id="g1215">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 626 634 L 707.236328125 634 L 717.236328125 644 L 717.236328125 658 L 626 658 L 626 634 L 626 634"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1214" />
+    </g>
+    <g
+       id="g1216">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 707.236328125 634 L 707.236328125 644 L 717.236328125 644 L 707.236328125 634"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1215" />
+    </g>
+    <g
+       id="g1218">
+      <g
+         id="g1217">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1216" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="957"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1216">Ork(n, 90, k)</text>
+      </g>
+    </g>
+    <g
+       id="g1219">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 597 680 L 641 660"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1218" />
+    </g>
+    <g
+       id="g1220">
+      <path
+         fill="#FFE2D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 626 850 L 707.236328125 850 L 717.236328125 860 L 717.236328125 874 L 626 874 L 626 850"
+         id="path1219" />
+    </g>
+    <g
+       id="g1221">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 626 850 L 707.236328125 850 L 717.236328125 860 L 717.236328125 874 L 626 874 L 626 850 L 626 850"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1220" />
+    </g>
+    <g
+       id="g1222">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 707.236328125 850 L 707.236328125 860 L 717.236328125 860 L 707.236328125 850"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1221" />
+    </g>
+    <g
+       id="g1224">
+      <g
+         id="g1223">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1222" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="1173"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1222">Ork(n, 80, k)</text>
+      </g>
+    </g>
+    <g
+       id="g1225">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 597 896 L 641 876"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1224" />
+    </g>
+    <g
+       id="g1226">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 370 275 L 370 322 L 442 322 L 442 354"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1225" />
+    </g>
+    <g
+       id="g1227">
+      <path
+         fill="#FFFFFF"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 437.790482243984 343.8373251423759 L 442 354 L 446.209517756016 343.8373251423759 L 442 332"
+         id="path1226" />
+    </g>
+    <g
+       id="g1228">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 437.790482243984 343.8373251423759 L 442 354 L 446.209517756016 343.8373251423759 L 442 332 L 437.790482243984 343.8373251423759"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1227" />
+    </g>
+    <g
+       id="g1229">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="759"
+         y="601"
+         width="35.0517578125"
+         height="13"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1228" />
+    </g>
+    <g
+       id="g1231">
+      <g
+         id="g1230">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1229" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="776.52587890625"
+           y="607.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1229">-elfek</text>
+      </g>
+    </g>
+    <g
+       id="g1232">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="759"
+         y="616"
+         width="61.4326171875"
+         height="13"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1231" />
+    </g>
+    <g
+       id="g1234">
+      <g
+         id="g1233">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1232" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="789.71630859375"
+           y="622.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1232">{unique}</text>
+      </g>
+    </g>
+    <g
+       id="g1235">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="736"
+         y="601"
+         width="6.5"
+         height="13"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1234" />
+    </g>
+    <g
+       id="g1237">
+      <g
+         id="g1236">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1235" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="739.25"
+           y="607.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1235">*</text>
+      </g>
+    </g>
+    <g
+       id="g1238">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 514 248 L 514 322 L 442 322 L 442 354"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1237" />
+    </g>
+    <g
+       id="g1239">
+      <path
+         fill="#FFFFFF"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 437.790482243984 343.8373251423759 L 442 354 L 446.209517756016 343.8373251423759 L 442 332"
+         id="path1238" />
+    </g>
+    <g
+       id="g1240">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 437.790482243984 343.8373251423759 L 442 354 L 446.209517756016 343.8373251423759 L 442 332 L 437.790482243984 343.8373251423759"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1239" />
+    </g>
+    <g
+       id="g1241">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="848"
+         y="574"
+         width="39.380859375"
+         height="13"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1240" />
+    </g>
+    <g
+       id="g1243">
+      <g
+         id="g1242">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1241" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="867.6904296875"
+           y="580.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1241">-orkok</text>
+      </g>
+    </g>
+    <g
+       id="g1244">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="840"
+         y="591"
+         width="47.861328125"
+         height="13"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1243" />
+    </g>
+    <g
+       id="g1246">
+      <g
+         id="g1245">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1244" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="863.9306640625"
+           y="597.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1244">{unique}</text>
+      </g>
+    </g>
+    <g
+       id="g1247">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="903"
+         y="574"
+         width="6.5"
+         height="13"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1246" />
+    </g>
+    <g
+       id="g1249">
+      <g
+         id="g1248">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1247" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="906.25"
+           y="580.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1247">*</text>
+      </g>
+    </g>
+    <g
+       id="g1250">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 123 391 L 314 394 L 307 449"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1249" />
+    </g>
+    <g
+       id="g1251">
+      <rect
+         fill="#D8F2FF"
+         stroke="none"
+         x="904"
+         y="349"
+         width="136"
+         height="58"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1250" />
+    </g>
+    <g
+       id="g1252">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 522 31 L 658 31 L 658 89 L 522 89 L 522 31 Z Z"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1251" />
+    </g>
+    <g
+       id="g1253">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 522 69 L 658 69"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1252" />
+    </g>
+    <g
+       id="g1254">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 522 79 L 658 79"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1253" />
+    </g>
+    <g
+       id="g1256">
+      <g
+         id="g1255">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1254" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="972.5"
+           y="360.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1254">«singleton»</text>
+      </g>
+    </g>
+    <g
+       id="g1258">
+      <g
+         id="g1257">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1256" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="undefined"
+           x="972.5"
+           y="375.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1256">Tulajdonsag</text>
+      </g>
+    </g>
+    <g
+       id="g1259">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 443 60 L 521 60"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1258" />
+    </g>
+    <g
+       id="g1260">
+      <path
+         fill="#FFFFFF"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 453.1626748576241 55.790482243984 L 443 60 L 453.1626748576241 64.209517756016 L 465 60"
+         id="path1259" />
+    </g>
+    <g
+       id="g1261">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 453.1626748576241 55.790482243984 L 443 60 L 453.1626748576241 64.209517756016 L 465 60 L 453.1626748576241 55.790482243984"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1260" />
+    </g>
+    <g
+       id="g1262">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="827"
+         y="358"
+         width="6.5"
+         height="13"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1261" />
+    </g>
+    <g
+       id="g1264">
+      <g
+         id="g1263">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1262" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="830.25"
+           y="364.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1262">*</text>
+      </g>
+    </g>
+    <g
+       id="g1265">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="871"
+         y="356"
+         width="21.32177734375"
+         height="13"
+         transform="matrix(1 0 0 1 -382 -318)"
+         id="rect1264" />
+    </g>
+    <g
+       id="g1267">
+      <g
+         id="g1266">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1265" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="881.660888671875"
+           y="362.5"
+           text-anchor="middle"
+           dominant-baseline="central"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1265">#tul</text>
+      </g>
+    </g>
+    <g
+       id="g1268">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 437 L 163.58203125 437 L 173.58203125 447 L 173.58203125 476 L 42 476 L 42 437"
+         id="path1267" />
+    </g>
+    <g
+       id="g1269">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 437 L 163.58203125 437 L 173.58203125 447 L 173.58203125 476 L 42 476 L 42 437 L 42 437"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1268" />
+    </g>
+    <g
+       id="g1270">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 163.58203125 437 L 163.58203125 447 L 173.58203125 447 L 163.58203125 437"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1269" />
+    </g>
+    <g
+       id="g1272">
+      <g
+         id="g1271">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1270" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="760"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1270">(e,_,_):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1274">
+      <g
+         id="g1273">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1272" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="775"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1272">return e</text>
+      </g>
+    </g>
+    <g
+       id="g1275">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 489 L 176 475"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1274" />
+    </g>
+    <g
+       id="g1276">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 481 L 163.58203125 481 L 173.58203125 491 L 173.58203125 520 L 42 520 L 42 481"
+         id="path1275" />
+    </g>
+    <g
+       id="g1277">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 481 L 163.58203125 481 L 173.58203125 491 L 173.58203125 520 L 42 520 L 42 481 L 42 481"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1276" />
+    </g>
+    <g
+       id="g1278">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 163.58203125 481 L 163.58203125 491 L 173.58203125 491 L 163.58203125 481"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1277" />
+    </g>
+    <g
+       id="g1280">
+      <g
+         id="g1279">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1278" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="804"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1278">(_,p,_):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1282">
+      <g
+         id="g1281">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1280" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="819"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1280">return p</text>
+      </g>
+    </g>
+    <g
+       id="g1283">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 506 L 176 504"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1282" />
+    </g>
+    <g
+       id="g1284">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 525 L 163.58203125 525 L 173.58203125 535 L 173.58203125 564 L 42 564 L 42 525"
+         id="path1283" />
+    </g>
+    <g
+       id="g1285">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 525 L 163.58203125 525 L 173.58203125 535 L 173.58203125 564 L 42 564 L 42 525 L 42 525"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1284" />
+    </g>
+    <g
+       id="g1286">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 163.58203125 525 L 163.58203125 535 L 173.58203125 535 L 163.58203125 525"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1285" />
+    </g>
+    <g
+       id="g1288">
+      <g
+         id="g1287">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1286" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="848"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1286">(_,_,h):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1290">
+      <g
+         id="g1289">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1288" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="863"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1288">return h</text>
+      </g>
+    </g>
+    <g
+       id="g1291">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 523 L 176 532"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1290" />
+    </g>
+    <g
+       id="g1292">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 660 L 163.58203125 660 L 173.58203125 670 L 173.58203125 699 L 42 699 L 42 660"
+         id="path1291" />
+    </g>
+    <g
+       id="g1293">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 660 L 163.58203125 660 L 173.58203125 670 L 173.58203125 699 L 42 699 L 42 660 L 42 660"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1292" />
+    </g>
+    <g
+       id="g1294">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 163.58203125 660 L 163.58203125 670 L 173.58203125 670 L 163.58203125 660"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1293" />
+    </g>
+    <g
+       id="g1296">
+      <g
+         id="g1295">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1294" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="983"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1294">(e,_,_):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1298">
+      <g
+         id="g1297">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1296" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="998"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1296">return e</text>
+      </g>
+    </g>
+    <g
+       id="g1299">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 708 L 176 696"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1298" />
+    </g>
+    <g
+       id="g1300">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 704 L 163.58203125 704 L 173.58203125 714 L 173.58203125 743 L 42 743 L 42 704"
+         id="path1299" />
+    </g>
+    <g
+       id="g1301">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 704 L 163.58203125 704 L 173.58203125 714 L 173.58203125 743 L 42 743 L 42 704 L 42 704"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1300" />
+    </g>
+    <g
+       id="g1302">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 163.58203125 704 L 163.58203125 714 L 173.58203125 714 L 163.58203125 704"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1301" />
+    </g>
+    <g
+       id="g1304">
+      <g
+         id="g1303">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1302" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="1027"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1302">(_,p,_):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1306">
+      <g
+         id="g1305">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1304" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="1042"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1304">return p</text>
+      </g>
+    </g>
+    <g
+       id="g1307">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 725 L 176 724"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1306" />
+    </g>
+    <g
+       id="g1308">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 746 L 163.58203125 746 L 173.58203125 756 L 173.58203125 785 L 42 785 L 42 746"
+         id="path1307" />
+    </g>
+    <g
+       id="g1309">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 746 L 163.58203125 746 L 173.58203125 756 L 173.58203125 785 L 42 785 L 42 746 L 42 746"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1308" />
+    </g>
+    <g
+       id="g1310">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 163.58203125 746 L 163.58203125 756 L 173.58203125 756 L 163.58203125 746"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1309" />
+    </g>
+    <g
+       id="g1312">
+      <g
+         id="g1311">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1310" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="1069"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1310">(_,_,h):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1314">
+      <g
+         id="g1313">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1312" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="1084"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1312">return h</text>
+      </g>
+    </g>
+    <g
+       id="g1315">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 741 L 176 751"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1314" />
+    </g>
+    <g
+       id="g1316">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 890 L 163.58203125 890 L 173.58203125 900 L 173.58203125 929 L 42 929 L 42 890"
+         id="path1315" />
+    </g>
+    <g
+       id="g1317">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 890 L 163.58203125 890 L 173.58203125 900 L 173.58203125 929 L 42 929 L 42 890 L 42 890"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1316" />
+    </g>
+    <g
+       id="g1318">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 163.58203125 890 L 163.58203125 900 L 173.58203125 900 L 163.58203125 890"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1317" />
+    </g>
+    <g
+       id="g1320">
+      <g
+         id="g1319">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1318" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="1213"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1318">(e,_,_):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1322">
+      <g
+         id="g1321">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1320" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="1228"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1320">return e</text>
+      </g>
+    </g>
+    <g
+       id="g1323">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 929 L 176 921"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1322" />
+    </g>
+    <g
+       id="g1324">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 938 L 163.58203125 938 L 173.58203125 948 L 173.58203125 977 L 42 977 L 42 938"
+         id="path1323" />
+    </g>
+    <g
+       id="g1325">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 938 L 163.58203125 938 L 173.58203125 948 L 173.58203125 977 L 42 977 L 42 938 L 42 938"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1324" />
+    </g>
+    <g
+       id="g1326">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 163.58203125 938 L 163.58203125 948 L 173.58203125 948 L 163.58203125 938"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1325" />
+    </g>
+    <g
+       id="g1328">
+      <g
+         id="g1327">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1326" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="1261"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1326">(_,p,_):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1330">
+      <g
+         id="g1329">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1328" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="1276"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1328">return p</text>
+      </g>
+    </g>
+    <g
+       id="g1331">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 948 L 176 952"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1330" />
+    </g>
+    <g
+       id="g1332">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 42 986 L 163.58203125 986 L 173.58203125 996 L 173.58203125 1025 L 42 1025 L 42 986"
+         id="path1331" />
+    </g>
+    <g
+       id="g1333">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 42 986 L 163.58203125 986 L 173.58203125 996 L 173.58203125 1025 L 42 1025 L 42 986 L 42 986"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1332" />
+    </g>
+    <g
+       id="g1334">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 163.58203125 986 L 163.58203125 996 L 173.58203125 996 L 163.58203125 986"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1333" />
+    </g>
+    <g
+       id="g1336">
+      <g
+         id="g1335">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1334" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="1309"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1334">(_,_,h):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1338">
+      <g
+         id="g1337">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1336" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="429"
+           y="1324"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1336">return h</text>
+      </g>
+    </g>
+    <g
+       id="g1339">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 225 966 L 170 985"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1338" />
+    </g>
+    <g
+       id="g1340">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 626 498 L 747.58203125 498 L 757.58203125 508 L 757.58203125 537 L 626 537 L 626 498"
+         id="path1339" />
+    </g>
+    <g
+       id="g1341">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 626 498 L 747.58203125 498 L 757.58203125 508 L 757.58203125 537 L 626 537 L 626 498 L 626 498"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1340" />
+    </g>
+    <g
+       id="g1342">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 747.58203125 498 L 747.58203125 508 L 757.58203125 508 L 747.58203125 498"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1341" />
+    </g>
+    <g
+       id="g1344">
+      <g
+         id="g1343">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1342" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="821"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1342">(_,p,_):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1346">
+      <g
+         id="g1345">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1344" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="836"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1344">return p</text>
+      </g>
+    </g>
+    <g
+       id="g1347">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 597 509 L 625 512"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1346" />
+    </g>
+    <g
+       id="g1348">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 626 546 L 747.58203125 546 L 757.58203125 556 L 757.58203125 585 L 626 585 L 626 546"
+         id="path1347" />
+    </g>
+    <g
+       id="g1349">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 626 546 L 747.58203125 546 L 757.58203125 556 L 757.58203125 585 L 626 585 L 626 546 L 626 546"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1348" />
+    </g>
+    <g
+       id="g1350">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 747.58203125 546 L 747.58203125 556 L 757.58203125 556 L 747.58203125 546"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1349" />
+    </g>
+    <g
+       id="g1352">
+      <g
+         id="g1351">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1350" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="869"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1350">(_,_,h):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1354">
+      <g
+         id="g1353">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1352" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="884"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1352">return h</text>
+      </g>
+    </g>
+    <g
+       id="g1355">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 597 531 L 635 545"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1354" />
+    </g>
+    <g
+       id="g1356">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 626 450 L 747.58203125 450 L 757.58203125 460 L 757.58203125 489 L 626 489 L 626 450"
+         id="path1355" />
+    </g>
+    <g
+       id="g1357">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 626 450 L 747.58203125 450 L 757.58203125 460 L 757.58203125 489 L 626 489 L 626 450 L 626 450"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1356" />
+    </g>
+    <g
+       id="g1358">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 747.58203125 450 L 747.58203125 460 L 757.58203125 460 L 747.58203125 450"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1357" />
+    </g>
+    <g
+       id="g1360">
+      <g
+         id="g1359">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1358" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="773"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1358">(e,_,_):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1362">
+      <g
+         id="g1361">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1360" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="788"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1360">return e</text>
+      </g>
+    </g>
+    <g
+       id="g1363">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 597 487 L 625 482"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1362" />
+    </g>
+    <g
+       id="g1364">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 626 714 L 747.58203125 714 L 757.58203125 724 L 757.58203125 753 L 626 753 L 626 714"
+         id="path1363" />
+    </g>
+    <g
+       id="g1365">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 626 714 L 747.58203125 714 L 757.58203125 724 L 757.58203125 753 L 626 753 L 626 714 L 626 714"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1364" />
+    </g>
+    <g
+       id="g1366">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 747.58203125 714 L 747.58203125 724 L 757.58203125 724 L 747.58203125 714"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1365" />
+    </g>
+    <g
+       id="g1368">
+      <g
+         id="g1367">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1366" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="1037"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1366">(_,p,_):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1370">
+      <g
+         id="g1369">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1368" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="1052"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1368">return p</text>
+      </g>
+    </g>
+    <g
+       id="g1371">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 597 725 L 625 728"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1370" />
+    </g>
+    <g
+       id="g1372">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 626 762 L 747.58203125 762 L 757.58203125 772 L 757.58203125 801 L 626 801 L 626 762"
+         id="path1371" />
+    </g>
+    <g
+       id="g1373">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 626 762 L 747.58203125 762 L 757.58203125 772 L 757.58203125 801 L 626 801 L 626 762 L 626 762"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1372" />
+    </g>
+    <g
+       id="g1374">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 747.58203125 762 L 747.58203125 772 L 757.58203125 772 L 747.58203125 762"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1373" />
+    </g>
+    <g
+       id="g1376">
+      <g
+         id="g1375">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1374" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="1085"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1374">(_,_,h):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1378">
+      <g
+         id="g1377">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1376" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="1100"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1376">return h</text>
+      </g>
+    </g>
+    <g
+       id="g1379">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 597 747 L 635 761"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1378" />
+    </g>
+    <g
+       id="g1380">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 626 666 L 747.58203125 666 L 757.58203125 676 L 757.58203125 705 L 626 705 L 626 666"
+         id="path1379" />
+    </g>
+    <g
+       id="g1381">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 626 666 L 747.58203125 666 L 757.58203125 676 L 757.58203125 705 L 626 705 L 626 666 L 626 666"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1380" />
+    </g>
+    <g
+       id="g1382">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 747.58203125 666 L 747.58203125 676 L 757.58203125 676 L 747.58203125 666"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1381" />
+    </g>
+    <g
+       id="g1384">
+      <g
+         id="g1383">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1382" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="989"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1382">(e,_,_):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1386">
+      <g
+         id="g1385">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1384" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="1004"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1384">return e</text>
+      </g>
+    </g>
+    <g
+       id="g1387">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 597 703 L 625 698"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1386" />
+    </g>
+    <g
+       id="g1388">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 626 882 L 747.58203125 882 L 757.58203125 892 L 757.58203125 921 L 626 921 L 626 882"
+         id="path1387" />
+    </g>
+    <g
+       id="g1389">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 626 882 L 747.58203125 882 L 757.58203125 892 L 757.58203125 921 L 626 921 L 626 882 L 626 882"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1388" />
+    </g>
+    <g
+       id="g1390">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 747.58203125 882 L 747.58203125 892 L 757.58203125 892 L 747.58203125 882"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1389" />
+    </g>
+    <g
+       id="g1392">
+      <g
+         id="g1391">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1390" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="1205"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1390">(e,_,_):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1394">
+      <g
+         id="g1393">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1392" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="1220"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1392">return e</text>
+      </g>
+    </g>
+    <g
+       id="g1395">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 597 919 L 625 914"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1394" />
+    </g>
+    <g
+       id="g1396">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 626 930 L 747.58203125 930 L 757.58203125 940 L 757.58203125 969 L 626 969 L 626 930"
+         id="path1395" />
+    </g>
+    <g
+       id="g1397">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 626 930 L 747.58203125 930 L 757.58203125 940 L 757.58203125 969 L 626 969 L 626 930 L 626 930"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1396" />
+    </g>
+    <g
+       id="g1398">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 747.58203125 930 L 747.58203125 940 L 757.58203125 940 L 747.58203125 930"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1397" />
+    </g>
+    <g
+       id="g1400">
+      <g
+         id="g1399">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1398" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="1253"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1398">(_,p,_):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1402">
+      <g
+         id="g1401">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1400" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="1268"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1400">return p</text>
+      </g>
+    </g>
+    <g
+       id="g1403">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 597 941 L 625 944"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1402" />
+    </g>
+    <g
+       id="g1404">
+      <path
+         fill="#FFF5D8"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d=" M 626 978 L 747.58203125 978 L 757.58203125 988 L 757.58203125 1017 L 626 1017 L 626 978"
+         id="path1403" />
+    </g>
+    <g
+       id="g1405">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 626 978 L 747.58203125 978 L 757.58203125 988 L 757.58203125 1017 L 626 1017 L 626 978 L 626 978"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1404" />
+    </g>
+    <g
+       id="g1406">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 747.58203125 978 L 747.58203125 988 L 757.58203125 988 L 747.58203125 978"
+         stroke-miterlimit="10"
+         stroke-dasharray=""
+         id="path1405" />
+    </g>
+    <g
+       id="g1408">
+      <g
+         id="g1407">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1406" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="1301"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1406">(_,_,h):=tul.Tul(this)</text>
+      </g>
+    </g>
+    <g
+       id="g1410">
+      <g
+         id="g1409">
+        <path
+           fill="none"
+           stroke="none"
+           id="path1408" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="undefined"
+           x="1013"
+           y="1316"
+           text-anchor="start"
+           dominant-baseline="text-before-edge"
+           transform="matrix(1 0 0 1 -382 -318)"
+           id="text1408">return h</text>
+      </g>
+    </g>
+    <g
+       id="g1411">
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d=" M 597 963 L 635 977"
+         stroke-miterlimit="10"
+         stroke-dasharray="3"
+         id="path1410" />
+    </g>
+  </g>
+</svg>

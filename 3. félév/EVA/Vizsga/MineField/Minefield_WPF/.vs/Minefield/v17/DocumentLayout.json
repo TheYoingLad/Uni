@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F73C9A39-A29D-444E-B7E7-2BC455BDA12B}|Minefield.View\\Minefield.WPF.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_wpf\\minefield.view\\viewmodel\\minefieldviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73C9A39-A29D-444E-B7E7-2BC455BDA12B}|Minefield.View\\Minefield.WPF.csproj|solutionrelative:minefield.view\\viewmodel\\minefieldviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73C9A39-A29D-444E-B7E7-2BC455BDA12B}|Minefield.View\\Minefield.WPF.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_wpf\\minefield.view\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F73C9A39-A29D-444E-B7E7-2BC455BDA12B}|Minefield.View\\Minefield.WPF.csproj|solutionrelative:minefield.view\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73C9A39-A29D-444E-B7E7-2BC455BDA12B}|Minefield.View\\Minefield.WPF.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_wpf\\minefield.view\\viewmodel\\minefieldviewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73C9A39-A29D-444E-B7E7-2BC455BDA12B}|Minefield.View\\Minefield.WPF.csproj|solutionrelative:minefield.view\\viewmodel\\minefieldviewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{104025D9-A2BF-4E82-A72F-4172E3EA4A38}|Minefield\\Minefield.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_wpf\\minefield\\model\\minefieldcellupdateeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104025D9-A2BF-4E82-A72F-4172E3EA4A38}|Minefield\\Minefield.csproj|solutionrelative:minefield\\model\\minefieldcellupdateeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{104025D9-A2BF-4E82-A72F-4172E3EA4A38}|Minefield\\Minefield.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_wpf\\minefield\\model\\minefieldtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104025D9-A2BF-4E82-A72F-4172E3EA4A38}|Minefield\\Minefield.csproj|solutionrelative:minefield\\model\\minefieldtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F73C9A39-A29D-444E-B7E7-2BC455BDA12B}|Minefield.View\\Minefield.WPF.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_wpf\\minefield.view\\viewmodel\\minefieldvmmovementeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73C9A39-A29D-444E-B7E7-2BC455BDA12B}|Minefield.View\\Minefield.WPF.csproj|solutionrelative:minefield.view\\viewmodel\\minefieldvmmovementeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MinefieldViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WPF\\Minefield.View\\ViewModel\\MinefieldViewModelBase.cs",
+              "RelativeDocumentMoniker": "Minefield.View\\ViewModel\\MinefieldViewModelBase.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WPF\\Minefield.View\\ViewModel\\MinefieldViewModelBase.cs",
+              "RelativeToolTip": "Minefield.View\\ViewModel\\MinefieldViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T10:46:09.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MinefieldCellUpdateEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WPF\\Minefield\\Model\\MinefieldCellUpdateEventArgs.cs",
+              "RelativeDocumentMoniker": "Minefield\\Model\\MinefieldCellUpdateEventArgs.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WPF\\Minefield\\Model\\MinefieldCellUpdateEventArgs.cs",
+              "RelativeToolTip": "Minefield\\Model\\MinefieldCellUpdateEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T10:46:04.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MinefieldTimer.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WPF\\Minefield\\Model\\MinefieldTimer.cs",
+              "RelativeDocumentMoniker": "Minefield\\Model\\MinefieldTimer.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WPF\\Minefield\\Model\\MinefieldTimer.cs",
+              "RelativeToolTip": "Minefield\\Model\\MinefieldTimer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T10:45:59.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MinefieldVMMovementEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WPF\\Minefield.View\\ViewModel\\MinefieldVMMovementEventArgs.cs",
+              "RelativeDocumentMoniker": "Minefield.View\\ViewModel\\MinefieldVMMovementEventArgs.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WPF\\Minefield.View\\ViewModel\\MinefieldVMMovementEventArgs.cs",
+              "RelativeToolTip": "Minefield.View\\ViewModel\\MinefieldVMMovementEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T10:45:26.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MinefieldViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WPF\\Minefield.View\\ViewModel\\MinefieldViewModel.cs",
+              "RelativeDocumentMoniker": "Minefield.View\\ViewModel\\MinefieldViewModel.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WPF\\Minefield.View\\ViewModel\\MinefieldViewModel.cs",
+              "RelativeToolTip": "Minefield.View\\ViewModel\\MinefieldViewModel.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAADgv/EAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T10:44:39.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WPF\\Minefield.View\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Minefield.View\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WPF\\Minefield.View\\View\\MainWindow.xaml",
+              "RelativeToolTip": "Minefield.View\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T10:41:51.79Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

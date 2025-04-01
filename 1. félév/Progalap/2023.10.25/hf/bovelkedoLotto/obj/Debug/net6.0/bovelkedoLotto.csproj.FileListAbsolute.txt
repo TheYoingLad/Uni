@@ -1,0 +1,15 @@
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\bin\Debug\net6.0\bovelkedoLotto.exe
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\bin\Debug\net6.0\bovelkedoLotto.deps.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\bin\Debug\net6.0\bovelkedoLotto.runtimeconfig.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\bin\Debug\net6.0\bovelkedoLotto.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\bin\Debug\net6.0\bovelkedoLotto.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\obj\Debug\net6.0\bovelkedoLotto.csproj.AssemblyReference.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\obj\Debug\net6.0\bovelkedoLotto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\obj\Debug\net6.0\bovelkedoLotto.AssemblyInfoInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\obj\Debug\net6.0\bovelkedoLotto.AssemblyInfo.cs
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\obj\Debug\net6.0\bovelkedoLotto.csproj.CoreCompileInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\obj\Debug\net6.0\bovelkedoLotto.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\obj\Debug\net6.0\refint\bovelkedoLotto.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\obj\Debug\net6.0\bovelkedoLotto.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\obj\Debug\net6.0\bovelkedoLotto.genruntimeconfig.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.25\hf\bovelkedoLotto\obj\Debug\net6.0\ref\bovelkedoLotto.dll

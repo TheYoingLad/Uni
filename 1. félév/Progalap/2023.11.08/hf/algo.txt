@@ -1,0 +1,24 @@
+db:=0
+FOR: i=1..m
+IF:felt(i)
+db:=db+1
+y[db]:=i
+ENDIF:
+ENDFOR:
+
+#felt(x:Egész):Logikai
+#Változó van:Logikai, i:Egész
+i:=1
+FOR:i<=n és nem madar[x,i]/szum(x)>0.9
+i:=i+1
+ENDFOR:
+van:=i<=n
+felt:=van
+
+#szum(x:Egész):Egész
+#Változó i,s:Egész
+s:=0
+FOR:i=1..n
+s:=madar[x,i]
+ENDFOR:
+szum:=s

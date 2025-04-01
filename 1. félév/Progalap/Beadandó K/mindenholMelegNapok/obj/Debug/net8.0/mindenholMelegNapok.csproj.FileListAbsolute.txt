@@ -1,0 +1,14 @@
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\bin\Debug\net8.0\mindenholMelegNapok.exe
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\bin\Debug\net8.0\mindenholMelegNapok.deps.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\bin\Debug\net8.0\mindenholMelegNapok.runtimeconfig.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\bin\Debug\net8.0\mindenholMelegNapok.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\bin\Debug\net8.0\mindenholMelegNapok.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\obj\Debug\net8.0\mindenholMelegNapok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\obj\Debug\net8.0\mindenholMelegNapok.AssemblyInfoInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\obj\Debug\net8.0\mindenholMelegNapok.AssemblyInfo.cs
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\obj\Debug\net8.0\mindenholMelegNapok.csproj.CoreCompileInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\obj\Debug\net8.0\mindenholMelegNapok.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\obj\Debug\net8.0\refint\mindenholMelegNapok.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\obj\Debug\net8.0\mindenholMelegNapok.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\obj\Debug\net8.0\mindenholMelegNapok.genruntimeconfig.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\Beadandó K\mindenholMelegNapok\obj\Debug\net8.0\ref\mindenholMelegNapok.dll

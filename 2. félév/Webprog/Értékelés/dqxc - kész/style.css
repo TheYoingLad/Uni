@@ -1,0 +1,479 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('media/CH3k7FVWUAAB5bO1.jpeg');
+    background-position: left;
+}
+p{
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+a{
+    color: #004c98;
+}
+h1,h2{
+    color: #A50044;
+    padding-bottom: 1.5rem;
+    margin: 0;
+}
+h3{ 
+    font-size: 1.5rem;
+    color: #A50044;
+    margin-bottom: 1rem;
+}
+
+.navbar-brand .logo{
+    width: 85%;
+    padding: 0;
+}
+
+.navbar-brand{
+    line-height: normal;
+
+}
+.navbar-nav .nav-link{
+    color:yellow;
+    font-size: 1.6rem;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    transition-property: transform;
+    transition-duration: 0.3s;
+
+}
+
+.navbar-nav .nav-link:hover{
+    transform: translateY(-5px) scale(1.1);
+}
+.navbar-nav .nav-link.active{
+    transform: none;
+}
+.navbar {
+    background-color: #A50044;
+    padding-top: 0px; 
+    padding-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.content{
+    background-color:rgb(232, 231, 237);
+    line-height: 1.6rem;
+    
+}
+
+#carouselExampleIndicators {
+    border: 3px solid #ccc; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+    max-width: 50rem;
+    margin: auto;
+
+}
+
+.container.box{
+    padding: 2rem;
+}
+.container{
+    padding: 4rem;
+}
+
+section#form{
+    color:white;
+    padding: 1.2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #a5002f;
+    margin-bottom: 2rem;
+}
+
+#formHeader{
+    text-align: center;
+    padding-bottom: 1rem;
+    color:white;
+}
+
+.radio-label{
+    padding-bottom: 1rem;
+    font-size: large;
+}
+.form-label{
+    font-size: large;
+}
+
+
+#mezekHeader{
+    background-color: #004c98;
+    padding: 1.2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    color: white;
+}
+
+.card{
+    width: 100%;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.card-title{
+    color: #A50044;
+}
+.card-text{
+    color: #A50044;
+    padding-bottom: 1rem;
+}
+img#mezekImg{
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    
+}
+
+
+.text {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+.text a{
+    color:black;
+    text-decoration: underline;
+}
+.text a:hover{
+    color: #a5002f;
+}
+
+
+strong{
+    color:#A50044;
+}
+
+hr{
+    height: 1rem;
+    margin: 0;
+    opacity: 100%;
+}
+.blueLine{
+    background-color: #004c98;
+    height: 0.75rem;
+}
+.redLine{
+    background-color:#A50044;
+}
+
+
+
+div.card-body{
+    height: 100%;
+}
+
+div.card.text-center{
+    border-radius: 0;
+    background-color: rgb(232, 231, 237);
+    margin-bottom: 0;
+}
+.card-body a img{
+    padding: 1rem;
+    transition: transform;
+    transition-duration: 0.3s;
+}
+.card-body a img:hover{
+    padding: 1rem;
+    transform: translateY(-5px) scale(1.1);
+}
+
+
+a.btn.btn-primary{
+    background-color: #A50044;
+    border-color: rgb(232, 231, 237);
+}
+a.btn.btn-primary:hover{
+    background-color: rgb(232, 231, 237);
+    color: #A50044;
+    transition-duration: 0.4s;
+}
+h3.card-title{
+    font-size: 1rem;
+}
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+img#CurrentTeamImg{
+    width: 100%;
+    height: auto;
+    border: 3px solid #ccc; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+    display: block;
+    margin-bottom: 0.2rem;
+}
+#CurrentTeam h1{
+    padding:0.2rem;
+    font-size: 3rem;
+}
+section#CurrentTeam article{
+    line-height: 1rem;
+}
+
+section#CurrentTeam article li{
+    margin-bottom: 0.7rem;
+}
+section#CurrentTeam article h2{
+    padding: 0;
+    margin-bottom: 0.2rem;
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+}
+.playersList{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 0.9rem;
+}
+section#prime img{
+    width: 100%;
+    height: auto;
+    border: 3px solid #ccc; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+}
+section#prime{
+    
+    border-radius: 10px;
+}
+
+section#prime article{
+    padding-top: 2rem;
+}
+
+section#prime h2{
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+div.col-12.col-lg-4.primebarca{
+    background-color:#A50044;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+div.col-12.col-lg-8.primebarca{
+    margin: 0;
+    padding: 0;
+}
+
+.primebarca .text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+div.trophy{
+    padding-bottom: 0.5rem;
+}    
+
+section#trophies img{
+    width: 100%;
+    border: 3px solid #ccc; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+    border-top: none;
+    
+}
+
+div.trophy h1{
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: white;
+    border: 3px solid #ccc; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+    border-bottom: none;
+}
+div.trophy h1:hover{
+    background-color:#ccc ;
+}
+div.trophy a{
+    text-decoration: none;
+}
+
+h1 b{
+    font-size: 2.5rem;
+}
+
+#trophyTexts p{
+    margin-bottom: 1.5rem;
+}
+#trophyTexts a{
+    color: #004c98;
+}
+#trophyTexts a:visited{
+    color:#4885c1 !important;
+}
+#trophyTexts h1{
+    padding-top: 1.2rem;
+    padding-bottom: 0.8rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+video{
+    width: 100%;
+    border: 3px solid #ccc; 
+    overflow: hidden; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+#video h1{
+    text-align: center;
+    padding-bottom: 0.8rem;
+}
+#video p{
+    margin-bottom: 0.2rem;
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid #ccc; 
+    overflow: hidden; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8); 
+}
+th, td {
+    border: 3px solid #ccc;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+th {
+    background-color:#A50044 !important;
+    color:white  !important;
+}
+
+#stats h1{
+    padding-bottom: 0.8rem;
+    text-align: center;
+}
+#stats h2{
+    padding-top: 1.5rem;
+    padding-bottom: 0.3rem;
+}
+#stats p{
+    margin: 0;
+}
+.fwp-embed{
+    border: 3px solid #ccc; 
+    overflow: hidden; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+
+
+@media (max-width:768px) {
+
+    section#CurrentTeam h1{
+        font-size: 2rem;
+    }
+
+    #trophies .row{
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+@media (max-width:576px) 
+{
+    #mezek img.card-img-top{
+        margin: auto;
+        max-width: 60%;
+    }
+    #mezek div.row{
+        max-width: 80%;
+        margin: auto;
+    }
+  
+    .container.box{
+    
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container{
+        padding: 1rem;
+    }
+    div.trophy h1{
+        font-size: 1.6rem;
+    }
+    div.trophy h1 b{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:1200px) {
+    .navbar-brand .logo{
+        width: 100%;
+    }
+    .navbar-nav .nav-link{
+        font-size: 1.2rem !important;
+    }
+    
+    .playersList li{
+        font-size: 1rem;
+        padding: 0.2rem;
+    }
+    ul.playersList h2{
+        padding-bottom:0.5rem;
+        padding-top: 0.5rem;
+        font-size: 1.5rem !important;
+    }
+
+    section#prime h2{
+        font-size: 1.5rem;
+    }
+
+    
+}
+

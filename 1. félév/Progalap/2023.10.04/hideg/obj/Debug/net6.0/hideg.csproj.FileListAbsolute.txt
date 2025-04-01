@@ -1,0 +1,14 @@
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\bin\Debug\net6.0\hideg.exe
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\bin\Debug\net6.0\hideg.deps.json
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\bin\Debug\net6.0\hideg.runtimeconfig.json
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\bin\Debug\net6.0\hideg.dll
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\bin\Debug\net6.0\hideg.pdb
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\obj\Debug\net6.0\hideg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\obj\Debug\net6.0\hideg.AssemblyInfoInputs.cache
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\obj\Debug\net6.0\hideg.AssemblyInfo.cs
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\obj\Debug\net6.0\hideg.csproj.CoreCompileInputs.cache
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\obj\Debug\net6.0\hideg.dll
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\obj\Debug\net6.0\refint\hideg.dll
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\obj\Debug\net6.0\hideg.pdb
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\obj\Debug\net6.0\hideg.genruntimeconfig.cache
+C:\Users\a7mmz1\Desktop\2023.10.04\hideg\obj\Debug\net6.0\ref\hideg.dll

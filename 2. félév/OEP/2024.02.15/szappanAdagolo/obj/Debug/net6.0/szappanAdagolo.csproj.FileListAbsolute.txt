@@ -1,0 +1,14 @@
+C:\Users\User\Downloads\szappanAdagolo\bin\Debug\net6.0\szappanAdagolo.exe
+C:\Users\User\Downloads\szappanAdagolo\bin\Debug\net6.0\szappanAdagolo.deps.json
+C:\Users\User\Downloads\szappanAdagolo\bin\Debug\net6.0\szappanAdagolo.runtimeconfig.json
+C:\Users\User\Downloads\szappanAdagolo\bin\Debug\net6.0\szappanAdagolo.dll
+C:\Users\User\Downloads\szappanAdagolo\bin\Debug\net6.0\szappanAdagolo.pdb
+C:\Users\User\Downloads\szappanAdagolo\obj\Debug\net6.0\szappanAdagolo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\szappanAdagolo\obj\Debug\net6.0\szappanAdagolo.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\szappanAdagolo\obj\Debug\net6.0\szappanAdagolo.AssemblyInfo.cs
+C:\Users\User\Downloads\szappanAdagolo\obj\Debug\net6.0\szappanAdagolo.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\szappanAdagolo\obj\Debug\net6.0\szappanAdagolo.dll
+C:\Users\User\Downloads\szappanAdagolo\obj\Debug\net6.0\refint\szappanAdagolo.dll
+C:\Users\User\Downloads\szappanAdagolo\obj\Debug\net6.0\szappanAdagolo.pdb
+C:\Users\User\Downloads\szappanAdagolo\obj\Debug\net6.0\szappanAdagolo.genruntimeconfig.cache
+C:\Users\User\Downloads\szappanAdagolo\obj\Debug\net6.0\ref\szappanAdagolo.dll

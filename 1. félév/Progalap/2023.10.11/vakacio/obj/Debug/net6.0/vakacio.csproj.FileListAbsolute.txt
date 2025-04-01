@@ -1,0 +1,14 @@
+C:\Users\a7mmz1\Desktop\vakacio\bin\Debug\net6.0\vakacio.exe
+C:\Users\a7mmz1\Desktop\vakacio\bin\Debug\net6.0\vakacio.deps.json
+C:\Users\a7mmz1\Desktop\vakacio\bin\Debug\net6.0\vakacio.runtimeconfig.json
+C:\Users\a7mmz1\Desktop\vakacio\bin\Debug\net6.0\vakacio.dll
+C:\Users\a7mmz1\Desktop\vakacio\bin\Debug\net6.0\vakacio.pdb
+C:\Users\a7mmz1\Desktop\vakacio\obj\Debug\net6.0\vakacio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a7mmz1\Desktop\vakacio\obj\Debug\net6.0\vakacio.AssemblyInfoInputs.cache
+C:\Users\a7mmz1\Desktop\vakacio\obj\Debug\net6.0\vakacio.AssemblyInfo.cs
+C:\Users\a7mmz1\Desktop\vakacio\obj\Debug\net6.0\vakacio.csproj.CoreCompileInputs.cache
+C:\Users\a7mmz1\Desktop\vakacio\obj\Debug\net6.0\vakacio.dll
+C:\Users\a7mmz1\Desktop\vakacio\obj\Debug\net6.0\refint\vakacio.dll
+C:\Users\a7mmz1\Desktop\vakacio\obj\Debug\net6.0\vakacio.pdb
+C:\Users\a7mmz1\Desktop\vakacio\obj\Debug\net6.0\vakacio.genruntimeconfig.cache
+C:\Users\a7mmz1\Desktop\vakacio\obj\Debug\net6.0\ref\vakacio.dll

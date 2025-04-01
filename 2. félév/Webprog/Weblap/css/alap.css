@@ -1,0 +1,187 @@
+body{
+    padding-bottom: 50px;
+    background-color: aquamarine;
+}
+
+p{
+    text-align: justify;
+}
+
+main, header, footer {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+main{
+    margin-top: 3rem;
+}
+
+footer {
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h1#top{
+    font-size: 5rem;
+    font-variant: small-caps;
+}
+
+h2{
+    border-top: solid 2px;
+    background-color: lightgray;
+}
+
+figcaption{
+    text-align: center;
+}
+
+section{
+    padding: 0 1rem 0 1rem;
+}
+
+.active{
+    font-weight: bold;
+}
+
+hr{
+    border: solid 1px;
+    opacity: 80%;
+}
+
+article{
+    margin: 3rem 0 3rem 0;
+}
+
+article.b{
+    margin-top: 0;
+}
+
+div.row.t{
+    width: 50%;
+    min-width: fit-content;
+}
+
+.nav-item {
+    min-width: fit-content;
+    font-size: 1.5rem;
+}
+
+a:link:not(.nav-link, .btn){
+    color: #3344dd;
+}
+a:visited:not(.nav-link, .btn){
+    color: #884488;
+}
+
+article#list ul{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+ul.cats{
+    padding-top: 1rem;
+}
+
+form{
+    padding: 1rem;
+}
+
+label#type{
+    padding-top: 0;
+    padding-left: 1.5rem;
+}
+
+#backgrounded{
+    background-image: url("../képek/minecraft_logo.png"), url("../képek/minecraft_logo.png");
+    background-position: right, left;
+    background-repeat: repeat-y, repeat-y;
+    background-size: 100px;
+}
+
+table {
+    caption-side: top;
+    border-collapse: collapse;
+}
+
+caption, details{
+    text-align: center;
+}
+
+.breadcrumb{
+    margin-bottom: 0;
+}
+
+#ul{
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+
+#linkAndComments{
+    height: 200px;
+}
+
+#aside{
+    margin-top: 3rem
+}
+
+a#normalbetu
+{
+    display: none;
+}
+a#nagybetu{
+    display: inline;
+}
+
+.switcher{
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+#logoLarge{
+    display: none;
+}
+
+@media print {
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: white;
+    }
+
+    a:not(.cap):after {
+        content: "(" attr(href) ")";
+    }
+    
+    main{
+        margin: 0;
+        width: 100%;
+    }
+
+    h1, h2{
+        background-color: white;
+        font-weight: bold;
+    }
+    
+    #backgrounded{
+        background-image: none;
+    }
+    
+    img{
+        width: 200px;
+        height: 200px;
+    }
+
+    div.row.t{
+        width: fit-content
+    }
+
+    .d-print-table-row{
+        border-bottom: solid 1px;
+    }
+}

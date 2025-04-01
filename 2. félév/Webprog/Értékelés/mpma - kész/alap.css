@@ -1,0 +1,291 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffffcc, #ffffff);
+    font-size: 1em;
+}
+section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+div {
+    margin-bottom: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+video {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+
+nav {
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 10px 0;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0099ff; 
+}
+
+.navbar-nav {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: green; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: darkgreen;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.text-section,
+.table-section {
+    flex: 1;
+}
+
+.table {
+    width: 100%;
+}
+
+.table th,
+.table td {
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    font-weight: normal;
+    text-align: left;
+}
+
+.table td {
+    padding: 10px 0;
+}
+
+.video-container {
+    margin-top: 20px;
+    width: 60%;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.image {
+    max-width: 300px; 
+    margin: 0 auto; 
+}
+.image img {
+
+    width: 100%; 
+    display: block; 
+    border: 3px solid #ddd; 
+    border-radius: 5px;
+}
+p {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+
+}
+.content-wrapper {
+            max-width: 1000px; 
+            margin: 0 auto; 
+            padding: 0 20px; 
+}
+
+
+@media (max-width: 575.98px) {
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+    .content-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .content-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+
+.img-fluid,
+.ratio {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.carousel-caption {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text-with-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.figure {
+    flex-basis: 45%;
+    margin: 0;
+}
+.figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+.text {
+    max-width: 45%; 
+}
+
+.image {
+    max-width: 45%;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+a:visited {
+    color: #007bff;
+}
+
+a:link {
+    color: purple;
+}
+
+form {
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('./media/water.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    
+}
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip-link:focus {
+    left: auto;
+    top: auto;
+    width: auto;
+    height: auto;
+    overflow: auto;
+}
+
+.text p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: #f8f9fa; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media print {
+    header, nav, .navbar-collapse, aside, .ratio-16x9 {
+        display: none !important;
+    }
+
+    img {
+        max-width: 50% !important;
+    }
+
+    .skip-link {
+        position: static !important;
+        left: auto !important;
+        top: auto !important;
+        width: auto !important;
+        height: auto !important;
+        overflow: auto !important;
+    }
+
+    p, h2 {
+        page-break-inside: avoid;
+        color: #000 !important; 
+    }
+}

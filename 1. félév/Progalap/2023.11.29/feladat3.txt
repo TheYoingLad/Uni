@@ -1,0 +1,39 @@
+Speci:
+
+https://progalap.elte.hu/specifikacio/?data=H4sIAAAAAAAACrVPQWqEQBD8SjOnFUZBQi4NBpQklwQP2SQX9TDqCAM6uzijCMve9yt5R36Sl6R73ew1ueRWVVNdNXUQbq8b05lGebOzAkWmEezX6ZRLUOPkCKVFHEW2kpAmuZ5hgVezn5wEJgls5cqTbTmW9skgtDWfM3ucEeZd7wc1IuTh3bP8oZsloNv3NN%2BYhNKXMF7rClNFnuPo9cyXCw8476FDCBm8dVxDnvv0Jc3WDCvB6uFaYIJASOG1805gcRCt8ormWYRbTuBwZAAQ0h19tBTZ50evSrGqAOde1q%2Far876H5zNn50Xra0Rbmi7VYOmxYRG7abeC4yP1fEb3rnJd%2FIBAAA%3D
+
+Be: n∈N, arus∈A[1..n], A=Nev x Tipus, Nev = S, Tipus=S
+Ki: db∈N
+Fv: voltmar: N->L, voltmar(x) = VAN(i=1..x-1, arus[i].tipus = arus[x].tipus)
+Ef: -
+Uf: db = DARAB(i=1..n, nem voltmar(i))
+
+
+VV:
+
+DARAB:
+e..u	~	1..n
+T(i)	~	nem voltmar(i)
+
+VAN:
+e..u	~	1..x-1
+T(i)	~	arus[i].tipus = arus[x].tipus
+
+
+Algo:
+
+db:=0
+FOR:i=1..f
+IF:nem voltmar(i)
+db:=db+1
+ENDIF:
+ENDFOR:
+
+#voltmar(x:Egész):Logikai
+#Változó i:Egész, van:Logikai
+i:=1
+FOR:i<=x-1 és nem arus[i].tipus=arus[x].tipus
+i:=i+1
+ENDFOR:
+van:=i<=x-1
+voltmar:=van

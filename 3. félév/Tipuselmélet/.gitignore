@@ -1,0 +1,9 @@
+*~
+*.agdai
+*.html
+src/removeAgdai.bat
+src/3/proba.agda
+src/Proba.agda
+src/PropProba.agda
+src/Loop.agda
+Proba.agda

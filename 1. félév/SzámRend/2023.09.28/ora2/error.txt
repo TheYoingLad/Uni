@@ -1,0 +1,1 @@
+-bash: cd: anyad: Nincs ilyen fájl vagy könyvtár

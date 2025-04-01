@@ -1,0 +1,29 @@
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\bin\Debug\net6.0\esos.exe
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\bin\Debug\net6.0\esos.deps.json
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\bin\Debug\net6.0\esos.runtimeconfig.json
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\bin\Debug\net6.0\esos.dll
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\bin\Debug\net6.0\esos.pdb
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\obj\Debug\net6.0\esos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\obj\Debug\net6.0\esos.AssemblyInfoInputs.cache
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\obj\Debug\net6.0\esos.AssemblyInfo.cs
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\obj\Debug\net6.0\esos.csproj.CoreCompileInputs.cache
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\obj\Debug\net6.0\esos.dll
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\obj\Debug\net6.0\refint\esos.dll
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\obj\Debug\net6.0\esos.pdb
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\obj\Debug\net6.0\esos.genruntimeconfig.cache
+C:\Users\a7mmz1\Desktop\2023.10.04\esos\obj\Debug\net6.0\ref\esos.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\bin\Debug\net6.0\esos.exe
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\bin\Debug\net6.0\esos.deps.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\bin\Debug\net6.0\esos.runtimeconfig.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\bin\Debug\net6.0\esos.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\bin\Debug\net6.0\esos.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\obj\Debug\net6.0\esos.csproj.AssemblyReference.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\obj\Debug\net6.0\esos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\obj\Debug\net6.0\esos.AssemblyInfoInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\obj\Debug\net6.0\esos.AssemblyInfo.cs
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\obj\Debug\net6.0\esos.csproj.CoreCompileInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\obj\Debug\net6.0\esos.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\obj\Debug\net6.0\refint\esos.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\obj\Debug\net6.0\esos.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\obj\Debug\net6.0\esos.genruntimeconfig.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\esos\obj\Debug\net6.0\ref\esos.dll

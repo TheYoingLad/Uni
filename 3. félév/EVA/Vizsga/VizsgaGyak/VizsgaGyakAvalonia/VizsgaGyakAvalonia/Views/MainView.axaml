@@ -1,0 +1,60 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:VizsgaGyakAvalonia.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1200" d:DesignHeight="600"
+			 Width="1050" Height="530"
+             x:Class="VizsgaGyakAvalonia.Views.MainView"
+             x:DataType="vm:InvasionViewModel"
+			 >
+	<Design.DataContext>
+		<!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+		<vm:InvasionViewModel />
+	</Design.DataContext>
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Grid Grid.Row="0">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+			<Label Grid.Column="0" Content="Time:"/>
+			<Label Grid.Column="1" Content="{Binding GameTime}" Margin="0, 0, 30, 0"/>
+			<Label Grid.Column="2" Content="Health:"/>
+			<Label Grid.Column="3" Content="{Binding HP}" Margin="0, 0, 30, 0"/>
+			<Label Grid.Column="4" Content="Soldiers remaining:"/>
+			<Label Grid.Column="5" Content="{Binding Placeable}"/>
+			<Button Grid.Column="6" Content="{Binding PauseButtonText}" HorizontalAlignment="Right" Command="{Binding PauseResume}"/>
+		</Grid>
+		<Grid Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			<ItemsControl Grid.Column="0" ItemsSource="{Binding Map}" Margin="0, 0, 5, 0">
+				<ItemsControl.ItemsPanel>
+					<ItemsPanelTemplate>
+						<UniformGrid Rows="{Binding Rows}" Columns="{Binding Cols}"/>
+					</ItemsPanelTemplate>
+				</ItemsControl.ItemsPanel>
+				<ItemsControl.ItemTemplate>
+					<DataTemplate>
+						<Button Background="White" Content="{Binding Text}" BorderThickness="1" BorderBrush="Black" Height="50" Width="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+			<Label Grid.Column="1" Background="Gray" Width="50" HorizontalAlignment="Right"/>
+		</Grid>
+	</Grid>
+</UserControl>

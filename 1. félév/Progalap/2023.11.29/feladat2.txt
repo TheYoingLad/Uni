@@ -1,0 +1,43 @@
+Speci:
+
+https://progalap.elte.hu/specifikacio/?data=H4sIAAAAAAAACmVPy2rDMBD8lUUnG5RgJfiy1AGHPigpKZS2F0cHObZAcaOW2C02IdDe%2FF%2F9k3xJtXbiQnvR7szuzKz2rHzL10abtarMq2XI5jmCPbbtkoPuS2ZUQV0ixmPLwb1acuio1W5lFwYhS%2FvV5ryXpZJm1x8IW1VrXMJoBm6BgFf7EMFl%2FBDPPRORXZ%2BR1NzISAQ%2BKa80wrH9NM6wy5XoObg5Qe1gJzF8Iy9I04menMjLUt5QwOL2%2Bfvr7v4mfuxT7Cnd%2BLOo4GB8xlmVl1XJMNmzTFXK%2Fd4ihOTkjKZUKQSpARhBIgIOEw6hHJjpX0J0hAh%2BmX%2BagObDToEw6ZJSBEFNM%2BSF7kKrtrm7y3W7vHx%2FqRiKgzz8ABK9Qbm3AQAA
+
+Be: n∈N, f∈N, diak∈N[1..n, 1..f], k∈N
+Ki: db∈N, y∈N[1..db]
+Fv: maxf:N -> N, maxf(x) = DARAB(i=1..f, diak[x,i]=10)
+Ef: ∀i∈[1..n]:(∀j∈[1..f]:(diak[i,j]<=10))
+Uf: (db,y) = KIVÁLOGAT(i=1..n, maxf(i)>=k, i)
+
+
+VV:
+
+KIVÁLOGAT:
+e..u	~	1..n
+T(i)	~	maxf(i)>=k
+f(i)	~	i
+
+DARAB:
+
+e..u	~	1..f
+T(i)	~	diak[x,i]=10
+
+
+Algo:
+
+db:=0
+FOR:i=1..n
+IF:maxf(i)>=k
+db:=db+1
+y[db]:=i
+ENDIF:
+ENDFOR:
+
+#maxf(x:Egész):Egész
+#Változó i,db:Egész
+db:=0
+FOR:i=1..f
+IF:diak[x,i]=10
+db:=db+1
+ENDIF:
+ENDFOR:
+maxf:=db

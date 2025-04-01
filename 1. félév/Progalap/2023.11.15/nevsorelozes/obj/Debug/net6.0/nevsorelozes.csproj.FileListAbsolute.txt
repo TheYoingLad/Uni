@@ -1,0 +1,14 @@
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\bin\Debug\net6.0\nevsorelozes.exe
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\bin\Debug\net6.0\nevsorelozes.deps.json
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\bin\Debug\net6.0\nevsorelozes.runtimeconfig.json
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\bin\Debug\net6.0\nevsorelozes.dll
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\bin\Debug\net6.0\nevsorelozes.pdb
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\obj\Debug\net6.0\nevsorelozes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\obj\Debug\net6.0\nevsorelozes.AssemblyInfoInputs.cache
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\obj\Debug\net6.0\nevsorelozes.AssemblyInfo.cs
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\obj\Debug\net6.0\nevsorelozes.csproj.CoreCompileInputs.cache
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\obj\Debug\net6.0\nevsorelozes.dll
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\obj\Debug\net6.0\refint\nevsorelozes.dll
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\obj\Debug\net6.0\nevsorelozes.pdb
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\obj\Debug\net6.0\nevsorelozes.genruntimeconfig.cache
+C:\Users\a7mmz1\Desktop\2023.11.15\nevsorelozes\obj\Debug\net6.0\ref\nevsorelozes.dll

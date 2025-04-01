@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaserPigsGame.Avalonia", "LaserPigsGame.Avalonia\LaserPigsGame.Avalonia.csproj", "{35001FF8-B317-4550-A6CE-50AB2EC7873A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaserPigsGame.Avalonia.Android", "LaserPigsGame.Avalonia.Android\LaserPigsGame.Avalonia.Android.csproj", "{FF56FF65-947E-49CC-912D-FCD4ED66733F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaserPigsGame.Avalonia.Desktop", "LaserPigsGame.Avalonia.Desktop\LaserPigsGame.Avalonia.Desktop.csproj", "{F940E6F1-C519-411D-B9FD-2BB4C1A778E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaserPigs.Test", "LaserPigs.Test\LaserPigs.Test.csproj", "{4F73794D-EB15-4709-9C94-0AD45C0AC6FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaserPigs", "LaserPigs\LaserPigs.csproj", "{EECB8F0F-6661-49EC-AAAE-5D188BA4DA59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35001FF8-B317-4550-A6CE-50AB2EC7873A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35001FF8-B317-4550-A6CE-50AB2EC7873A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35001FF8-B317-4550-A6CE-50AB2EC7873A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35001FF8-B317-4550-A6CE-50AB2EC7873A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF56FF65-947E-49CC-912D-FCD4ED66733F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF56FF65-947E-49CC-912D-FCD4ED66733F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF56FF65-947E-49CC-912D-FCD4ED66733F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FF56FF65-947E-49CC-912D-FCD4ED66733F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF56FF65-947E-49CC-912D-FCD4ED66733F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF56FF65-947E-49CC-912D-FCD4ED66733F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F940E6F1-C519-411D-B9FD-2BB4C1A778E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F940E6F1-C519-411D-B9FD-2BB4C1A778E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F940E6F1-C519-411D-B9FD-2BB4C1A778E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F940E6F1-C519-411D-B9FD-2BB4C1A778E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F73794D-EB15-4709-9C94-0AD45C0AC6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F73794D-EB15-4709-9C94-0AD45C0AC6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F73794D-EB15-4709-9C94-0AD45C0AC6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F73794D-EB15-4709-9C94-0AD45C0AC6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EECB8F0F-6661-49EC-AAAE-5D188BA4DA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EECB8F0F-6661-49EC-AAAE-5D188BA4DA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EECB8F0F-6661-49EC-AAAE-5D188BA4DA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EECB8F0F-6661-49EC-AAAE-5D188BA4DA59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

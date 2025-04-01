@@ -1,0 +1,13 @@
+ls -A | wc -l
+
+ls -lA | grep "^d" | tr -s " " | cut -d" " -f9
+
+who | cut -d" " -f1
+
+cat lorem.txt | tr -s '\n' | sort
+
+cat loremc.txt | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ > abc.txt
+
+cat lorem.txt | grep ^alma$ | wc -l
+
+cat lorem.txt | grep -E "(^|\s)-?[0-9]+(\s|$)"

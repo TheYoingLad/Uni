@@ -1,0 +1,8 @@
+Falánk o v 100
+a e b
+b e b
+c e b
+d e b
+e e b
+f e b
+g e b

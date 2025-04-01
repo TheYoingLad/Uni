@@ -1,0 +1,15 @@
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\bin\Debug\net6.0\atlagtolValoLegnagyobbElteres.exe
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\bin\Debug\net6.0\atlagtolValoLegnagyobbElteres.deps.json
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\bin\Debug\net6.0\atlagtolValoLegnagyobbElteres.runtimeconfig.json
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\bin\Debug\net6.0\atlagtolValoLegnagyobbElteres.dll
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\bin\Debug\net6.0\atlagtolValoLegnagyobbElteres.pdb
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\obj\Debug\net6.0\atlagtolValoLegnagyobbElteres.csproj.AssemblyReference.cache
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\obj\Debug\net6.0\atlagtolValoLegnagyobbElteres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\obj\Debug\net6.0\atlagtolValoLegnagyobbElteres.AssemblyInfoInputs.cache
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\obj\Debug\net6.0\atlagtolValoLegnagyobbElteres.AssemblyInfo.cs
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\obj\Debug\net6.0\atlagtolValoLegnagyobbElteres.csproj.CoreCompileInputs.cache
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\obj\Debug\net6.0\atlagtolValoLegnagyobbElteres.dll
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\obj\Debug\net6.0\refint\atlagtolValoLegnagyobbElteres.dll
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\obj\Debug\net6.0\atlagtolValoLegnagyobbElteres.pdb
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\obj\Debug\net6.0\atlagtolValoLegnagyobbElteres.genruntimeconfig.cache
+C:\Users\golyh\Desktop\atlagtolValoLegnagyobbElteres\obj\Debug\net6.0\ref\atlagtolValoLegnagyobbElteres.dll

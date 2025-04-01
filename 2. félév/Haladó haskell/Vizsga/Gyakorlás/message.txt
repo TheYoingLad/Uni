@@ -1,0 +1,150 @@
+Funkcionális Nyelvek Vizsga (2024.05.22. 12:00 - 14:30)
+A feladatsor megoldására 2.5 óra áll rendelkezésre. Külső segítség és kollaboráció nem megengedett. A megoldást akárhányszor be lehet küldeni, az utolsó megoldás számít. Részpontszám kapható minden feladatra. A leírás végén megtaláljátok a teljes Haskell fájlt, amit ki kell egészíteni és feltölteni.
+
+Akinek meg van a 28 pontja a gyakorlati számonkérésekből, annak a +1 jegyet automatikusan beszámoljuk, ha a vizsga legalább az eléséges határt eléri.
+
+Ponthatárok
+2: 15 - 17
+3: 18 - 21
+4: 22 - 25
+5: 26 - 30
+Datás feladatok (10 pont)
+data BiList a b = BiNil | BiCons a b (BiList a b) | ACons a (BiList a b) | BCons b (BiList a b) deriving (Eq, Show)
+Írjunk a fenti típusra (algoritmikusan generálható) Functor, Foldable és Traversable instance-ot! (5 = 1 + 2 + 2 pont)
+
+deriving semmilyen formában nem használható.
+
+A tesztek során használt példányok:
+
+b1 :: BiList Double Int
+b1 = BiCons 1.0 1 $ ACons 2.0 $ BCons 2 BiNil
+
+b2 :: BiList Bool Char
+b2 = BCons 'h' $ BCons 'e' $ BCons 'l' $ BCons 'l' $ BCons 'o' $ BCons ' ' $ BCons 'w' $ BCons 'o' $ BCons 'r' $ BCons 'l' $ BCons 'd' BiNil
+
+b3 :: BiList Bool Bool
+b3 = BiCons False True $ b3
+
+b4 :: BiList Int Bool
+b4 = ACons 4 BiNil
+Tesztek:
+
+-- Functor tesztek
+fmap (+1) b1 == (BiCons 1.0 2 $ ACons 2.0 $ BCons 3 BiNil)
+undefined <$ b4 == b4
+-- Foldable tesztek
+sum b1 == 3
+sum (fmap (+1) b1) == 5
+or b3
+and b4
+toList b2 == "hello world"
+-- Traversable tesztek
+traverse (\x -> if x >= 1 then Just (x + 1) else Nothing) b1 == Just (fmap (+1) b1)
+traverse (\x -> if x > 1 then Just (x + 1) else Nothing) b1 == Nothing
+Definiáljuk a mapL és foldL függvényeket, amely a Functor és Foldable típusosztályok fmap és foldMap műveleteit végzik el a baloldali típusparaméteren. (1 + 1 pont)
+
+mapL :: (a -> b) -> BiList a c -> BiList b c
+foldL :: Monoid m => (a -> m) -> BiList a b -> m
+
+mapL = undefined
+foldL = undefined
+Tesztek:
+
+getSum (foldL Sum b1) == 3.0
+getProduct (foldL Product b1) == 2.0
+mapL (\_ -> undefined) b2 == b2
+mapL (*2) b4 == ACons 8 BiNil
+Definiáljuk a printLR függvényt, amely először kiírja egy BiList összes a típusú elemét, majd az összes b típusú elemét. (3 pont)
+
+printLR :: (Show a, Show b) => BiList a b -> IO ()
+A printLR b1 standard kimenetre írt tartalma:
+
+1.0 2.0
+1 2
+Monád transzformeres feladatok (10 pont)
+A feladatok során használt monád transzformer felépíthető típusosztályok használatával vagy a teljes monád stack előre definiálásával.
+
+Modellezzünk egy gyárat monádok segítségével! Azt szeretnénk ha a monád az alábbiakra lenne képes:
+
+Legyen egy [String] típusú írási környezete (ez a legyártott termékek nevei)
+Legyen képes IO műveletek elvégzésére (monád stack legalja IO vagy a MonadIO típusosztály segítségével)
+Legyen egy [String] típusú állapotváltozási környezete (ez az erőforrások listája)
+Legyen egy FactoryError típusú hibakezelési környezet (ez lesz a működési hibák)
+A FactoryError típusnak egy konstruktora legyen: NotEnoughResources, amelynek egy String típusú paramétere van, amely a hiányos erőforrást jelzi. A típusra generáljuk Eq és Show instance-ot deriving segítségével!
+
+(3 pont)
+
+Az alábbi műveletet használjuk a tesztek során.
+
+runFactory factoryMonad initialState = runExceptT $ runWriterT $ runStateT factoryMonad initialState
+Definiáljuk a create függvényt, amely egy terméknevet (String) és egy erőforrás listát ([String]) kap paraméterül.
+
+Ha egy erőforrás szerepel az állapot listában, akkor hagyjuk el 1 db elemét annak, majd próbáljuk meg ezt a többi erőforrással is.
+Ha egy erőforrás nem szerepel az állapot listában, dobjunk FactoryError-t az erőforrás nevével.
+Ha minden szükséges erőforrásra elvégeztük a fenti műveletet és nem dobtunk errort, írjuk az írási környezetbe a termék nevét.
+A függvénynek ne legyen eredménye. (4 pont)
+
+Tesztek (konzolra írt szöveg, nem == vizsgálat):
+
+runFactory (create "Chair" ["Wood"]) [] >>= print 
+===
+Left (NotEnoughResources "Wood")
+
+runFactory (create "Chair" ["Wood"]) ["Wood"] >>= print
+===
+Right (((), []), ["Chair"])
+
+runFactory (create "Table" ["Wood", "Spoon"]) ["Spoon", "Fork", "Spoon", "Wood"] >>= print
+===
+Right (((), ["Fork", "Spoon"]), ["Table"])
+Definiáljuk a whichMultiBuilt függvényt, amely gyár monád típusú, eredménynélküli műveletet (w (), ahol w a gyár monád típusa) kap paraméterül. A függvény írja ki a konzolra azokat a termékeket, amelyeket a paraméterül kapott művelet többször gyártott le. A függvény térjen vissza egy számmal, amely a duplikált termékek száma. (3 pont)
+
+Tesztek (konzolra írt szöveg, nem == vizsgálat):
+
+runFactory (whichMultiBuilt $ create "Chair" [] >> create "Chair" []) [] >>= print
+===
+Chair
+Right ((1, []), ["Chair", "Chair"])
+
+runFactory (whichMultiBuilt $ create "Table" [] >> create "Table" [] >> create "Chair" [] >> create "Table" []) [] >>= print
+===
+Table
+Right ((2, []), ["Table", "Table", "Chair", "Table"])
+
+runFactory (whichMultiBuilt $ create "Table" [] >> create "Table" [] >> create "Chair" [] >> create "Table" [] >> create "Chair" []) [] >>= print
+===
+Table
+Chair
+Right ((3, []), ["Table", "Table", "Chair", "Table", "Chair"])
+Parser Interpreter feladatok (10 pont)
+Egészítsük ki a nyelvet hibakezeléssel.
+
+Parser (5 pont)
+Adjunk a szintaxishoz Try :: [Statement] -> [Statement] -> Statement és Throw :: String -> Statement állításokat! (0.5 pont)
+Vegyük fel a try, catch és throw kulcsszavakat a kulcszavak listájához! (0.5 pont)
+A Throw szintaxisa kezdődjön egy throw kulcsszóval, majd utána tetszőleges szöveg macskakörmök (') között (ez a konstruktor paramétere)! (1 pont)
+A macskakörmök között lévő szöveg tartalmazhasson kulcsszavakat! (0.5 pont)
+A Try szintaxisa kezdődjön a try kulcsszóval, egy programmal (első konstruktor paraméter), majd egy end kulcsszóval. A második paraméter legyen konstans []! (1.5 pont)
+A Try szintaxisában az end helyett lehessen (de ne legyen kötelező) egy catch kulcsszó, amely után mégegy programot vár (második konstruktor paraméter), majd utána egy end kulcsszót. (1 pont)
+Tesztek:
+
+runParser program "throw 'x';" == Right ([Throw "x"],"")
+runParser program "throw 'x'; throw 'this will never execute';" == Right ([Throw "x",Throw "this will never execute"],"")
+runParser statement "throw := 1" == Left "statement: no statement matched"
+runParser program "try throw 'x'; end;" == Right ([Try [Throw "x"] []],"")
+runParser program "try throw 'x'; catch throw 'y'; x := x + 1; end;" == Right ([Try [Throw "x"] [Throw "y",Assign "x" (Var "x" :+ IntLit 1)]],"")
+Interpreter (5 pont)
+Adjunk az interpreterhibák típusához egy UserError hibát, amelynek egy message nevű String típusú paramétere van! (1 pont)
+A Throw kiértékeléskor dobjon egy egy UserError hibát az adott üzenettel! (1 pont)
+A Try kiértékeléskor futassa le az első paraméterében kapott programot és kapjon el benne akármilyen interpreterhibát! (1 pont)
+Ha a Try blokk elkapott valami hibát, akkor futassuk le a második paraméterben lévő programot! (0.5 pont)
+A Try művelet két alblokkja legyen scope szempontjából zárt! (1.5 pont)
+Tesztek:
+
+run "try throw 'x'; end;" == []
+run "try x := 1 / 0; end;" == []
+run "try x := x; end;" == []
+runSafe "throw 'x';" == Left "x"
+run "x := 1; try x := 2; y := 1; end;" == [("x",VInt 2)]
+run "x := 1; try x := 2; y := 1; catch x := 3; z := 1; end;" == [("x",VInt 2)]
+run "a := 1; x := 1; try throw 'almafa'; x := 2; y := 1; catch a := 3; z := 1; end;" == [("a",VInt 3),("x",VInt 1)]

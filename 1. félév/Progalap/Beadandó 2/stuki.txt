@@ -1,0 +1,14 @@
+#Változó s:Egész
+s:=0
+FOR:i=1..adb-1
+s:=s+vonaton(i)
+ENDFOR:
+gazd:=s*u>(adb-1)*v
+
+#vonaton(x:Egész):Egész
+#Változó: s,i:Egész
+s:=0
+FOR:i=1..x
+s:=s+all[i].fel-all[i].le
+ENDFOR:
+vonaton:=s

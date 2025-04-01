@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/alap.css" title="alap">
+    <link rel="alternate stylesheet" type="text/css" href="css/nagybetus.css" title="nagy">
+    <script type="text/javascript" src="scripts/styleswitcher.js"></script>
+    <title>GUIDEz - Home</title>
+  </head>
+<body>
+  <nav id="skiptocontens">
+    <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+  </nav>
+  <header class="d-print-none">
+    <nav class="navbar navbar-expand-md bg-body-secondary border border-secondary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" id="logo">
+          <img src="képek/logo_transparent.png" alt="Guidez logo" height="60" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <nav aria-label="breadcrumb navbar-nav me-auto mb-2 mb-md-0">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"></li>
+              <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+          </nav>
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="games.html">Games</a></li>
+            <li class="nav-item"><a class="nav-link" href="submit.html">Submit</a></li>
+            <li class="nav-item border rounded border-dark">
+              <a class="nav-link switcher" id="nagybetu" href="#" onclick="setActiveStyleSheet('nagy'); return false;">FONT+</a>
+              <a class="nav-link switcher" id="normalbetu" href="#" onclick="setActiveStyleSheet('alap'); return false;">FONT-</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <img class="img-fluid" src="képek/logo_transparent.png" alt="Guidez logo large" id="logoLarge">
+  </header>
+  <main id="content">
+    <div class="container-fluid">
+      <section id="introduction">
+        <div class="row"><h1 id="top">Home</h1></div>
+        <article id="welcome">
+          <div class="row t"><h2>Welcome</h2></div>
+          <div class="row"><p>Welcome to the <b>GUIDEz</b> website, where you will find every important guide for all your favourite games. The website is still in development so only one game has guides available.</p></div>
+        </article>
+        <article id="aboutme">
+          <div class="row t"><h2>About Me</h2></div>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-8"><p>My name is <span lang="hu"><b>Gergő Golyha</b></span> and I am a first year <abbr title="Computer Sciences">CS</abbr> student at <i><span lang="hu">Eötvös Loránd</span> University</i> in Budapest, Hungary. Gaming has always been a significant part of my life and my passion is still with me to this day, that's the reason why I'm working on this website.</p></div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <figure>
+                <a class="cap" href="képek/me.jpeg" title="Click to see full picture" target="_blank">
+                  <img src="képek/thumb/me.jpg" class="img-fluid d-block mx-auto img-thumbnail" alt="Picture of me"></a>
+                <figcaption class="figure-caption">Picture of me</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article id="allinone">
+          <div class="row t"><h2>All In One Place</h2></div>
+          <div class="row"><p>Throughout the years spent playing many games from many different genres, I've realized that I'm searching for the same obscure Reddit post about some mechanic or wiki page about drop chances more than I'd like to admit. I'd always end up with 15 different tabs open and 30 sites bookmarked, so I'd need to organize them into folders and subfolders and so on, but keeping track of them all would become quite the hassle.</p></div>
+          <div class="row"><p>This website aims to alleviate this issue of having to remember everything by archiving not just the links but the name and category of the guides that I, or anyone, would want to use later.</p></div>
+        </article>
+      </section>
+      <div class="row mx-auto w-75"><hr></div>
+      <section id="favourites">
+        <div class="row"><h1>My Favourites</h1></div>
+        <article id="minecraft">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <figure>
+                <img src="képek/minecraft.webp" class="img-fluid d-block mx-auto" alt="Minecraft banner">
+                <figcaption class="figure-caption">Minecraft banner</figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <div class="row t"><h2>Minecraft</h2></div>
+              <div class="row"><p><q><b>Minecraft</b> is a game made up of blocks, creatures, and community. You can survive the night or build a work of art - the choice is all yours. But if the thought of exploring a vast new world all on your own feels overwhelming, then fear not! Let's explore what <b>Minecraft</b> is all about!</q></p></div>
+              <div class="row"><p class="text-end"><cite>Source: <a href="https://www.minecraft.net/en-us/article/what-minecraft" target="_blank">Official Minecraft Website</a></cite></p></div>
+              <a id="ul" class="btn btn-primary float-end d-print-none" href="minecraft.html" role="button">GUIDEz Page</a>
+            </div>
+          </div>
+        </article>
+        <article id="warframe">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <figure>
+                <img src="képek/warframe.png" class="img-fluid d-block mx-auto" alt="Warframe banner">
+                <figcaption class="figure-caption">Warframe banner</figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <div class="row t"><h2>Warframe</h2></div>
+              <div class="row"><p><q>In <b>Warframe</b>, players control members of the <i>Tenno</i>, a race of ancient warriors who have awoken from centuries of suspended animation far into Earth's future to find themselves at war with different factions in the Origin System.</q></p></div>
+              <div class="row"><p class="text-end"><cite>Source: <a href="https://en.wikipedia.org/wiki/Warframe" target="_blank">Wikipedia</a></cite></p></div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <footer class="d-print-none">
+    &copy; 2024 Gergő Golyha
+    <nav>Contact me at: <a href="mailto:golyhagergo@gmail.com">golyhagergo@gmail.com</a></nav>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

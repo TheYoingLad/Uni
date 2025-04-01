@@ -1,0 +1,15 @@
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\bin\Debug\net6.0\tipp.exe
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\bin\Debug\net6.0\tipp.deps.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\bin\Debug\net6.0\tipp.runtimeconfig.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\bin\Debug\net6.0\tipp.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\bin\Debug\net6.0\tipp.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\obj\Debug\net6.0\tipp.csproj.AssemblyReference.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\obj\Debug\net6.0\tipp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\obj\Debug\net6.0\tipp.AssemblyInfoInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\obj\Debug\net6.0\tipp.AssemblyInfo.cs
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\obj\Debug\net6.0\tipp.csproj.CoreCompileInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\obj\Debug\net6.0\tipp.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\obj\Debug\net6.0\refint\tipp.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\obj\Debug\net6.0\tipp.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\obj\Debug\net6.0\tipp.genruntimeconfig.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\tipp\obj\Debug\net6.0\ref\tipp.dll

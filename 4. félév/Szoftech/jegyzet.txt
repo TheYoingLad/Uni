@@ -1,0 +1,18 @@
+Előadás:
+- git nem kell
+- nem kell mondani h ki a kövi
+- !!! NE LEGYEN ÖÖÖ-zés !!!
+- Kamera:
+ - mozgás, smoothing
+ - zoom, scaling
+ - boundary doboz
+Jeep, ranger:
+ - spawnolás
+ - pénz integráció
+ - kattintásra kirúgás
+
+TODO:
+- pénz felttelek, változás (van komment, ahol nincs ott legyen cost)
+- ranger behaviour
+- tile highlight építéskor, legyen ikon a cursor mellett
+- állat highlight (shader)

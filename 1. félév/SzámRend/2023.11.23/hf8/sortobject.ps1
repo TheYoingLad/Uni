@@ -1,0 +1,1 @@
+﻿Get-Service | Sort-Object -Property Status, Name 

@@ -1,0 +1,53 @@
+
+Preparation.
+    Required    : Java 17+
+    Recommended : Java 21
+
+    Download    : https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.10.2/junit-platform-console-standalone-1.10.2.jar
+    Rename it to: junit5all.jar
+
+    More details: JUnit 5 user guide: https://junit.org/junit5/docs/current/user-guide/
+
+Run structural/functional/suite tests like this.
+    Windows Command Prompt (either cmd or PowerShell):
+        .\check.bat time\TimeStructureTest.java time.TimeStructureTest
+        .\check.bat time\TimeTest.java time.TimeTest
+        .\check.bat time\TimeTestSuite.java time.TimeTestSuite
+
+    Linux/Mac: first, make the script executable:
+        chmod +x check*.sh
+    Then:
+        ./check.sh time/TimeStructureTest.java time.TimeStructureTest
+        ./check.sh time/TimeTest.java time.TimeTest
+        ./check.sh time/TimeTestSuite.java time.TimeTestSuite
+
+    To see more (rarely needed) options, run the script without parameters.
+
+; : ; : ; : ; : ; : ; : ; : ; : ; : ; : ; : ; : ; : ; : ; : ; : ; : ; : ; : ; : ; :
+
+Here is the expected output of the full suite.
+The failures are intentional. See the comments in Time.java for the trivial fixes.
+
+├─ JUnit Jupiter ✔
+└─ JUnit Platform Suite ✔
+   └─ TimeTestSuite ✔
+      └─ JUnit Platform Suite ✔
+         ├─ StructuralTests ✔
+         │  └─ JUnit Jupiter ✔
+         │     └─ TimeStructureTest ✔
+         │        ├─ constructor() ✔
+         │        ├─ fieldMin() ✔
+         │        ├─ fieldHour() ✘ Wrong return type for field Time.hour
+         │        └─ methodGetEarlier() ✔
+         └─ FunctionalTests ✔
+            └─ JUnit Jupiter ✔
+               └─ TimeTest ✔
+                  ├─ testGetHour() ✘ expected: <12.0> but was: <13.0>
+                  ├─ testGetMin() ✔
+                  ├─ testSetHour() ✘ expected: <12.0> but was: <13.0>
+                  ├─ testSetMin() ✔
+                  └─ testEarlier(int, int, int, int, int, int) ↷ Required structure is not OK: fieldHour
+
+Failures (3):
+   ...
+[5/8 tests successful] [3/8 tests failed]

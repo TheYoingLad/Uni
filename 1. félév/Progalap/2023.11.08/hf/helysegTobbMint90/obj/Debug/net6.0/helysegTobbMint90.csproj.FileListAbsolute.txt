@@ -1,0 +1,14 @@
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\bin\Debug\net6.0\helysegTobbMint90.exe
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\bin\Debug\net6.0\helysegTobbMint90.deps.json
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\bin\Debug\net6.0\helysegTobbMint90.runtimeconfig.json
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\bin\Debug\net6.0\helysegTobbMint90.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\bin\Debug\net6.0\helysegTobbMint90.pdb
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\obj\Debug\net6.0\helysegTobbMint90.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\obj\Debug\net6.0\helysegTobbMint90.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\obj\Debug\net6.0\helysegTobbMint90.AssemblyInfo.cs
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\obj\Debug\net6.0\helysegTobbMint90.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\obj\Debug\net6.0\helysegTobbMint90.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\obj\Debug\net6.0\refint\helysegTobbMint90.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\obj\Debug\net6.0\helysegTobbMint90.pdb
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\obj\Debug\net6.0\helysegTobbMint90.genruntimeconfig.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.11.08\hf\helysegTobbMint90\obj\Debug\net6.0\ref\helysegTobbMint90.dll

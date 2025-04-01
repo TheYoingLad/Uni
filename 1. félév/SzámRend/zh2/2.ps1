@@ -1,0 +1,1 @@
+﻿$input -replace "&lt;", "<" -replace "&gt;", ">" -replace "&amp;", "&" -replace "&quot;", '"' -replace "&apos;", "'"

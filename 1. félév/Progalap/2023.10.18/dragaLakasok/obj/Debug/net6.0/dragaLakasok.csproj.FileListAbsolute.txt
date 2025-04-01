@@ -1,0 +1,14 @@
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\bin\Debug\net6.0\dragaLakasok.exe
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\bin\Debug\net6.0\dragaLakasok.deps.json
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\bin\Debug\net6.0\dragaLakasok.runtimeconfig.json
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\bin\Debug\net6.0\dragaLakasok.dll
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\bin\Debug\net6.0\dragaLakasok.pdb
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\obj\Debug\net6.0\dragaLakasok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\obj\Debug\net6.0\dragaLakasok.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\obj\Debug\net6.0\dragaLakasok.AssemblyInfo.cs
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\obj\Debug\net6.0\dragaLakasok.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\obj\Debug\net6.0\dragaLakasok.dll
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\obj\Debug\net6.0\refint\dragaLakasok.dll
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\obj\Debug\net6.0\dragaLakasok.pdb
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\obj\Debug\net6.0\dragaLakasok.genruntimeconfig.cache
+C:\Users\User\Downloads\2023.10.18\dragaLakasok\obj\Debug\net6.0\ref\dragaLakasok.dll

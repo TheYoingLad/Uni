@@ -1,0 +1,8 @@
+# Változó maxért: Egész
+maxért:=(2014-kor[1].ev)*30*12 + (12-kor[1].ho)*30 + (30-kor[1].nap); ind:=1
+FOR: i=2..n
+IF: (2014-kor[i].ev)*30*12 + (12-kor[i].ho)*30 + (30-kor[i].nap)>maxért
+maxért:=(2014-kor[i].ev)*30*12 + (12-kor[i].ho)*30 + (30-kor[i].nap)
+ind:=i
+ENDIF:
+ENDFOR:

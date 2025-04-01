@@ -1,0 +1,26 @@
+\documentclass[14pt]{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[magyar]{babel}
+
+\begin{document}
+
+\begin{frame}
+  \frametitle{Brouwer–Heyting–Kolmogorov-interpretáció}
+  \begin{center}
+    \begin{tabular}{| c | c |}
+      \hline
+      \textbf{Logika} & \textbf{Agda} \\ \hline \hline
+      $A \wedge B$ & $A \times B$ \\ \hline
+      $A \vee B$ & $A \uplus B$ \\ \hline
+      $A \Rightarrow B$ & $A \to B$ \\ \hline
+      azonosan igaz & $\top$ \\ \hline
+      azonosan hamis & $\bot$ \\ \hline
+      $\neg A$ & $A \to \bot$ \\ \hline
+      $A \Leftrightarrow B$ & $A \leftrightarrow B$ \\ \hline
+    \end{tabular}
+  \end{center}
+\end{frame}
+
+\end{document}

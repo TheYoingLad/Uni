@@ -1,0 +1,1 @@
+﻿Get-ChildItem -Recurse | Measure-Object -Property length -Sum -Average

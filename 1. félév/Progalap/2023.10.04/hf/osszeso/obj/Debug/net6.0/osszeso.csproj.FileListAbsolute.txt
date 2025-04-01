@@ -1,0 +1,15 @@
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\bin\Debug\net6.0\osszeso.exe
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\bin\Debug\net6.0\osszeso.deps.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\bin\Debug\net6.0\osszeso.runtimeconfig.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\bin\Debug\net6.0\osszeso.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\bin\Debug\net6.0\osszeso.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\obj\Debug\net6.0\osszeso.csproj.AssemblyReference.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\obj\Debug\net6.0\osszeso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\obj\Debug\net6.0\osszeso.AssemblyInfoInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\obj\Debug\net6.0\osszeso.AssemblyInfo.cs
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\obj\Debug\net6.0\osszeso.csproj.CoreCompileInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\obj\Debug\net6.0\osszeso.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\obj\Debug\net6.0\refint\osszeso.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\obj\Debug\net6.0\osszeso.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\obj\Debug\net6.0\osszeso.genruntimeconfig.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.10.04\hf\osszeso\obj\Debug\net6.0\ref\osszeso.dll

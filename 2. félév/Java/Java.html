@@ -1,0 +1,757 @@
+<h1 id="ea-2">EA 2</h1>
+<p>Shadowing</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> A<span class="op">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> x<span class="op">;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">A</span><span class="op">(</span><span class="dt">int</span> x<span class="op">){</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>        <span class="kw">this</span><span class="op">.</span><span class="fu">x</span> <span class="op">=</span> x<span class="op">;</span> <span class="co">//minősített (qualified) név</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Paraméter nélküli konstruktor, minden érték le lesz nullázva
+alapból</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> P<span class="op">{</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> x<span class="op">,</span>y<span class="op">;</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">Point</span><span class="op">(){}</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Ha nem adunk meg semmi konstruktort, akkor is pont ezt csinálja.
+(default/alapértelmezett/generált konstruktor –&gt; paraméter nélküli
+lesz)</p>
+<p>Típusinvariánsok fontossága: - adott változóhoz adjuk meg, milyen
+értékeket vehet fel/mi a kapcsolat köztük</p>
+<p>“Silent failure” elkerülése. Helyette dobjunk kivételt.</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="cf">throw</span> <span class="kw">new</span> <span class="bu">IllegalArgumentException</span><span class="op">(</span><span class="st">&quot;Invalid date&quot;</span><span class="op">);</span></span></code></pre></div>
+<p>(Másik elnevezés: kiváltunk egy kivételt) Kivétel: - futás közben -
+jelezhet dinamikus szemantikai hibát - program leállítását
+eredményezheti - lekezelhető a programban (try-catch)</p>
+<p>Mezők elrejtése: private mezők Műveletek bevezetése a mezők értékének
+változtatására e.g.</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> <span class="bu">Time</span><span class="op">{</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">...</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">private</span> <span class="dt">int</span> hour<span class="op">;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> <span class="fu">getHour</span><span class="op">()</span> <span class="op">{</span> <span class="cf">return</span> hour<span class="op">;</span> <span class="op">}</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">void</span> <span class="fu">setHour</span><span class="op">(</span><span class="dt">int</span> hour<span class="op">){</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span><span class="op">(</span><span class="dv">0</span><span class="op">&lt;=</span>hour <span class="op">&amp;&amp;</span> hour <span class="op">&lt;=</span> <span class="dv">23</span><span class="op">)</span> <span class="kw">this</span><span class="op">.</span><span class="fu">hour</span> <span class="op">=</span> hour<span class="op">;</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span> <span class="cf">throw</span> <span class="kw">new</span> <span class="bu">Exception</span><span class="op">();</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Lekérdező és beállító műveletek nevei: getter és setter</p>
+<p>OEP előnye: reprezentáció változtatható; futureproof,
+karbantartható</p>
+<p>Információ-elrejtés elve: szűk interfészt adunk az osztálynak -
+típusinvariáns megőrzése könnyebb - kód könnyebb evolúciója
+(reprezentációváltás) - kevesebb kapcsolat, kisebb komplexitás — ##
+Csomag - program tagolása - összetartozó osztályok összefogása -
+programkönyvtárak - szabványos programkönyvtár</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">package</span><span class="im"> geometry</span><span class="op">;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> <span class="bu">Point</span><span class="op">{</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">int</span> x<span class="op">,</span>y<span class="op">;</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">void</span> <span class="fu">move</span><span class="op">(</span><span class="kw">...</span><span class="op">)</span><span class="kw">...</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>Osztály neve változik: Point –&gt; geometry.Point</p>
+<p>Vagy tovább osztjuk</p>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">package</span><span class="im"> geometry</span><span class="op">.</span><span class="im">basics</span><span class="op">;</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> <span class="bu">Point</span><span class="op">{</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">...</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>new geometry.basics.Point()</p>
+<p>Package nem csak feldarabolásra jó, hanem másnak való átadásra. e.g.:
+hu.elte.kto.teaching.javabcs.geomtry.basics.Point</p>
+<p>Fájlokat packagenek megfelelő helyen kell létrehozni</p>
+<pre><code>./geometry/basics:
+Main.java Point.java</code></pre>
+<pre><code>javac geometry/basics/*.java</code></pre>
+<pre><code>java geometry.basics.Main</code></pre>
+<p>Tanulság: <strong>maradjunk a munkakönyvtárban, ne cd-zzünk be a
+helyre!!!</strong> Közöttük könnyű lesz navigálni, mert fájl package =
+fájl helye Futtatni munkakönyvtárból, teljes névvel</p>
+<h1 id="ea-3">EA 3</h1>
+<ul>
+<li><p>láthatóság</p>
+<ul>
+<li>private (osztályon belül)</li>
+<li>semmi (package private, csomagon belül látható)</li>
+<li>public (mindenkinek látható)</li>
+</ul></li>
+<li><p>csomagok</p>
+<ul>
+<li>import nélkül teljes név:
+<code>hu.elte.kfk.fjflfjlks.eloadas Time</code></li>
+<li>ugyanabban a csomagban nem kell se hosszú név, se import</li>
+<li>egy fájlon belül több osztálydefiníció is lehet
+<ul>
+<li><strong>csak egy lehet nyilvános, és a fájlnévnek egyeznie
+kell!!!</strong></li>
+</ul></li>
+<li>mappákban packagenév szerint elhelyezni</li>
+<li>import valami.valami.vv.va.a.* //csomag minden típusát, de nem azok
+alcsomagjait</li>
+<li>java.lang packageeit nem muszáj</li>
+<li>névütközés esetén így is full path kell</li>
+</ul></li>
+<li><p>javac kapcsolók</p>
+<ul>
+<li>-d hova generáljon class fileokat</li>
+<li>-sourcepath</li>
+<li>-classpath / -cp</li>
+</ul></li>
+<li><p>jar</p>
+<ul>
+<li>java archive</li>
+<li>zip fájl</li>
+<li>jar parancs sdkban</li>
+</ul></li>
+<li><p>referencia</p>
+<ul>
+<li>minden osztály automatikusan referencia</li>
+<li>alaptípus nem referencia</li>
+<li>heapen</li>
+<li>létrehozás newval</li>
+<li>dereferálás ponttal</li>
+</ul>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>  <span class="bu">Point</span> p<span class="op">;</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  p <span class="op">=</span> <span class="kw">new</span> <span class="bu">Point</span><span class="op">();</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  p<span class="op">.</span><span class="fu">x</span> <span class="op">=</span> <span class="dv">3</span><span class="op">;</span>    </span></code></pre></div></li>
+<li><p>primitív típusok</p>
+<ul>
+<li>bye -128..127</li>
+<li>short -2<sup>15..2</sup>15-1</li>
+<li>int -2<sup>31..2</sup>31-1</li>
+<li>long 8 bájt</li>
+<li>float 4 bájt</li>
+<li>double 8 bájt</li>
+<li>char 2 bájt</li>
+<li>boolean (false/true)</li>
+</ul></li>
+<li><p>primitív típusok minden rendszeren ugyanolyanok</p></li>
+<li><p>osztályok, tömbök referencia típusok</p></li>
+<li><p>végrehajtási vermen: lokális változók és paraméterek</p></li>
+<li><p>heap: objektumok és mezőik</p></li>
+<li><p>hatókör és élettartam</p>
+<ul>
+<li>shadowing illegális, kivéve lokális változóval mezőt</li>
+<li>objektumok élettartama: referenciák állítása, aliasing –&gt; ha
+nincs, szemétgyűjtés</li>
+<li>null pointer: üres referencia</li>
+</ul></li>
+<li><p><strong>mező</strong> inicializálása: alapból
+<strong>nulla-szerű</strong> értékre</p>
+<ul>
+<li>referncia nullra</li>
+</ul></li>
+<li><p>fuck you: un-unidentifies your behaviour</p></li>
+<li><p>EZZEL SZEMBEN: <strong>lokális változók nincsenek automatikusan
+incializálva</strong>, le se fordul</p>
+<ul>
+<li>ha nem biztosan defined, akkor is hibát dob</li>
+</ul></li>
+</ul>
+<h1 id="ea-4">EA 4</h1>
+<ul>
+<li>szemétgyűjtés: ha nincs referencia objektumra, azt megeszi</li>
+<li>Mark and Sweep szemétgyűjtés
+<ul>
+<li>Mark: vermen lévő refernciákból megjelölünk belőlük elérhető
+objektumokat
+<ul>
+<li>tranzitív lezárt: amíg van objektum, addig jelöli</li>
+</ul></li>
+<li>Sweep: jelöletlen objektumok felszabadíthatók</li>
+</ul></li>
+<li>Van olyan szoftver, ahol elfogadhatatlan a szemétgyűjtő általi
+álldogálás</li>
+<li>Tranzitív = : <code>natasha = clinet = null;</code></li>
+<li>Static mezők és metódusok: statikus tárhelyen tárolva; nem objektum
+része, hanem az osztályhoz tartozik</li>
+<li>Tömbök:
+<ul>
+<li>referencia</li>
+<li>objektumok (heapen)</li>
+<li>saját méretüket tárolják: .length</li>
+<li>futás közbeni ellenőrzés</li>
+<li>ArrayIndexOutOfBoundsException</li>
+</ul></li>
+<li>Konverzió:
+<ul>
+<li>Integer.parseInt</li>
+</ul></li>
+<li><code>java.util.Arrays.sort(numbers)</code></li>
+<li>Van range-based for loop <code>(for int n : numbers)</code></li>
+<li>osztályszintű tag import:
+<code>import static java.util.Arrays.sort</code></li>
+<li>Mátrixok: mint a jagged array:
+<code>double[][] id3 = {{1,1},{1,1}}</code>
+<ul>
+<li>Referncia típus refernciákra, nem szekvenciális</li>
+<li>pptben komplikált képlet index átváltásra
+<ul>
+<li><code>addr(t[i,j,k]) = val8(val8(addr(t)+4+i*8)+4+j*8)+4+k.sizeof(T)</code></li>
+</ul></li>
+</ul></li>
+</ul>
+<h1 id="ea-5">EA 5</h1>
+<h2 id="felsorolás-típus">Felsorolás típus</h2>
+<ul>
+<li><code>enum Day { SUN, MON, TUE }</code></li>
+<li>referencia típusok! nem objektumok</li>
+<li>int értéket <code>.ordinal()</code>lel lehet lehívni
+<ul>
+<li>éppen emiatt SUN + MON hiba</li>
+</ul></li>
+<li>nem hívható meg konstruktor belőle! nincs new Day()</li>
+<li>switch működik rá
+<ul>
+<li>fun fact: újféle switch létezik, ami nyíllal működik, és nem kell
+breakelni</li>
+</ul></li>
+<li>lehetnek metódusai, tagjai</li>
+</ul>
+<h2 id="hibajelzés">Hibajelzés</h2>
+<ul>
+<li><p>ha előfeltétel/invariáns sérülne, throw new Exception</p></li>
+<li><p>assert hívás: elvárás, sérülés esetén hiba lesz</p>
+<ul>
+<li><code>assert 0 &lt;= hour &amp;&amp; hour &lt; 24</code> –&gt; ha
+nem jó, akkor hibát dob ott azonnal</li>
+<li>AssertionErrort hív
+<ul>
+<li>de <strong>csak akkor</strong> dobja, ha úgy futtatjuk:
+<code>-enableassertions</code></li>
+</ul></li>
+</ul></li>
+<li><p>dokumentációs megjegyzés: <code>/** */</code> ```java /** May
+throw Exception */ public void A(){ assert 1 % 2 == 0;
+System.out.println(“hi”); }</p>
+<pre><code>  /**
+      Blindly set hour.
+      Only pass {@code hour} satisfying {@code 0 &lt;= hour &amp;&amp; hour &lt;= 23}
+      @param hour The value to be set
+      @throws IllegalArgumentException
+          If the supplied value is not between 0 and 23, inclusively
+  */
+  void .......</code></pre>
+<p>```</p>
+<ul>
+<li><strong>javadoc</strong> meghívásával generálódik dokumentáció:
+HTMLt csinál</li>
+</ul></li>
+<li><p>ellenőrzött kivételek/checked exceptions</p>
+<ul>
+<li>jelölni kell a programban:</li>
+</ul>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="bu">Time</span> <span class="fu">readTime</span><span class="op">(</span><span class="bu">String</span> fname<span class="op">)</span> <span class="kw">throws</span> java<span class="op">.</span><span class="fu">io</span><span class="op">.</span><span class="fu">IOException</span><span class="op">{</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<ul>
+<li>nem minden exceptiont kell jelölni: NullPointerException,
+ArrayIndexOutOfBoundsException nem ilyen (azért, mert ezek olyan
+gyakoriak)
+<ul>
+<li>unchecked exceptions / nem ellenőrzött kivételek</li>
+</ul></li>
+<li>azért fontos, hogy követhessük a hiba terjedését
+<ul>
+<li>muszáj minden felhasználó kódban jelölni, hogy milyen ellenőrzött
+kivételt dobhat</li>
+<li>VAGY</li>
+<li>kivételt kell rajta kezelni: try - catch
+<ul>
+<li><code>System.err.println("Hiba vaaaaan");</code></li>
+</ul></li>
+</ul></li>
+<li>try-catch BNFjét megnéztük
+<ul>
+<li>lehet több catch ág is!</li>
+<li>van olyan blokk, hogy <code>finally</code>, ami mindenféleképpen
+végrehajtódik
+<ul>
+<li>olyan szinten, hogyha returnölünk a tryban, akkor is lefut! ```java
+try {</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>} catch (A e) {</p>
+<p>} catch (B e) {</p>
+<p>} finally{</p>
+<p>}</p>
+<p>VAGY</p>
+<p>try{</p>
+<p>} catch (A | B e) {</p>
+<p>} finally {</p>
+<p>} ```</p></li>
+</ul>
+<h1 id="ea-6">EA 6</h1>
+<ul>
+<li>try: finally mindig lefut, amennyiben nem hal meg minden</li>
+<li>try-with-resources</li>
+</ul>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span> <span class="op">(</span><span class="bu">BufferedReader</span> in <span class="op">=</span> <span class="kw">...</span><span class="op">){</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>olyan, mintha finallyben bezárnánk</p>
+<ul>
+<li>FileWriter: szövegírás</li>
+<li>OutputStreamWriter encodingot is kap</li>
+<li>BufferedReader</li>
+</ul>
+<h3 id="oop">OOP</h3>
+<ul>
+<li>Imperatív OOP stílus
+<ul>
+<li>típusinvariánsok</li>
+<li>műveletek sorozásához metódus végén <code>return this</code></li>
+<li>Polimorfizmus/overloading/túlterhelés
+<ul>
+<li>több metódus ugyanazzal a névvel</li>
+<li>trükkös szabályok: int jobban illeszkedik longra, mint floatra
+<ul>
+<li>még trükkösebb: ha két constructor van, egyik (int,float), másik
+(float, int) és kap egy (3,4) inputot, akkor fordítási hiba lesz, nem
+tud dönteni a kettő között. ( (4.0f, 4) már egyértelmű)</li>
+</ul></li>
+</ul></li>
+<li>Konstruktorban is van polimorfizmus
+<ul>
+<li>Akár egymást is hívogathatják</li>
+</ul>
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="fu">A</span><span class="op">(</span><span class="dt">int</span> a<span class="op">){</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">this</span><span class="op">(</span>a<span class="op">,</span><span class="dv">10</span><span class="op">);</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="fu">A</span><span class="op">(</span><span class="dt">int</span> a<span class="op">,</span> <span class="dt">int</span> b<span class="op">){</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">...</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+csak első utasításban tehetik meg</li>
+<li>Factory design pattern
+<ul>
+<li>osztályszintű metódus kifejező nevekkel
+<ul>
+<li>new Rational(0) helyett például Rational.zero()</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Funkcionális OOP stílus
+<ul>
+<li>aritmetika nem módosít, új eredményt állít elő</li>
+</ul></li>
+</ul>
+<h1 id="ea-7">EA 7</h1>
+<p>nem végig volt teams, ez saját firka</p>
+<h2 id="final">Final</h2>
+<ul>
+<li><code>final</code> kulcsszóval megjelölt változók nem
+változtathatók</li>
+<li><code>public static final int AAAA = 10</code> osztályszintű mező
+(konvenció nagybetű)</li>
+<li>minden final értéket kell kapjon inicializációkor
+<ul>
+<li>blank final (üres konstant): első értékadás értékét tartja meg!</li>
+</ul></li>
+<li>módosítható &lt;&gt; módosíthatatlan (mutable&lt;&gt;immutable)</li>
+<li>alternatív konvenció: változónév függvénynévnek
+<code>java     class {         int numerator;         public int numerator(){ return numerator; }         public int numerator(int a) { numerator = a; }     }</code></li>
+<li>kitérő: arraynek nem adhatsz arrayt értéknek, csak ha új objektumot
+hozunk létre, és azzal inicializáljuk (mert amúgy ugyanarra az
+objektumra fognak mutatni)</li>
+<li><strong>final</strong> referencia: hívhatóak függvényei, de nem
+módosítható, hova mutat
+<ul>
+<li>final array elemei például módosíthatóak!</li>
+</ul></li>
+</ul>
+<h2 id="string">String</h2>
+<ul>
+<li><p>java.lang.String immutable</p></li>
+<li><p>java.lang.StringBuilder és StringBuffer módosítható</p>
+<ul>
+<li><code>StringBuilder sb = new StringBuilder("hi"); sb.append(" there"); sb.deleteCharAt(0); String randomThing = sb.toString();</code></li>
+</ul></li>
+<li><p>char[] is módosítható</p></li>
+<li><p>referencia átadása: megosztás szerinti paraméterátadás
+(call-by-sharing)</p></li>
+<li><p>aliasing weirdness: vigyázzunk, hogy ne módosítsuk kétszer
+ugyanazt az objektumot egy hívásban</p></li>
+<li><p>variable argument length (vararg): <code>sum (int... nums)</code>
+–&gt; <code>sum(10,20,30,40)</code></p></li>
+</ul>
+<h1 id="ea-8">EA 8</h1>
+<h2 id="aliasing">Aliasing</h2>
+<ul>
+<li>Belső állapot szivárgásának elkerülése!
+<ul>
+<li>pl. array mezőt nem pointerként másoljuk be, hanem szépen egyesével
+le kell másolni</li>
+<li>immutable adatok: NEM IS KELL MÁSOLNI!</li>
+</ul></li>
+<li>Referenciák tömbje: vigyázzunk nagyon aliasingra!</li>
+</ul>
+<h2 id="lambdák">Lambdák</h2>
+<ul>
+<li><code>java.util.Arrays.setAll(naturals, i-&gt;i)</code></li>
+<li><code>java.util.Arrays.setAll(naturals, i-&gt;Math.random())</code></li>
+<li><code>java.util.Arrays.sort(argumentumok)</code></li>
+<li><code>java.util.Arrays.sort(argumentumok, (s,z)-&gt;s.length()-z.length())</code>
+<ul>
+<li>three-way comparison
+<ul>
+<li>pozitív: első nagyobb</li>
+<li>negatív: első kisebb</li>
+<li>nulla: egyenlő</li>
+</ul></li>
+</ul></li>
+<li>miből képez -&gt; mibe képez (akár lokális függvény is lehet { hello
+dude })</li>
+<li>Chaining:
+<ul>
+<li>arrayutils &gt; stream(numbers) &gt; filter(i-&gt;i%2) &gt; map
+(i-&gt;i/2) &gt; limit(10) &gt; forEach(i -&gt; println(i))</li>
+</ul></li>
+<li>Éta redukció
+<ul>
+<li>forEach(i -&gt; System.out.println(i)) ===
+forEach(System.out::println)</li>
+</ul></li>
+</ul>
+<h2 id="generikusok">Generikusok</h2>
+<ul>
+<li>Tömb problémái</li>
+<li>java.util.ArrayList (arrayes működés, de háttérben komplikáltabb)
+<ul>
+<li>add metódus</li>
+</ul></li>
+<li>ez egy generikus:
+<code>java     public class ArrayList&lt;T&gt;{         public ArrayList(){}         public T get (int index) {}         public void add (int index, T item){}         ........     }</code></li>
+<li>Generikus metódus:
+<code>public static &lt;T&gt; void println(T adat) {...}</code>
+<ul>
+<li>compiler kikövetkezteti, nem kell nekünk diamonddel megadni
+<ul>
+<li>további kikövetkeztetési lehetőség:
+<code>ArrayList&lt;int&gt; ai = new ArrayList&lt;&gt;()</code></li>
+</ul></li>
+</ul></li>
+<li>PRIMITÍV TÍPUS NEM LEHET TÍPUSPARAMÉTER
+<ul>
+<li>ArrayList&lt;int&gt; NINCSEN</li>
+<li>megoldás: referenciatípus használata
+<ul>
+<li>ArrayList&lt;Integer&gt;
+<code>java       ArrayList&lt;Integer&gt; numbers = new ArrayList&lt;&gt;();       numbers.add(Integer.valueOf(7));       Integer seven = numbers.get(0);</code></li>
+<li>van auto boxing és auto unboxing!!!!!
+<code>java       ArrayList&lt;Integer&gt; nums = new ArrayList&lt;&gt;();       numbers.add(42); //auto-boxing       int fourtytwo = numbers.get(0); //auto-unboxing</code>
+<ul>
+<li>alapból becsomagolás:
+Valami.valueOf(valami)&lt;&gt;valamiInstance.valamiValue()</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Fontos generikusok még: HashSet, HashMap</li>
+</ul>
+<h1 id="ea-9">EA 9</h1>
+<h2 id="öröklődés">Öröklődés</h2>
+<ul>
+<li><p>javaban: <code>class A extends B {}</code></p></li>
+<li><p>alosztály, bázisosztály</p>
+<ul>
+<li>lánc: nem csatolódhat vissza, nincs körkörösség</li>
+</ul></li>
+<li><p>implicit szülőosztály: java.lang.Object</p></li>
+<li><p>konstruktorhívás</p>
+<ul>
+<li>szülőosztályé: legeslegelső tevékenység kell, hogy legyen:
+<strong>super(paraméterek)</strong>
+<ul>
+<li>ha nem rakunk, akkor implicit super() –&gt; konstruktor első
+utasítása másik konstruktor kell, hogy legyen: <code>this()</code> vagy
+<code>super()</code></li>
+</ul></li>
+</ul></li>
+<li><p>szülőosztály tagjai (mezők és metódusok) átöröklődnek</p>
+<ul>
+<li>konstruktor ezek szerint nem tag, az nem megy át</li>
+<li>metódusok újradefiniálhatók, újradeklarálhatók</li>
+</ul></li>
+<li><p>alap toString(): milyenOsztály@hashcode</p></li>
+<li><p>String.format(“%1$d:%2$02d”,hour,minute) – 8:05</p></li>
+<li><p>újradefiniálás esetén: <span class="citation"
+data-cites="Override">@Override</span> annotáció</p>
+<ul>
+<li>hibát dob, ha nincs mit újradefiniálni</li>
+</ul></li>
+<li><p>hívhatjuk a szülőosztály műveletét leszármaztatott osztályban:
+<code>java     @Override public String toString(){         return super.toString() + ".";     }</code></p></li>
+<li><p>&lt;: jelölés</p>
+<ul>
+<li>“alosztálya”
+<ul>
+<li>mindent lehet tenni, amit az ősosztállyal is</li>
+</ul></li>
+</ul></li>
+<li><p><strong>Liskov-féle helyettesítési elv</strong></p>
+<ul>
+<li>Egy A típus altípusa B típusnak, ha az A egyedeit használhatjuk B
+egyedei helyett, anélkül, hogy ebből baj lenne</li>
+<li>“LSP” (Liskov’s Substitution Principle)</li>
+</ul></li>
+<li><p><strong>upcasting</strong>: automatikus dolog, amikor ősosztályra
+castelődik az alosztály példánya</p></li>
+<li><p><strong>statikus</strong> és <strong>dinamikus</strong>
+típusok</p>
+<ul>
+<li>statikus: programszövegből jön, állandó, compiler
+típusellenőriz</li>
+<li>dinamikus: futásidőben derül ki, változékony</li>
+<li>futás alatt a <em>legspeciálisabb</em> metódus hívódik meg</li>
+<li><strong>alapból minden virtuális</strong></li>
+</ul></li>
+</ul>
+<h1 id="ea-10">EA 10</h1>
+<ul>
+<li>overrideolás ~~ elfedés
+<ul>
+<li>legjobban illeszkedő metódus/mező érvényesül</li>
+</ul></li>
+<li>metódusnál adott osztály mezőjét adja vissza, az nem köt
+dinamikusan</li>
+<li><strong>dinamikus kötés csakis példánymetódussal
+működik</strong></li>
+<li>upcasting és downcasting is van
+<ul>
+<li>upcast: Time –&gt; Object (automatikus)</li>
+<li>downcast: Time –&gt; ExactTime (type-cast operátorral)
+<ul>
+<li>dinamikus típusellenőrzés megsértésénél ClassCastException lép
+fel</li>
+</ul></li>
+<li>instanceof: dinamikus típus ellenőrzése
+<ul>
+<li><code>x instanceof Time</code></li>
+<li>null instanceof akármi == false</li>
+</ul></li>
+</ul></li>
+<li>java.lang.Class: egy olyan osztály, ami típusokat reprezentál
+<ul>
+<li>Class c = randomObject.getClass();</li>
+</ul></li>
+<li>primitív típuskonverziók
+<ul>
+<li>alapból csak felfele működik
+<ul>
+<li><code>byte &lt; short &lt; int &lt; long</code></li>
+<li><code>long &lt; float</code>
+<ul>
+<li>ez nagyon fura, mert pontatlan</li>
+</ul></li>
+<li><code>float &lt; double</code></li>
+</ul></li>
+<li>ha lefele akarunk, akkor casting kell</li>
+</ul></li>
+<li><strong>interface</strong>: minden metódusa abstract és public
+<ul>
+<li>nem példányosítható önmagában</li>
+<li>bármennyi osztály bármennyi interfészt örökölhet</li>
+<li>dinamikus típusnak használható</li>
+</ul></li>
+</ul>
+<h1 id="ea-11">EA 11</h1>
+<ul>
+<li><p>fontos interfészek</p>
+<ul>
+<li>Iterable&lt;T&gt;: iteráló forral jó</li>
+<li>AutoClosable: trywithresources</li>
+<li>Cloneable: sekély másolás</li>
+<li>Serializable: bájtsorozattá történő átalakítás könnyebb</li>
+</ul></li>
+<li><p>Iterable és Iterator interface</p>
+<ul>
+<li>Iterable: tudjon visszaadni egy iterátort iterator()
+meghívásával</li>
+<li>Iterator: hasNext(), next(), …</li>
+</ul></li>
+<li><p>lambda paraméterként: interfészt csinálunk (pl InToIntToInt)</p>
+<ul>
+<li>fontos: van egy <strong>apply</strong> function benne, mert így
+hívják a lambda hívását</li>
+</ul></li>
+<li><p>egyenlőség</p>
+<ul>
+<li>== csak akkor igaz, ha ugyanaz az objektum (object identity)</li>
+<li>ha értékbeli egyenlőség kell, akkor kell equals metódus
+<ul>
+<li>overrride: public boolean equals(Object that)</li>
+<li>feltételek
+<ul>
+<li>legyen determinisztikus</li>
+<li>legyen ekvivalencia-reláció (reflexív tranzitív szimmetrikus)</li>
+<li>equals null legyen hamis</li>
+<li>legyen konzisztens a hashCode-dal</li>
+</ul></li>
+</ul></li>
+<li>eredeti Object osztályban implementáció: ==</li>
+<li>korrekt implementáció:</li>
+</ul>
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="at">@Override</span> <span class="kw">public</span> <span class="dt">boolean</span> <span class="fu">equals</span><span class="op">(</span><span class="bu">Object</span> that<span class="op">){</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>that<span class="op">!=</span><span class="kw">null</span> <span class="op">&amp;&amp;</span> <span class="fu">getClass</span><span class="op">().</span><span class="fu">equals</span><span class="op">(</span>that<span class="op">.</span><span class="fu">getClass</span><span class="op">())){</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">Time</span> t <span class="op">=</span> <span class="op">(</span><span class="bu">Time</span><span class="op">)</span>that<span class="op">;</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> hour <span class="op">==</span> t<span class="op">.</span><span class="fu">hour</span> <span class="op">&amp;&amp;</span> minute <span class="op">==</span> t<span class="op">.</span><span class="fu">minute</span><span class="op">;</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span> <span class="cf">else</span> <span class="cf">return</span> <span class="kw">false</span><span class="op">;</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="at">@Override</span> <span class="kw">public</span> <span class="dt">int</span> <span class="fu">hashCode</span><span class="op">(){</span></span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> hour<span class="op">*</span><span class="dv">60</span><span class="op">+</span>minute<span class="op">;</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div></li>
+<li><p><strong>altípusokon ne terheljünk túl, soha!</strong></p></li>
+<li><p>öröklődés equalsban:</p>
+<ul>
+<li>szülő a fenti</li>
+<li>gyermek: super.equals(that) &amp;&amp; ADDITIONALFELTÉTELEK</li>
+</ul></li>
+<li><p>equals definiálásában nem mindig használható az instanceof, mert
+LSP miatt Time == ExactTime működne, pedig ezeket nem akarjuk
+egyenlőnek</p>
+<ul>
+<li>ha úgy csinálnánk, hogy Time == ExactTime, valszeg sérül a
+szimmetria (ExactTime == Time nem lesz igaz), ha az nem, akkor valszeg a
+tranzitivitás</li>
+</ul></li>
+<li><p>ha csinálunk egy final metódust, akkor nem definiálható felül
+alosztályokban</p>
+<ul>
+<li>ekkor működni fog RST, csak nem feltétlen azt csinálja, amit
+akarunk</li>
+</ul></li>
+</ul>
+<h1 id="ea-12">EA 12</h1>
+<ul>
+<li><p>kompozíciós módszer: ExactTime tartalmazzon egy Time mezőt</p>
+<ul>
+<li>equals overrde használja a Time equalsét</li>
+</ul></li>
+<li><p>equals esetén hashcode is legyen implementálva!!!</p></li>
+<li><p>mutable objektumok egy adatszerkezetben: goofy behaviour</p>
+<ul>
+<li>pl. Time egy HashSetben</li>
+</ul></li>
+<li><p>mindig equals-zal hasonlítunk, nem ==-vel</p></li>
+<li><p>compiler sokszor optimalizálja az immutable literálokat, és
+sokszor ugyanarra az objektumra mutatnak</p>
+<ul>
+<li>implementációfüggő</li>
+</ul></li>
+<li><p>tömbökre equals metódus nem igazán működik (Object equals-a)</p>
+<ul>
+<li>java.util.Arrays.equals(x,y)</li>
+<li>java.util.Arrays.deepEquals(x,y)</li>
+</ul></li>
+<li><p>java.util.Objects.{equals,deepEquals,hash}</p></li>
+</ul>
+<h2 id="típushierarchia">Típushierarchia</h2>
+<ul>
+<li>dinamikus kötés: csak példánymetódusokra működik</li>
+<li>interfész örökölhet interfészből (akár többől is egyszerre)</li>
+<li>többszörös öröklődés: interfészekből
+<ul>
+<li>sima osztályokból nem tudunk egyszerre többet örökölni</li>
+</ul></li>
+<li>abstract class
+<ul>
+<li>részlegesen implementált osztály</li>
+<li>nem példányosítható</li>
+<li>származtatással konkretizáljuk</li>
+</ul></li>
+</ul>
+<h1 id="ea-13">EA 13</h1>
+<ul>
+<li><p>altípusos polimorfizmus</p></li>
+<li><p>kivételosztályok hierarchiája</p>
+<ul>
+<li>Throwable osztály
+<ul>
+<li>Exception
+<ul>
+<li>IOException</li>
+<li>SQLException</li>
+<li>RuntimeException
+<ul>
+<li>NullPointerException</li>
+<li>ArrayIndexOutOfBoundsException</li>
+</ul></li>
+</ul></li>
+<li>Error
+<ul>
+<li>fatális nagyságú hibák, amikből nem lehet felállni</li>
+<li>VirtualMachineError</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p>fordítási hiba keletkezik, ha van elérhetetlen kódrészlet (hibák
+esetén. Ha például egy bővebb exceptiont kapnánk el hamarabb)</p></li>
+<li><p>kivételek kezelése: specifikustól az általánosig ```java try { …
+} catch (FileNotFoundException e){</p>
+<p>} catch (EOFException e){</p>
+<p>} catch (IOException e){</p>
+<p>} catch (Exception e){</p>
+<p>} ```</p></li>
+<li><p>korlátozott univerzális kvantálás: ```java static boolean
+less(Charsequence left, Charsequence right){ …… }</p>
+<p>static <T extends CharSequence> T min(T left, T right){ return
+less(left,right) ? left : right; } ```</p></li>
+<li><p>egy osztály nem implementálhatja ugyanazt a generikus interfacet
+többször különböző típusparaméterekkel</p></li>
+<li><p>további interfészeket néztünk és arra: Comparable, Comparator,
+Array.sort</p></li>
+<li><p>lambdákban használható comparator: <span class="citation"
+data-cites="Functionalnterface">@Functionalnterface</span>
+annotáció</p></li>
+<li><p>Comparator&lt;? super T&gt;: olyan komparátor, ami T bázistípusán
+is képes működni</p>
+<ul>
+<li>egzisztenciális kvantálás gyakorlatilag</li>
+</ul></li>
+<li><p>ArrayList&lt;Integer&gt; nem alosztálya az
+ArrayList&lt;Object&gt;nek</p>
+<ul>
+<li>szintén igaz Integer[] és Object[]re</li>
+</ul></li>
+<li><p>üres interfész: Cloneable (clone metódus)</p></li>
+</ul>
+<h1 id="gy-7">GY 7</h1>
+<ul>
+<li>statikus és dinamikus típus
+<ul>
+<li><code>Map&lt;String,int&gt; m = new HashMap&lt;&gt;();</code></li>
+<li>altípusának kell lennie a fő típusnak (bal oldali: statikus, jobb
+oldali: dinamikus)</li>
+<li>dinamikus típusa változhat</li>
+<li>casting teljesen jó, ha tovább próbálnánk szűkíteni</li>
+</ul></li>
+</ul>
+<h1 id="gy-8">GY 8</h1>
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode java"><code class="sourceCode java"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="at">@Override</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="dt">boolean</span> <span class="fu">equals</span><span class="op">(</span><span class="bu">Object</span> that<span class="op">){</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span><span class="kw">this</span><span class="op">==</span>that<span class="op">)</span> <span class="cf">return</span> <span class="kw">true</span><span class="op">;</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span><span class="op">(</span>that <span class="kw">instanceof</span> <span class="bu">Book</span><span class="op">){</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>        <span class="bu">Book</span> thatBook <span class="op">=</span> <span class="op">(</span><span class="bu">Book</span><span class="op">)</span>that<span class="op">;</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> author<span class="op">.</span><span class="fu">equals</span><span class="op">(</span>thatBook<span class="op">.</span><span class="fu">author</span><span class="op">)</span> <span class="op">&amp;&amp;</span> <span class="kw">.........</span><span class="op">.</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a><span class="at">@Override</span></span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="dt">int</span> <span class="fu">hashCode</span><span class="op">(){</span></span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>    <span class="co">//return 31*author.hashCode()+title.hashCode();</span></span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> java<span class="op">.</span><span class="fu">util</span><span class="op">.</span><span class="fu">Objects</span><span class="op">.</span><span class="fu">hash</span><span class="op">(</span>author<span class="op">,</span> title<span class="op">);</span></span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<p>ha overrideoljuk az equals-t (feltétlen az objectes paraméterrel,
+mert sok dolog használja!!), akkor elvárás a hashCode funkciót is
+felüldefiniálni</p>

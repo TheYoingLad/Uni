@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ELTE\\3_semester\\EVA\\_beadando_2\\Snake.WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A71AD25A-8F0B-420C-A777-0ADB42E4B4AF}|Snake.WPF.csproj|c:\\elte\\3_semester\\eva\\_beadando_2\\snake.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71AD25A-8F0B-420C-A777-0ADB42E4B4AF}|Snake.WPF.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71AD25A-8F0B-420C-A777-0ADB42E4B4AF}|Snake.WPF.csproj|c:\\elte\\3_semester\\eva\\_beadando_2\\snake.wpf\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71AD25A-8F0B-420C-A777-0ADB42E4B4AF}|Snake.WPF.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71AD25A-8F0B-420C-A777-0ADB42E4B4AF}|Snake.WPF.csproj|c:\\elte\\3_semester\\eva\\_beadando_2\\snake.wpf\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A71AD25A-8F0B-420C-A777-0ADB42E4B4AF}|Snake.WPF.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71AD25A-8F0B-420C-A777-0ADB42E4B4AF}|Snake.WPF.csproj|c:\\elte\\3_semester\\eva\\_beadando_2\\snake.wpf\\viewmodel\\rectangleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71AD25A-8F0B-420C-A777-0ADB42E4B4AF}|Snake.WPF.csproj|solutionrelative:viewmodel\\rectangleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\ELTE\\3_semester\\EVA\\_beadando_2\\Snake.WPF\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
+              "ToolTip": "C:\\ELTE\\3_semester\\EVA\\_beadando_2\\Snake.WPF\\View\\MainWindow.xaml",
+              "RelativeToolTip": "View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-16T13:40:28.286Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\ELTE\\3_semester\\EVA\\_beadando_2\\Snake.WPF\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\ELTE\\3_semester\\EVA\\_beadando_2\\Snake.WPF\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAgwKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T15:04:22.805Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\ELTE\\3_semester\\EVA\\_beadando_2\\Snake.WPF\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\ELTE\\3_semester\\EVA\\_beadando_2\\Snake.WPF\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T13:35:06.224Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RectangleViewModel.cs",
+              "DocumentMoniker": "C:\\ELTE\\3_semester\\EVA\\_beadando_2\\Snake.WPF\\ViewModel\\RectangleViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\RectangleViewModel.cs",
+              "ToolTip": "C:\\ELTE\\3_semester\\EVA\\_beadando_2\\Snake.WPF\\ViewModel\\RectangleViewModel.cs",
+              "RelativeToolTip": "ViewModel\\RectangleViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:02:56.808Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

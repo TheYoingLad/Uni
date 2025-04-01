@@ -1,0 +1,14 @@
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\bin\Debug\net6.0\HfATM.exe
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\bin\Debug\net6.0\HfATM.deps.json
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\bin\Debug\net6.0\HfATM.runtimeconfig.json
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\bin\Debug\net6.0\HfATM.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\bin\Debug\net6.0\HfATM.pdb
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\obj\Debug\net6.0\HfATM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\obj\Debug\net6.0\HfATM.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\obj\Debug\net6.0\HfATM.AssemblyInfo.cs
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\obj\Debug\net6.0\HfATM.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\obj\Debug\net6.0\HfATM.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\obj\Debug\net6.0\refint\HfATM.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\obj\Debug\net6.0\HfATM.pdb
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\obj\Debug\net6.0\HfATM.genruntimeconfig.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.04\HfATM\obj\Debug\net6.0\ref\HfATM.dll

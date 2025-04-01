@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/alap.css" title="alap">
+    <link rel="alternate stylesheet" type="text/css" href="css/nagybetus.css" title="nagy">
+	  <script type="text/javascript" src="scripts/styleswitcher.js"></script>
+    <title>GUIDEz - Games</title>
+  </head>
+<body>
+  <nav id="skiptocontens">
+    <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+  </nav>
+  <header class="d-print-none">
+    <nav class="navbar navbar-expand-md bg-body-secondary border border-secondary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" id="logo">
+          <img src="képek/logo_transparent.png" alt="Guidez logo" height="60" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <nav aria-label="breadcrumb navbar-nav me-auto mb-2 mb-md-0">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"></li>
+              <li class="breadcrumb-item active" aria-current="page">Games</li>
+            </ol>
+          </nav>
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Games</a></li>
+            <li class="nav-item"><a class="nav-link" href="submit.html">Submit</a></li>
+            <li class="nav-item border rounded border-dark">
+              <a class="nav-link switcher" id="nagybetu" href="#" onclick="setActiveStyleSheet('nagy'); return false;">FONT+</a>
+              <a class="nav-link switcher" id="normalbetu" href="#" onclick="setActiveStyleSheet('alap'); return false;">FONT-</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <img class="img-fluid" src="képek/logo_transparent.png" alt="Guidez logo large" id="logoLarge">
+  </header>
+  <main id="content">
+    <div class="container-fluid">
+      <section id="introduction">
+        <div class="row"><h1 id="top">Games</h1></div>
+        <div class="row" id="aside"><aside><p>Here you'll find the list of all games that have a <b>GUIDEz</b> page. The list and the categories are always expanding, so don't be sad if your favourite game is missing. In addition, you can always go to the <b>Submit</b> page from the menu at the top of the site and fill out the form to submit a link that you think should be part of <b>GUIDEz</b>.</p></aside></div>
+        <article id="list">
+          <div class="row t"><h2>List of Games:</h2></div>
+          <nav>
+            <ul class="cats">
+              <li>
+                <p><a href="#minecraft">Minecraft</a></p>
+                <ul>
+                  <li><p>Enigmatica 2: Expert</p></li>
+                  <li><p>Nomifactory</p></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="cats">
+              <li>
+                <p><a href="#warframe">Warframe</a></p>
+                <ul>
+                  <li><p>Builds</p></li>
+                  <li><p>Wiki Pages</p></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </article>
+      </section>
+      <div class="row mx-auto w-75"><hr></div>
+      <section id="games">
+        <article id="minecraft" class="b">
+          <div class="row"><h1>Minecraft</h1></div>
+          <div class="d-grid mx-auto"><a id="ul" class="btn btn-primary mx-auto d-print-none" href="minecraft.html" role="button">GUIDEz Page</a></div>
+          <article id="e2e">
+            <div class="row t"><h2>Enigmatica 2 Expert</h2></div>
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-8">
+                <div class="row"><p><q><b>Enigmatica 2: Expert</b> is an expert questing modpack for Minecraft 1.12 with over 650 quests to guide you along the way. The goal of the pack is to complete the <i>Bragging Rights</i> questline - Crafting one of every craftable creative item.</q></p></div>
+                <div class="row"><p class="text-end"><cite>Source: <a href="https://www.curseforge.com/minecraft/modpacks/enigmatica2expert" target="_blank">Curseforge</a></cite></p></div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <figure>
+                  <img src="képek/e2e.webp" class="img-fluid d-block mx-auto" alt="Enigmatica 2: Expert banner">
+                  <figcaption class="figure-caption">Enigmatica 2: Expert banner</figcaption>
+                </figure>
+              </div>
+            </div>
+          </article>
+          <article id="nomi">
+            <div class="row t"><h2>Nomifactory</h2></div>
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-8">
+                <div class="row"><p><q><b>Nomifactory</b> <span lang="ja">(ファクトリーのみ)</span> is a quest-driven expert pack focused on building large-scale factories, where you will put your automation skills to the test as you progress from punching trees to creative-in-survival, climbing the power tiers of <i>GregTech: Community Edition</i> (GTCE) and its extension, <i>Shadows of Greg</i>. No complicated magic systems, no forced combat or exploration: Only Factories!</q></p></div>
+                <div class="row"><p class="text-end"><cite>Source: <a href="https://www.curseforge.com/minecraft/modpacks/nomifactory" target="_blank">Curseforge</a></cite></p></div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <figure>
+                  <img src="képek/nomi.png" class="img-fluid d-block mx-auto" alt="Nomifactory banner">
+                  <figcaption class="figure-caption">Nomifactory banner</figcaption>
+                </figure>
+              </div>
+            </div>
+          </article>
+        </article>
+        <div class="row mx-auto w-75"><hr></div>
+        <article id="warframe" class="b">
+          <div class="row"><h1>Warframe</h1></div>
+          <article id="builds">
+            <div class="row t"><h2>Builds</h2></div>
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-8"><p>Here you'll find a list of my favourite builds in the game. Most of them are from <a href="https://overframe.gg" target="_blank">Overframe</a> but some come from YouTube or Reddit.</p></div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <figure>
+                  <img src="képek/builds.jpg" class="img-fluid d-block mx-auto" alt="Overframe banner">
+                  <figcaption class="figure-caption">Overframe banner</figcaption>
+                </figure>
+              </div>
+            </div>
+          </article>
+          <article id="wiki">
+            <div class="row t"><h2>Wiki Pages</h2></div>
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-8"><p>As the name implies, this page contains the most important wiki pages for casual gameplay.</p></div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <figure>
+                  <a class="cap" href="képek/wf_wiki.png" title="Click to see full picture" target="_blank">
+                    <img src="képek/thumb/wiki.png" class="img-fluid d-block mx-auto img-thumbnail" alt="Warframe wiki banner"></a>
+                  <figcaption class="figure-caption">Warframe Wiki banner</figcaption>
+                </figure>
+              </div>
+            </div>
+          </article>
+        </article>
+      </section>
+    </div>
+  </main>
+  <footer class="d-print-none">
+    &copy; 2024 Gergő Golyha
+    <nav>Contact me at: <a href="mailto:golyhagergo@gmail.com">golyhagergo@gmail.com</a></nav>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:Minefield.Avalonia.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Minefield.Avalonia.Views.MainView"
+             x:DataType="vm:MainViewModel">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Menu Grid.Row="0">
+      <MenuItem Header="Pause" Command="{Binding KeyPressedSpaceCommand}" HotKey="Space"  FontWeight="Black" Foreground="Green" />
+      <MenuItem Header="New Game"  IsVisible="{Binding IsPaused}" Command="{Binding NewGameCommand}"/>
+      <MenuItem Header="Load Game" IsVisible="{Binding IsPaused}" Command="{Binding LoadGameCommand}" />
+      <MenuItem Header="Save Game" IsVisible="{Binding IsPaused}" Command="{Binding SaveGameCommand}" IsEnabled="{Binding IsRunning}" />
+    </Menu>
+    
+      <Grid Grid.Row="1" HorizontalAlignment="Stretch" ColumnDefinitions="7*, 3*" Margin="10" >
+      <ItemsControl Grid.Column="0" HorizontalAlignment="Stretch" ItemsSource="{Binding GameFields}" Classes="Default" Classes.IsPaused ="{Binding IsPaused}" >
+        <ItemsControl.ItemsPanel>
+          <ItemsPanelTemplate>
+            <UniformGrid Rows="16" Columns="16" />
+          </ItemsPanelTemplate>
+        </ItemsControl.ItemsPanel>
+        <ItemsControl.ItemTemplate>
+          <DataTemplate>
+            <Image  Classes="Default" Classes.P ="{Binding IsPlayer}" Classes.EM ="{Binding IsEasyMine}" Classes.MM ="{Binding IsMediumMine}" Classes.HM ="{Binding IsHardMine}">
+              <Image.Styles>
+                <Style Selector="Image.Default">
+                  <Setter	Property="Source" Value="/Assets/player.png" />
+                  <Setter	Property="IsVisible" Value="false" />
+                </Style>
+                <Style Selector="Image.P">
+                  <Setter	Property="Source" Value="/Assets/player.png" />
+                  <Setter	Property="IsVisible" Value="True" />
+                </Style>
+                <Style Selector="Image.EM">
+                  <Setter	Property="Source" Value="/Assets/easymine.png" />
+                  <Setter	Property="IsVisible" Value="True" />
+                </Style>
+                <Style Selector="Image.MM">
+                  <Setter	Property="Source" Value="/Assets/mediummine.png" />
+                  <Setter	Property="IsVisible" Value="True" />
+                </Style>
+                <Style Selector="Image.HM">
+                  <Setter	Property="Source" Value="/Assets/hardmine.png" />
+                  <Setter	Property="IsVisible" Value="True" />
+                </Style>
+              </Image.Styles>
+            </Image>
+          </DataTemplate>
+        </ItemsControl.ItemTemplate>
+        <ItemsControl.Styles>
+          <Style Selector="ItemsControl.Default">
+            <Setter	Property="Background" Value="MidnightBlue" />
+          </Style>
+          <Style Selector="ItemsControl.IsPaused">
+            <Setter	Property="Background" Value="Gray" />
+          </Style>
+        </ItemsControl.Styles>
+      </ItemsControl >
+        <Viewbox Grid.Column="1" HorizontalAlignment="Right" Margin="10">
+          <Grid   HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  ColumnDefinitions="*,*,*,*,*, " RowDefinitions="*,*,*,*,*" >
+            <Button Grid.Row="1" Grid.Column="2" Content="↑"  Command="{Binding KeyPressedWCommand}" HotKey="W" Focusable="False" />
+            <Button Grid.Row="2" Grid.Column="1" Content="←"  Command="{Binding KeyPressedACommand}" HotKey="A" Focusable="False" />
+            <Button Grid.Row="2" Grid.Column="3" Content="→"  Command="{Binding KeyPressedDCommand}" HotKey="D" Focusable="False" />
+            <Button Grid.Row="3" Grid.Column="2" Content="↓"  Command="{Binding KeyPressedSCommand}" HotKey="S" Focusable="False" />
+          </Grid>
+        </Viewbox>
+    </Grid>
+    <TextBox  Grid.Row="2" Text="{Binding GameTime}" />
+        
+  </Grid>
+  
+  
+</UserControl>

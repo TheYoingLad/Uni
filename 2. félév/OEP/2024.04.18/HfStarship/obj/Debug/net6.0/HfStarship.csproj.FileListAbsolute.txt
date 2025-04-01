@@ -1,0 +1,14 @@
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\bin\Debug\net6.0\HfStarship.exe
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\bin\Debug\net6.0\HfStarship.deps.json
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\bin\Debug\net6.0\HfStarship.runtimeconfig.json
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\bin\Debug\net6.0\HfStarship.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\bin\Debug\net6.0\HfStarship.pdb
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\obj\Debug\net6.0\HfStarship.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\obj\Debug\net6.0\HfStarship.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\obj\Debug\net6.0\HfStarship.AssemblyInfo.cs
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\obj\Debug\net6.0\HfStarship.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\obj\Debug\net6.0\HfStarship.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\obj\Debug\net6.0\refint\HfStarship.dll
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\obj\Debug\net6.0\HfStarship.pdb
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\obj\Debug\net6.0\HfStarship.genruntimeconfig.cache
+C:\Users\User\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\2. félév\OEP\2024.04.18\HfStarship\obj\Debug\net6.0\ref\HfStarship.dll

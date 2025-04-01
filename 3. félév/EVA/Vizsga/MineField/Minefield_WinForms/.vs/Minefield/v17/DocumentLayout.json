@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF7A63CD-D946-4030-A372-A3F46EF98198}|Minefield.WinForms\\Minefield.WinForms.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_winforms\\minefield.winforms\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF7A63CD-D946-4030-A372-A3F46EF98198}|Minefield.WinForms\\Minefield.WinForms.csproj|solutionrelative:minefield.winforms\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_winforms\\minefield\\model\\minefieldgamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|solutionrelative:minefield\\model\\minefieldgamemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_winforms\\minefield\\model\\iminefieldtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|solutionrelative:minefield\\model\\iminefieldtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_winforms\\minefield\\model\\minefieldtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|solutionrelative:minefield\\model\\minefieldtimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_winforms\\minefield\\persistence\\iminefieldfileaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|solutionrelative:minefield\\persistence\\iminefieldfileaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_winforms\\minefield\\persistence\\minefieldfileaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|solutionrelative:minefield\\persistence\\minefieldfileaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_winforms\\minefield\\model\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|solutionrelative:minefield\\model\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_winforms\\minefield\\model\\minefieldcellupdateeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|solutionrelative:minefield\\model\\minefieldcellupdateeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_winforms\\minefield\\model\\iminefieldrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|solutionrelative:minefield\\model\\iminefieldrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|c:\\users\\golyh\\downloads\\minefield\\minefield_winforms\\minefield\\model\\minefieldeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E728F7D4-5953-4DDA-9ABC-1BDF389D9913}|Minefield\\Minefield.csproj|solutionrelative:minefield\\model\\minefieldeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MinefieldGameModel.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\MinefieldGameModel.cs",
+              "RelativeDocumentMoniker": "Minefield\\Model\\MinefieldGameModel.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\MinefieldGameModel.cs",
+              "RelativeToolTip": "Minefield\\Model\\MinefieldGameModel.cs",
+              "ViewState": "AgIAAGcBAAAAAAAAAAASwP0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T19:47:01.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MinefieldTimer.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\MinefieldTimer.cs",
+              "RelativeDocumentMoniker": "Minefield\\Model\\MinefieldTimer.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\MinefieldTimer.cs",
+              "RelativeToolTip": "Minefield\\Model\\MinefieldTimer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T19:44:05.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MinefieldFileAccess.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Persistence\\MinefieldFileAccess.cs",
+              "RelativeDocumentMoniker": "Minefield\\Persistence\\MinefieldFileAccess.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Persistence\\MinefieldFileAccess.cs",
+              "RelativeToolTip": "Minefield\\Persistence\\MinefieldFileAccess.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T12:58:15.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameForm.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield.WinForms\\GameForm.cs",
+              "RelativeDocumentMoniker": "Minefield.WinForms\\GameForm.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield.WinForms\\GameForm.cs",
+              "RelativeToolTip": "Minefield.WinForms\\GameForm.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAnwMQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T12:58:28.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMinefieldFileAccess.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Persistence\\IMinefieldFileAccess.cs",
+              "RelativeDocumentMoniker": "Minefield\\Persistence\\IMinefieldFileAccess.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Persistence\\IMinefieldFileAccess.cs",
+              "RelativeToolTip": "Minefield\\Persistence\\IMinefieldFileAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T12:58:11.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MinefieldCellUpdateEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\MinefieldCellUpdateEventArgs.cs",
+              "RelativeDocumentMoniker": "Minefield\\Model\\MinefieldCellUpdateEventArgs.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\MinefieldCellUpdateEventArgs.cs",
+              "RelativeToolTip": "Minefield\\Model\\MinefieldCellUpdateEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T12:46:09.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMinefieldTimer.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\IMinefieldTimer.cs",
+              "RelativeDocumentMoniker": "Minefield\\Model\\IMinefieldTimer.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\IMinefieldTimer.cs",
+              "RelativeToolTip": "Minefield\\Model\\IMinefieldTimer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T19:45:13.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\Entity.cs",
+              "RelativeDocumentMoniker": "Minefield\\Model\\Entity.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\Entity.cs",
+              "RelativeToolTip": "Minefield\\Model\\Entity.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:59:01.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMinefieldRandom.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\IMinefieldRandom.cs",
+              "RelativeDocumentMoniker": "Minefield\\Model\\IMinefieldRandom.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\IMinefieldRandom.cs",
+              "RelativeToolTip": "Minefield\\Model\\IMinefieldRandom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T10:46:06.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MinefieldEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\MinefieldEventArgs.cs",
+              "RelativeDocumentMoniker": "Minefield\\Model\\MinefieldEventArgs.cs",
+              "ToolTip": "C:\\Users\\golyh\\Downloads\\MineField\\Minefield_WinForms\\Minefield\\Model\\MinefieldEventArgs.cs",
+              "RelativeToolTip": "Minefield\\Model\\MinefieldEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T12:58:00.651Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

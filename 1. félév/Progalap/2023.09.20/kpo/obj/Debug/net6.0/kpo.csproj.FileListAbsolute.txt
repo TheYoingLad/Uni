@@ -1,0 +1,29 @@
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\bin\Debug\net6.0\kpo.exe
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\bin\Debug\net6.0\kpo.deps.json
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\bin\Debug\net6.0\kpo.runtimeconfig.json
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\bin\Debug\net6.0\kpo.dll
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\bin\Debug\net6.0\kpo.pdb
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.AssemblyInfoInputs.cache
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.AssemblyInfo.cs
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.csproj.CoreCompileInputs.cache
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.dll
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\obj\Debug\net6.0\refint\kpo.dll
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.pdb
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.genruntimeconfig.cache
+C:\Users\a7mmz1\Desktop\Prog\2023.09.20\kpo\obj\Debug\net6.0\ref\kpo.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\bin\Debug\net6.0\kpo.exe
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\bin\Debug\net6.0\kpo.deps.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\bin\Debug\net6.0\kpo.runtimeconfig.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\bin\Debug\net6.0\kpo.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\bin\Debug\net6.0\kpo.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.csproj.AssemblyReference.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.AssemblyInfoInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.AssemblyInfo.cs
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.csproj.CoreCompileInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\obj\Debug\net6.0\refint\kpo.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\obj\Debug\net6.0\kpo.genruntimeconfig.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Prog\2023.09.20\kpo\obj\Debug\net6.0\ref\kpo.dll

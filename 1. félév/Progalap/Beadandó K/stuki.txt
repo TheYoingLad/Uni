@@ -1,0 +1,16 @@
+db:=0
+FOR: i=1..m
+IF:folott(i)
+db:=db+1
+y[db]:=i
+ENDIF:
+ENDFOR:
+
+#folott(x:Egész):Logikai
+#Változó: i:Egész, mind:Logikai
+i:=1
+FOR:i<=n és idojaras[i,x]>0
+i:=i+1
+ENDFOR:
+mind:=i>n
+folott:=mind

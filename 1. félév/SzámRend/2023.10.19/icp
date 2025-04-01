@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo -n "src: "
+read src
+echo -n "dest: "
+read dest
+cp "$src" "$dest"

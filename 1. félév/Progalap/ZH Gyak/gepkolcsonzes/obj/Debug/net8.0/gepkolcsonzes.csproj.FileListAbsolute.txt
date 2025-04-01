@@ -1,0 +1,14 @@
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\bin\Debug\net8.0\gepkolcsonzes.exe
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\bin\Debug\net8.0\gepkolcsonzes.deps.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\bin\Debug\net8.0\gepkolcsonzes.runtimeconfig.json
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\bin\Debug\net8.0\gepkolcsonzes.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\bin\Debug\net8.0\gepkolcsonzes.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\obj\Debug\net8.0\gepkolcsonzes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\obj\Debug\net8.0\gepkolcsonzes.AssemblyInfoInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\obj\Debug\net8.0\gepkolcsonzes.AssemblyInfo.cs
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\obj\Debug\net8.0\gepkolcsonzes.csproj.CoreCompileInputs.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\obj\Debug\net8.0\gepkolcsonzes.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\obj\Debug\net8.0\refint\gepkolcsonzes.dll
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\obj\Debug\net8.0\gepkolcsonzes.pdb
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\obj\Debug\net8.0\gepkolcsonzes.genruntimeconfig.cache
+C:\Users\golyh\OneDrive - Eotvos Lorand Tudomanyegyetem\Órai Anyagok\Progalap\ZH Gyak\gepkolcsonzes\obj\Debug\net8.0\ref\gepkolcsonzes.dll
