@@ -1,23 +1,21 @@
 #ifndef SEGED
 #define SEGED
 
-#define LENGTH 255
+#define MAX_NEV 256
+#define MAX_VERS 1024
 
-void menu(int invalid);
 void jelentketzes();
 void modositas();
 void torles();
 void listazas();
-void pontozas();
 void eredmenyhirdetes();
+void menu(int invalid);
 void varakozas();
-
-typedef struct
-{
-    int id;
-    char nev[LENGTH];
-    char vers[LENGTH];
-    int tojasok;
-} Nyuszi;
+void clearStdin();
+void readFromStdin(char *s, int length, char *message);
+void truncate(char *s);
+void modosithato(int invalid);
+void touch();
+void getGlobalId();
 
 #endif

@@ -1,5 +1,27 @@
-0;Kis miska;da;0
-1;Feri veri;dapsocomasc;0
-0;jani ;alma;0
-0;helo belo;apwief poőoinascő mpapne r;0
-0;alma;faliiii;0
+1 15
+Kis miska
+da
+2 10
+uj nem
+paosmc pasmipasjc ujj
+3 10
+asd
+asd
+4 10
+jani 
+alma
+5 4
+helo belo
+éas,cőaps,cőpas őaps,őpa,ő, őaőspd
+10 30
+halika
+faliiii
+12 1
+yuju
+faliiii
+14 3
+helo belo
+csajszik
+15 0
+alma fa
+kis miska
