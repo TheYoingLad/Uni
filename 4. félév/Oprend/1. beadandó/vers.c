@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "seged.h"
 
-int globalId = 0;
+int globalId;
 
 int main()
 {
@@ -138,6 +138,7 @@ void modositas()
                     invalid = 1;
             } while (invalid);
 
+            int done;
             volt = 1;
             switch (opt)
             {
@@ -150,11 +151,9 @@ void modositas()
                 vers[strlen(vers)] = '\n';
                 break;
             case 3:
-                int done;
                 do
                 {
                     char input[MAX_NEV];
-
                     done = 1;
 
                     printf("\nÚj tojások száma: ");
@@ -403,7 +402,8 @@ void modosithato(int invalid)
     printf(">> ");
 }
 
-void touch(){
+void touch()
+{
     FILE *fp = fopen("nyuszik.txt", "a");
     if (!fp)
     {
@@ -422,7 +422,7 @@ void getGlobalId()
         return;
     }
 
-    int a, b;
+    int a = 0, b = 0;
     while (fscanf(fp, "%d %d ", &a, &b) != EOF)
     {
         char buffer[MAX_VERS];
