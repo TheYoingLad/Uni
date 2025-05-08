@@ -16,8 +16,7 @@ int main()
     touch();
     getGlobalId();
 
-    signal(SIGTERM, megerkezett);
-    srand(time(NULL));
+    signal(SIGUSR1, megerkezett);
 
     int invalid = 0;
     char opt;
@@ -346,7 +345,7 @@ void eredmenyhirdetes(int rovid)
 void locsolas()
 {
     int pipefd[2];
-    srand(time(NULL));
+    srand(time(NULL) ^ getpid());
 
     if (pipe(pipefd) == -1)
     {
@@ -371,7 +370,7 @@ void locsolas()
         {
             i++;
         }
-
+        close(pipefd[0]);
         
         FILE *fp = fopen("nyuszik.txt", "r");
         if (!fp)
@@ -403,20 +402,18 @@ void locsolas()
             fprintf(temp, "%d %d\n%s%s", id, tojas, nev, vers);
             i++;
         }
-
         fclose(fp);
         fclose(temp);
 
         remove("nyuszik.txt");
         rename("nyuszik_tmp.txt", "nyuszik.txt");
 
-        close(pipefd[0]);
-        eredmenyhirdetes(1);
+        eredmenyhirdetes(1); // rövidített kiírás, csak név és tojások száma
     }
     else // gyerek
     {
         close(pipefd[0]);
-        kill(getppid(), SIGTERM);
+        kill(getppid(), SIGUSR1);
 
         FILE *fp = fopen("nyuszik.txt", "r");
         if (!fp)
@@ -443,11 +440,12 @@ void locsolas()
             printf("Elnyert tojások: %d\n\n", tojas);
             write(pipefd[1], &tojas, sizeof(tojas));
         }
+        fflush(stdout);
         fclose(fp);
 
         close(pipefd[1]);
 
-        exit(0);
+        exit(EXIT_SUCCESS);
     }
 }
 
@@ -489,11 +487,6 @@ void readFromStdin(char *s, int length, char *message)
             printf("Az adat nem lehet üres!\n");
             done = 0;
         }
-        /* if (done && strchr(s, ';') != NULL)
-        {
-            printf("Nem tartalmazhat ';' karaktert\n");
-            done = 0;
-        } */
         if (done && s[strlen(s) - 1] != '\n')
         {
             printf("Az adat túl hosszú!\n");
@@ -558,4 +551,5 @@ void getGlobalId()
 void megerkezett(int signum)
 {
     printf("\nLocsolók megérkeztek!\n\n\n");
+    fflush(stdout);
 }
