@@ -371,6 +371,8 @@ void locsolas()
             i++;
         }
         close(pipefd[0]);
+
+        // wait(); kell!
         
         FILE *fp = fopen("nyuszik.txt", "r");
         if (!fp)

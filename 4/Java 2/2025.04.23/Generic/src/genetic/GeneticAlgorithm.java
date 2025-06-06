@@ -9,7 +9,7 @@ import java.util.function.*;
 public class GeneticAlgorithm {
     public static <Entity> Entity algorithm(int populationCount, Supplier<Entity> createRandomEntity,
                                             int crossoverCount, BinaryOperator<Entity> doCrossover,
-                                            double mutationProbability, BiFunction<Entity, Double, Entity> mutateEntity,
+                                            double mutationProbability, UnaryOperator<Entity> mutateEntity,
                                             Function<Entity, Integer> calculateFitness,
                                             int pruneCount,
                                             int generationCount) {
@@ -29,7 +29,7 @@ public class GeneticAlgorithm {
             }
 
             // mutation
-            for (Entity e : population) mutateEntity.apply(e, mutationProbability);
+            for (Entity e : population) if (r.nextDouble() < mutationProbability) mutateEntity.apply(e);
 
             // sorting by fitness
             population.sort(Comparator.comparingInt(calculateFitness::apply).reversed());
@@ -42,9 +42,5 @@ public class GeneticAlgorithm {
         }
 
         return population.get(0);
-    }
-
-    public static void main(String[] args) {
-
     }
 }

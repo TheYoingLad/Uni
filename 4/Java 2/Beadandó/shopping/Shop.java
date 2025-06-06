@@ -29,34 +29,24 @@ public class Shop {
     public Map<Item, Integer> generateRandomShoppingList() {
         Random rand = ThreadLocalRandom.current();
 
-//        List<Item> validItems = stock
-//                .entrySet()
-//                .stream()
-//                .filter(e -> e.getValue() > 0)
-//                .map(Map.Entry::getKey).toList();
-//        if (validItems.isEmpty())
-//            return Map.of(stock.keySet().stream().toList().get(rand.nextInt(0, stock.size())), rand.nextInt(1, 25)); // ha nincs semmi akkor mindegy miből de valamit kell választani
-//        int itemCount = rand.nextInt(1, validItems.size());
-//        List<Integer> chosenItems = new ArrayList<>();
+        synchronized (lock) {
+            int itemCount = rand.nextInt(1, stock.size() + 1);
 
-        // nem kell synchronised, mert nem változtatunk a közös erőforráson
+            var items = new ArrayList<>(stock.keySet());
+            Collections.shuffle(items, rand);
 
-        int itemCount = rand.nextInt(1, stock.size() + 1);
-
-        var items = new ArrayList<>(stock.keySet());
-        Collections.shuffle(items, rand);
-
-        return items.stream()
-                .limit(itemCount)
-                .collect(Collectors.toMap(item -> item, item -> rand.nextInt(1, 25)));
+            return items.stream()
+                    .limit(itemCount)
+                    .collect(Collectors.toMap(item -> item, item -> rand.nextInt(1, 25)));
+        }
     }
 
     public void tryToBuy(Map<Item, Integer> shoppingList, Object customer) {
-        synchronized (lock) { // stock.get miatt kell
+        synchronized (lock) {
             if (shoppingList.entrySet()
                     .stream()
                     .map(e -> stock.get(e.getKey()) - e.getValue())
-                    .anyMatch(e -> e < 0)) {
+                    .anyMatch(db -> db < 0)) {
                 System.out.println("Purchase is not possible");
                 return;
             }

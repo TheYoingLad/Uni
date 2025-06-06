@@ -1,15 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69e5e55d-c8dc-4aab-8596-ca25f32f42e6" name="Changes" comment="" />
+    <list default="true" id="69e5e55d-c8dc-4aab-8596-ca25f32f42e6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../2025.04.23/Generic/src/genetic/GeneticAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2025.04.23/Generic/src/genetic/GeneticAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beadandó/out/production/Beadandó/shopping/Item$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Beadandó/out/production/Beadandó/shopping/Item$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beadandó/out/production/Beadandó/shopping/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Beadandó/out/production/Beadandó/shopping/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beadandó/out/production/Beadandó/shopping/ReaderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Beadandó/out/production/Beadandó/shopping/ReaderUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beadandó/out/production/Beadandó/shopping/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Beadandó/out/production/Beadandó/shopping/Shop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beadandó/shopping.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beadandó/shopping/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Beadandó/shopping/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beadandó/shopping/ReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Beadandó/shopping/ReaderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Beadandó/shopping/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Beadandó/shopping/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/.idea/EA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/Enums/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/Enums/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/Enums/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/Enums/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/Enums/bin/enums/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/Enums/bin/enums/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/Enums/bin/enums/EnumDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/Enums/src/enums/EnumDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/FactorialTester/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/FactorialTester/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/FactorialTester/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/FactorialTester/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/FactorialTester/bin/fib/main/part1/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/FactorialTester/bin/fib/main/part1/Tester2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/FactorialTester/bin/fib/main/part1/Tester2Better$AnotherStep1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/FactorialTester/bin/fib/main/part1/Tester2Better$Step1$Step2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/FactorialTester/bin/fib/main/part1/Tester2Better$Step1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/FactorialTester/bin/fib/main/part1/Tester2Better.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/FactorialTester/src/fib/main/part1/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/FactorialTester/src/fib/main/part1/Tester2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/FactorialTester/src/fib/main/part1/Tester2Better.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/SystemUnderTest/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/SystemUnderTest/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/SystemUnderTest/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/SystemUnderTest/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/SystemUnderTest/bin/fib/main/part1/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EA/SystemUnderTest/src/fib/main/part1/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oprend/2beadandó/nyuszik copy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oprend/2beadandó/nyuszik copy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oprend/2beadandó/nyuszik.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oprend/2beadandó/nyuszik.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oprend/2beadandó/vers.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oprend/2beadandó/vers.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2tXZ7BXL5cR0up2D0qbUJGOSOAl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,7 +66,10 @@
   "keyToString": {
     "Application.City.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/admin/Uni/4/Java 2/2025.02.26",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -27,8 +77,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -41,6 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740500210519</updated>
       <workItem from="1740500212245" duration="40000" />
+      <workItem from="1748615527679" duration="152000" />
     </task>
     <servers />
   </component>

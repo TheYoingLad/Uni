@@ -20,10 +20,4 @@ public class ReaderUtil {
         String[] parts = line.split(",");
         return parsePair(ReaderUtil::readItem, ReaderUtil::readPrice).apply(parts[0], parts[1], parts[2]);
     }
-
-    public static void main(String[] args) {
-        Item i = readItem("alma", "FOOD");
-        System.out.println(i.name());
-        System.out.println(i.category());
-    }
 }
