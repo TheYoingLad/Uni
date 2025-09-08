@@ -1,0 +1,28 @@
+*----------------------------------------------------------------------*
+***INCLUDE ERPSLS_BILLDOC_VIEW_REUSE_AF01 .
+*----------------------------------------------------------------------*
+*&---------------------------------------------------------------------*
+*&      Form  reuse_alv_list_display
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+*  -->  p1        text
+*  <--  p2        text
+*----------------------------------------------------------------------*
+form reuse_alv_list_display .
+
+  call function 'REUSE_ALV_GRID_DISPLAY'
+    exporting
+      i_callback_program        = lrv_repid
+      i_callback_pf_status_set  = lrv_status
+      i_callback_user_command   = lrv_user_command
+      is_layout                 = lrs_layout
+      it_fieldcat               = lrt_fieldcat
+      i_save                    = 'A'
+    tables
+      t_outtab                  = lrt_doc
+    exceptions
+      program_error             = 1
+      others                    = 2.
+
+endform.                    " reuse_alv_list_display

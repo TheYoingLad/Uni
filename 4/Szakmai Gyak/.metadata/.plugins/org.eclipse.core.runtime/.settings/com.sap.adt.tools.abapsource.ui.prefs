@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+rndWordCompletionCounterEXPONENT=1
+rndWordCompletionCounterWRITE=1
+rndWordCompletionCounterWordList=rndWordCompletionCounterEXPONENT;rndWordCompletionCounterWRITE;

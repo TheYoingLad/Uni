@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.sap.adt.objectrelations.ui.internal.views.AdtObjectNetworkView">
+		<item key="layoutOrientation" value="2"/>
+	</section>
+</section>

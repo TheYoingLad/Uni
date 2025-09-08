@@ -1,0 +1,62 @@
+*----------------------------------------------------------------------*
+***INCLUDE Z_03_221_FELADAT1_AS_SEL_0100.
+*----------------------------------------------------------------------*
+*&---------------------------------------------------------------------*
+*&      Module  ASSING_SELECTION_0100  INPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+MODULE assing_selection_0100 INPUT.
+
+  DATA: svbeln TYPE RANGE OF erpsls_billdoc-vbeln,
+        sfkart TYPE RANGE OF erpsls_billdoc-fkart,
+        sfkdat TYPE RANGE OF erpsls_billdoc-fkdat,
+        svkorg TYPE RANGE OF erpsls_billdoc-vkorg,
+        svtweg TYPE RANGE OF erpsls_billdoc-vtweg.
+
+*  CLEAR svbeln.
+  IF svbeln_low IS NOT INITIAL OR svbeln_high IS NOT INITIAL.
+    svbeln = VALUE #( (
+    sign = 'I'
+    option = 'BT'
+    low = svbeln_low
+    high = svbeln_high ) ).
+  ENDIF.
+
+  CLEAR sfkart.
+  IF sfkart_low IS NOT INITIAL OR sfkart_high IS NOT INITIAL.
+    sfkart = VALUE #( (
+    sign = 'I'
+    option = 'BT'
+    low = sfkart_low
+    high = sfkart_high ) ).
+  ENDIF.
+
+  CLEAR sfkdat.
+  IF sfkdat_low IS NOT INITIAL OR sfkdat_high IS NOT INITIAL.
+    sfkdat = VALUE #( (
+    sign = 'I'
+    option = 'BT'
+    low = sfkdat_low
+    high = sfkdat_high ) ).
+  ENDIF.
+
+  CLEAR svkorg.
+  IF svkorg_low IS NOT INITIAL OR svkorg_high IS NOT INITIAL.
+    svkorg = VALUE #( (
+    sign = 'I'
+    option = 'BT'
+    low = svkorg_low
+    high = svkorg_high ) ).
+  ENDIF.
+
+  CLEAR svtweg.
+  IF svtweg_low IS NOT INITIAL OR svtweg_high IS NOT INITIAL.
+    svtweg = VALUE #( (
+    sign = 'I'
+    option = 'BT'
+    low = svtweg_low
+    high = svtweg_high ) ).
+  ENDIF.
+
+ENDMODULE.

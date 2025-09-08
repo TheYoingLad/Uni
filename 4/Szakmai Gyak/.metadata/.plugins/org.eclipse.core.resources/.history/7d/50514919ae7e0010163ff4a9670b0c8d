@@ -1,0 +1,79 @@
+*----------------------------------------------------------------------*
+***INCLUDE Z_03_221_FELADAT1_SUBMIT_0100.
+*----------------------------------------------------------------------*
+*&---------------------------------------------------------------------*
+*&      Module  SUBMIT_0100  INPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+MODULE submit_0100 INPUT.
+
+  DATA: lt_tfill  TYPE sytfill,
+        lt_data   TYPE STANDARD TABLE OF abaplist,
+        lt_string TYPE string,
+        lt_trash  TYPE string,
+        lt_ascii  TYPE TABLE OF char255.
+        
+        field-SYMBOLS: <lt_data> type table of mytable.
+
+  CASE ok_code.
+    WHEN 'BACK'.
+      LEAVE PROGRAM.
+    WHEN 'SEARCH'.
+      SUBMIT erpsls_billdoc_view
+      WITH svbeln IN svbeln
+      WITH sfkart IN sfkart
+      WITH sfkdat IN sfkdat
+      WITH svkorg IN svkorg
+      WITH svtweg IN svtweg
+      WITH popen = gv_open
+      WITH pnotopen = gv_not_open
+      AND RETURN
+      EXPORTING LIST TO MEMORY.
+  ENDCASE.
+
+  CLEAR lt_data.
+  CALL FUNCTION 'LIST_FROM_MEMORY'
+    TABLES
+      listobject = lt_data
+    EXCEPTIONS
+      not_found  = 1.
+
+  IF sy-subrc = 1.
+    MESSAGE s490(vr).
+    RETURN.
+  ENDIF.
+
+  CLEAR lt_ascii.
+  CALL FUNCTION 'LIST_TO_ASCI'
+    TABLES
+      listobject = lt_data
+      listasci   = lt_ascii.
+
+  DELETE lt_ascii INDEX 1.
+  DELETE lt_ascii INDEX 1.
+  DELETE lt_ascii INDEX 1.
+
+  lt_tfill = lines( lt_ascii ).
+
+  DELETE lt_ascii INDEX lt_tfill.
+
+  CLEAR it_mytable.
+  LOOP AT lt_ascii INTO lt_string.
+    SPLIT lt_string AT '|' INTO
+        lt_trash
+        wa_mytable-fkart
+        lt_trash
+        lt_trash
+        wa_mytable-fkdat
+        wa_mytable-vkorg
+        wa_mytable-vtweg
+        lt_trash
+        wa_mytable-vbeln.
+
+    APPEND wa_mytable TO it_mytable.
+  ENDLOOP.
+
+  lt_tfill = 0. " dummy line for debugging
+
+ENDMODULE.

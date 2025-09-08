@@ -1,0 +1,10 @@
+//com.sap.adt.util.ui.contentassist.FieldHistoryProposalProvider.com.sap.adt.object.desription.PROG/I=class include for apab objects exercise\r
+//com.sap.adt.util.ui.contentassist.FieldHistoryProposalProvider.com.sap.adt.object.desription.PROG/P=database exercise 2\rdb challenge exercise\rabap object exercise\rabap object exercise 2\r
+//com.sap.adt.util.ui.contentassist.FieldHistoryProposalProvider.com.sap.adt.object.name.PROG/I=Z_03_221_CLASS_INCLUDE\r
+//com.sap.adt.util.ui.contentassist.FieldHistoryProposalProvider.com.sap.adt.object.name.PROG/P=Z_03_221_PERSON\rZ_03_221_LUGGWEIGHT\rZ_03_221_OBJECTS\rZ_03_221_OBJECTS_GLOBAL\r
+com.sap.adt.util.ui.contentassist.FieldHistoryProposalProvider.com.sap.adt.package.context=Z_03_221\r
+com.sap.adt.util.ui.contentassist.FieldHistoryProposalProvider.com.sap.adt.ris.model.textsearch.ITextSearchObjectprojectField=A03_203_devaaz-221_en\r
+com.sap.adt.util.ui.contentassist.FieldHistoryProposalProvider.com.sap.adt.ris.search.ui.internal.RisSearchDialogsearchPatternText=zcl_03\rVBRK-KALSM\r
+com.sap.adt.util.ui.contentassist.FieldHistoryProposalProvider.com.sap.adt.tools.core.project.IAbapProject=A03_203_devaaz-221_en\r
+com.sap.adt.util.ui.contentassist.FieldHistoryProposalProvider.com.sap.adt.transport.ui.internal.widgets.transport.description=challenge exercise\rabap objects exercise\r
+eclipse.preferences.version=1

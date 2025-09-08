@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="AbapSourceCodeElementInfo">
+		<item key="size.width" value="600"/>
+		<item key="size.height" value="200"/>
+	</section>
+	<section name="com.sap.adt.tools.abapsource.ui.TypeHierarchy">
+		<item key="com.sap.adt.tools.abapsource.ui.internal.hierarchy.AbapQuickTypeHierarchyInformationControlDIALOG_WIDTH" value="350"/>
+		<item key="com.sap.adt.tools.abapsource.ui.internal.hierarchy.AbapQuickTypeHierarchyInformationControlDIALOG_HEIGHT" value="306"/>
+		<item key="com.sap.adt.tools.abapsource.ui.internal.hierarchy.AbapQuickTypeHierarchyInformationControlDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="com.sap.adt.tools.abapsource.ui.internal.hierarchy.AbapQuickTypeHierarchyInformationControlDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+	</section>
+</section>

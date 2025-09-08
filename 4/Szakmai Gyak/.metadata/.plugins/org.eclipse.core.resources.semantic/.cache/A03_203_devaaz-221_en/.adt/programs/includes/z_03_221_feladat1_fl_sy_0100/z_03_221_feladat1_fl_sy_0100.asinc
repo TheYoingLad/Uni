@@ -1,0 +1,49 @@
+*----------------------------------------------------------------------*
+***INCLUDE Z_03_221_FELADAT1_FL_SY_0100.
+*----------------------------------------------------------------------*
+*&---------------------------------------------------------------------*
+*&      Module  FIELD_SYMBOL_0100  INPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+MODULE field_symbol_0100 INPUT.
+
+  DATA: it_vbrk  TYPE TABLE OF vbrk,
+        lv_bukrs TYPE bukrs,
+        it_t001  TYPE TABLE OF t001,
+        it_adrc  TYPE TABLE OF adrc.
+
+  SELECT * FROM vbrk INTO TABLE it_vbrk.
+  SELECT * FROM t001 INTO TABLE it_t001.
+  SELECT * FROM adrc INTO TABLE it_adrc.
+
+  LOOP AT it_data ASSIGNING <fs_data>.
+    LOOP AT it_vbrk ASSIGNING FIELD-SYMBOL(<fs_vbrk>).
+      IF <fs_data>-vbeln = <fs_vbrk>-vbeln.
+        <fs_data>-kalsm = <fs_vbrk>-kalsm.
+        <fs_data>-land1 = <fs_vbrk>-land1.
+        <fs_data>-regio = <fs_vbrk>-regio.
+        lv_bukrs = <fs_vbrk>-bukrs.
+        EXIT.
+      ENDIF.
+    ENDLOOP.
+
+    LOOP AT it_t001 ASSIGNING FIELD-SYMBOL(<fs_t001>).
+      IF lv_bukrs = <fs_t001>-bukrs.
+        <fs_data>-butxt = <fs_t001>-butxt.
+        <fs_data>-adrnr = <fs_t001>-adrnr.
+        EXIT.
+      ENDIF.
+    ENDLOOP.
+
+    LOOP AT it_adrc ASSIGNING FIELD-SYMBOL(<fs_adrc>).
+      IF <fs_data>-adrnr = <fs_adrc>-addrnumber.
+        <fs_data>-city1 = <fs_adrc>-city1.
+        <fs_data>-post_code1 = <fs_adrc>-post_code1.
+        <fs_data>-street = <fs_adrc>-street.
+        EXIT.
+      ENDIF.
+    ENDLOOP.
+  ENDLOOP.
+
+ENDMODULE.

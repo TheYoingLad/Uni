@@ -1,0 +1,9 @@
+*&---------------------------------------------------------------------*
+*& Include Z_03_221_DYNPRO_TOP                      - Module Pool      Z_03_221_DYNPRO
+*&---------------------------------------------------------------------*
+PROGRAM z_03_221_dynpro.
+
+TABLES spfli.
+
+DATA: ok_code   LIKE sy-ucomm,
+      wa_flight TYPE spfli.

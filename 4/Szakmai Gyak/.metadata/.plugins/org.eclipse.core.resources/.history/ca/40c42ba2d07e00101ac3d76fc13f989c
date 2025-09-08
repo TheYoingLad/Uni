@@ -1,0 +1,40 @@
+*&----------------------------------------------------------------*
+*& Include Z_03_221_FELADAT1_TOP - Module Pool      Z_03_221_FELADAT1
+*&----------------------------------------------------------------*
+PROGRAM z_03_221_feladat1.
+
+TABLES: erpsls_billdoc, vbrk, adrc, t001.
+
+TYPES: BEGIN OF ty_data,
+         vbeln      TYPE vbeln,
+         fkart      TYPE fkart,
+         fkdat      TYPE fkdat,
+         vkorg      TYPE vkorg,
+         vtweg      TYPE vtweg,
+         kalsm      TYPE kalsmasd,
+         land1      TYPE land1,
+         regio      TYPE regio,
+         butxt      TYPE butxt,
+         adrnr      TYPE adrnr,
+         city1      TYPE ad_city1,
+         post_code1 TYPE ad_pstcd1,
+         street     TYPE ad_street,
+       END OF ty_data.
+
+DATA: ok_code     LIKE sy-ucomm,
+      gv_repid       LIKE sy-repid,
+      it_data     TYPE TABLE OF ty_data,
+      gv_open     TYPE c LENGTH 1 VALUE 'X',
+      gv_not_open TYPE c LENGTH 1,
+      svbeln_low  TYPE erpsls_billdoc-vbeln,
+      svbeln_high TYPE erpsls_billdoc-vbeln,
+      sfkart_low  TYPE erpsls_billdoc-fkart,
+      sfkart_high TYPE erpsls_billdoc-fkart,
+      sfkdat_low  TYPE erpsls_billdoc-fkdat,
+      sfkdat_high TYPE erpsls_billdoc-fkdat,
+      svkorg_low  TYPE erpsls_billdoc-vkorg,
+      svkorg_high TYPE erpsls_billdoc-vkorg,
+      svtweg_low  TYPE erpsls_billdoc-vtweg,
+      svtweg_high TYPE erpsls_billdoc-vtweg.
+
+FIELD-SYMBOLS: <fs_data> LIKE LINE OF it_data.

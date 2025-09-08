@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>A03_203_devaaz-221_en</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>com.sap.adt.abapnature</nature>
+		<nature>com.sap.adt.abapnature</nature>
+	</natures>
+</projectDescription>

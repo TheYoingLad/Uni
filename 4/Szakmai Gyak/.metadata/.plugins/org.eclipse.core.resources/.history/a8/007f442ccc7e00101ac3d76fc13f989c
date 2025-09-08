@@ -1,0 +1,29 @@
+*----------------------------------------------------------------------*
+***INCLUDE Z_03_221_FELADAT1_ALV_0100.
+*----------------------------------------------------------------------*
+*&---------------------------------------------------------------------*
+*&      Module  ALV_DISPLAY_0100  INPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+MODULE alv_display_0100 INPUT.
+
+DATA: lt_fieldcat TYPE slis_t_fieldcat_alv,
+      lv_layout TYPE slis_layout_alv.
+
+*call function 'Reuse_alv_fi'
+*    exporting
+*         i_structure_name = 'ty_data'
+*    changing
+*         ct_fieldcat      = lt_fieldcat.
+
+  CALL FUNCTION 'REUSE_ALV_GRID_DISPLAY'
+    EXPORTING
+      i_callback_program       = gv_repid
+*      i_callback_user_command  = lrv_user_command
+      is_layout                = lv_layout
+*      it_fieldcat              = lt_fieldcat
+    TABLES
+      t_outtab                 = it_data.
+
+ENDMODULE.

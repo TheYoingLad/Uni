@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.sap.adt.sapgui.ui.launchConfigurationType">
+    <stringAttribute key="OBJECT_NAME" value="Z_03_221_FLIGHTS"/>
+    <stringAttribute key="OBJECT_TYPE" value="PROG/P"/>
+    <stringAttribute key="OBJECT_URI" value="/sap/bc/adt/programs/programs/z_03_221_flights/source/main"/>
+    <stringAttribute key="PROJECT_NAME" value="A03_203_devaaz-221_en"/>
+    <stringAttribute key="WB_ACTION" value="EXECUTE"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/A03_203_devaaz-221_en"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+</launchConfiguration>

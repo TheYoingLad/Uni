@@ -1,0 +1,32 @@
+*----------------------------------------------------------------------*
+***INCLUDE Z_03_221_FELADAT1_ALV_0100.
+*----------------------------------------------------------------------*
+*&---------------------------------------------------------------------*
+*&      Module  ALV_DISPLAY_0100  INPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+MODULE alv_display_0100 INPUT.
+
+  DATA: lv_fieldcat TYPE slis_fieldcat_alv OCCURS 1.
+
+  CALL FUNCTION 'REUSE_ALV_FIELDCATALOG_MERGE'
+    EXPORTING
+      i_program_name         = 'Z_03_221_FELADAT1_ALV_0100'
+      i_internal_tabname     = 'IT_DATA'
+*     i_inclname             = 'Z_03_221_FELADAT1_TOP'
+    CHANGING
+      ct_fieldcat            = lv_fieldcat.
+
+  WRITE: / sy-subrc.
+
+  CALL FUNCTION 'REUSE_ALV_GRID_DISPLAY'
+    EXPORTING
+      i_callback_program = gv_repid
+*     i_callback_user_command  = lrv_user_command
+*     is_layout          = lv_layout
+      it_fieldcat        = lv_fieldcat
+    TABLES
+      t_outtab           = it_data.
+
+ENDMODULE.

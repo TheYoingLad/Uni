@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="TransportSelectionComposite">
+		<section name="columnWidths">
+			<item key="Transport Request" value="120"/>
+			<item key="Owner" value="100"/>
+			<item key="Target" value="100"/>
+			<item key="Description" value="280"/>
+			<item key="CTS Project" value="300"/>
+			<item key="Last Changed" value="200"/>
+		</section>
+		<section name="columnPositions">
+			<item key="Transport Request" value="0"/>
+			<item key="Owner" value="1"/>
+			<item key="Target" value="2"/>
+			<item key="Description" value="3"/>
+			<item key="CTS Project" value="4"/>
+			<item key="Last Changed" value="5"/>
+		</section>
+	</section>
+	<section name="com.sap.adt.transport.ui.internal.widgets.TransportSelectionDialog_dialogBounds_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="512"/>
+		<item key="DIALOG_Y_ORIGIN" value="164"/>
+		<item key="DIALOG_WIDTH" value="673"/>
+		<item key="DIALOG_HEIGHT" value="524"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

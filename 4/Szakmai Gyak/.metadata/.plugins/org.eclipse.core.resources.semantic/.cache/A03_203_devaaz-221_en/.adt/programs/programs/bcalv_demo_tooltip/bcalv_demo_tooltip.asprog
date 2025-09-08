@@ -1,0 +1,788 @@
+*&---------------------------------------------------------------------*
+*& Report  BCALV_DEMO_TOOLTIPS
+*&
+*&---------------------------------------------------------------------*
+*&
+*&
+*&---------------------------------------------------------------------*
+
+report  BCALV_DEMO_TOOLTIPS no standard page heading.
+
+*-----------------------------------------------------------------------
+*... This report demonstrates tooltips in ALV
+*  For color encoding, two options exist:
+*  - a length 1 encoding ranging from 0 to 7 corresponding to the ABAP colors
+*  - a length 3 encoding like in the ALV fieldcatalog for colors (parameter emphasize):
+*  code xyz corresponds to
+*  x: ABAP color number (like length 1 encoding)
+*  y: intensified on - 1 - intensified off - 0 -
+*  z: inverse on - 1 - inverse off - 0 -
+*
+*
+*      - cl_salv_table (Fullscreen Grid, Fullscreen List, Grid)
+*-----------------------------------------------------------------------
+
+type-pools: col,
+            icon,
+            sym.
+
+types: begin of g_type_s_test,
+         amount  type i,
+         repid   type syrepid,
+         display type i,
+         dynamic type sap_bool,
+       end of g_type_s_test.
+
+constants: gc_true  type sap_bool value 'X',
+
+           begin of gc_s_display,
+             list       type i value 1,
+             fullscreen type i value 2,
+             grid       type i value 3,
+           end   of gc_s_display.
+
+data: gs_test type g_type_s_test.
+
+types: begin of gs_outtab.
+types:   lights               type char1,
+         color                type i,
+         tabcol               type lvc_t_scol,
+         id                   type char25,
+         name                 type icon-name,
+         symbol               type icon-id,
+end   of gs_outtab.
+data: gt_outtab type standard table of gs_outtab.
+* ... and a model class object
+data: gr_grid   type ref to cl_gui_alv_grid.
+* if you want to display the data table on your own Dynpro, you also need a container
+data: gr_container type ref to cl_gui_custom_container,
+      gs_layout type lvc_s_layo,
+      gt_fieldcat type lvc_t_fcat.
+
+data: g_okcode type syucomm.
+
+data: gt_exc type table of ALV_S_QINF.
+
+data: text type string.
+
+text = text-b01.
+
+*----------------------------------------------------------------------*
+* SELECTION-SCREEN - for demonstration purposes only                   *
+*----------------------------------------------------------------------*
+selection-screen begin of block gen with frame.
+parameters:
+p_amount type i default 20.
+selection-screen end of block gen.
+
+selection-screen begin of block dsp with frame.
+parameters:
+p_full   radiobutton group dsp,
+p_list   radiobutton group dsp,
+p_grid   radiobutton group dsp.
+selection-screen end of block dsp.
+
+*----------------------------------------------------------------------*
+* START-OF-SELECTION                                                   *
+*----------------------------------------------------------------------*
+start-of-selection.
+  gs_test-amount = p_amount.
+  gs_test-repid = sy-repid.
+  case gc_true.
+    when p_list.
+      gs_test-display = gc_s_display-list.
+    when p_full.
+      gs_test-display = gc_s_display-fullscreen.
+    when p_grid.
+      gs_test-display = gc_s_display-grid.
+  endcase.
+
+*----------------------------------------------------------------------*
+* END-OF-SELECTION                                                     *
+*----------------------------------------------------------------------*
+end-of-selection.
+
+  perform select_data.
+
+  case gs_test-display.
+    when gc_s_display-fullscreen.
+      perform display_fullscreen.
+
+    when gc_s_display-grid.
+      perform display_grid.
+
+    when gc_s_display-list.
+      perform display_list.
+  endcase.
+
+*&---------------------------------------------------------------------*
+*&      Form  select_data
+*&---------------------------------------------------------------------*
+* §2 to display the data, you first have to select it in some table
+*----------------------------------------------------------------------*
+form select_data.
+
+* select icons
+  select * from icon into corresponding fields of table gt_outtab
+           up to gs_test-amount rows.
+
+endform.                    " select_data
+
+*&---------------------------------------------------------------------*
+*&      Form  display_fullscreen
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+form display_fullscreen .
+
+  data: ls_layout type slis_layout_alv,
+        lt_fcat type slis_t_fieldcat_alv,
+        ls_fcat type slis_fieldcat_alv.
+
+      ls_layout-lights_tabname   = '1'.
+      ls_layout-lights_fieldname = 'LIGHTS'.
+      ls_layout-coltab_fieldname =  'TABCOL'.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'LIGHTS'.
+      ls_fcat-inttype = 'C'.
+      ls_fcat-seltext_l = text-hl4.
+      ls_fcat-seltext_m = text-hl4.
+      ls_fcat-seltext_s = text-hl4.
+
+      append ls_fcat to lt_fcat.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'COLOR'.
+      ls_fcat-inttype = 'I'.
+      ls_fcat-seltext_l = text-hl3.
+      ls_fcat-seltext_m = text-hl3.
+      ls_fcat-seltext_s = text-hl3.
+
+      append ls_fcat to lt_fcat.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'ID'.
+      ls_fcat-inttype = 'C'.
+      ls_fcat-seltext_l = text-hl1.
+      ls_fcat-seltext_m = text-hl1.
+      ls_fcat-seltext_s = text-hl1.
+      ls_fcat-icon = abap_true.
+
+      append ls_fcat to lt_fcat.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'SYMBOL'.
+      ls_fcat-inttype = 'C'.
+      ls_fcat-seltext_l = text-hl2.
+      ls_fcat-seltext_m = text-hl2.
+      ls_fcat-seltext_s = text-hl2.
+      ls_fcat-symbol = abap_true.
+
+      append ls_fcat to lt_fcat.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'NAME'.
+      ls_fcat-tech = abap_true.
+
+      append ls_fcat to lt_fcat.
+
+  perform select_data.
+
+  perform set_tooltips.
+
+  CALL FUNCTION 'REUSE_ALV_GRID_DISPLAY'
+   EXPORTING
+*     I_INTERFACE_CHECK                 = ' '
+*     I_BYPASSING_BUFFER                = ' '
+*     I_BUFFER_ACTIVE                   = ' '
+*     I_CALLBACK_PROGRAM                = ' '
+*     I_CALLBACK_PF_STATUS_SET          = ' '
+*     I_CALLBACK_USER_COMMAND           = ' '
+*     I_CALLBACK_TOP_OF_PAGE            = ' '
+*     I_CALLBACK_HTML_TOP_OF_PAGE       = ' '
+*     I_CALLBACK_HTML_END_OF_LIST       = ' '
+*     I_STRUCTURE_NAME                  =
+*     I_BACKGROUND_ID                   = ' '
+*     I_GRID_TITLE                      =
+*     I_GRID_SETTINGS                   =
+     IS_LAYOUT                         = ls_layout
+     IT_FIELDCAT                       = lt_fcat
+*     IT_EXCLUDING                      =
+*     IT_SPECIAL_GROUPS                 =
+*     IT_SORT                           =
+*     IT_FILTER                         =
+*     IS_SEL_HIDE                       =
+*     I_DEFAULT                         = 'X'
+*     I_SAVE                            = ' '
+*     IS_VARIANT                        =
+*     IT_EVENTS                         =
+*     IT_EVENT_EXIT                     =
+*     IS_PRINT                          =
+*     IS_REPREP_ID                      =
+*     I_SCREEN_START_COLUMN             = 0
+*     I_SCREEN_START_LINE               = 0
+*     I_SCREEN_END_COLUMN               = 0
+*     I_SCREEN_END_LINE                 = 0
+*     I_HTML_HEIGHT_TOP                 = 0
+*     I_HTML_HEIGHT_END                 = 0
+*     IT_ALV_GRAPHICS                   =
+*     IT_HYPERLINK                      =
+*     IT_ADD_FIELDCAT                   =
+     IT_EXCEPT_QINFO                   = gt_exc
+*     IR_SALV_FULLSCREEN_ADAPTER        =
+*   IMPORTING
+*     E_EXIT_CAUSED_BY_CALLER           =
+*     ES_EXIT_CAUSED_BY_USER            =
+    TABLES
+      T_OUTTAB                          = gt_outtab
+   EXCEPTIONS
+     PROGRAM_ERROR                     = 1
+     OTHERS                            = 2
+            .
+  IF SY-SUBRC <> 0.
+* MESSAGE ID SY-MSGID TYPE SY-MSGTY NUMBER SY-MSGNO
+*         WITH SY-MSGV1 SY-MSGV2 SY-MSGV3 SY-MSGV4.
+  ENDIF.
+
+
+endform.                    " display_fullscreen
+
+*&---------------------------------------------------------------------*
+*&      Form  display_list
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+form display_list .
+ data: ls_layout type slis_layout_alv,
+        lt_fcat type slis_t_fieldcat_alv,
+        ls_fcat type slis_fieldcat_alv.
+
+      ls_layout-lights_tabname   = '1'.
+      ls_layout-lights_fieldname = 'LIGHTS'.
+      ls_layout-coltab_fieldname =  'TABCOL'.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'LIGHTS'.
+      ls_fcat-inttype = 'C'.
+      ls_fcat-seltext_l = text-hl4.
+      ls_fcat-seltext_m = text-hl4.
+      ls_fcat-seltext_s = text-hl4.
+
+      append ls_fcat to lt_fcat.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'COLOR'.
+      ls_fcat-inttype = 'I'.
+      ls_fcat-seltext_l = text-hl3.
+      ls_fcat-seltext_m = text-hl3.
+      ls_fcat-seltext_s = text-hl3.
+
+      append ls_fcat to lt_fcat.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'ID'.
+      ls_fcat-inttype = 'C'.
+      ls_fcat-seltext_l = text-hl1.
+      ls_fcat-seltext_m = text-hl1.
+      ls_fcat-seltext_s = text-hl1.
+      ls_fcat-icon = abap_true.
+
+      append ls_fcat to lt_fcat.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'SYMBOL'.
+      ls_fcat-inttype = 'C'.
+      ls_fcat-seltext_l = text-hl2.
+      ls_fcat-seltext_m = text-hl2.
+      ls_fcat-seltext_s = text-hl2.
+      ls_fcat-symbol = abap_true.
+
+      append ls_fcat to lt_fcat.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'NAME'.
+      ls_fcat-tech = abap_true.
+
+      append ls_fcat to lt_fcat.
+
+  perform select_data.
+
+  perform set_tooltips.
+
+  CALL FUNCTION 'REUSE_ALV_LIST_DISPLAY'
+   EXPORTING
+*     I_INTERFACE_CHECK                 = ' '
+*     I_BYPASSING_BUFFER                = ' '
+*     I_BUFFER_ACTIVE                   = ' '
+*     I_CALLBACK_PROGRAM                = ' '
+*     I_CALLBACK_PF_STATUS_SET          = ' '
+*     I_CALLBACK_USER_COMMAND           = ' '
+*     I_CALLBACK_TOP_OF_PAGE            = ' '
+*     I_CALLBACK_HTML_TOP_OF_PAGE       = ' '
+*     I_CALLBACK_HTML_END_OF_LIST       = ' '
+*     I_STRUCTURE_NAME                  =
+*     I_BACKGROUND_ID                   = ' '
+*     I_GRID_TITLE                      =
+*     I_GRID_SETTINGS                   =
+     IS_LAYOUT                         = ls_layout
+     IT_FIELDCAT                       = lt_fcat
+*     IT_EXCLUDING                      =
+*     IT_SPECIAL_GROUPS                 =
+*     IT_SORT                           =
+*     IT_FILTER                         =
+*     IS_SEL_HIDE                       =
+*     I_DEFAULT                         = 'X'
+*     I_SAVE                            = ' '
+*     IS_VARIANT                        =
+*     IT_EVENTS                         =
+*     IT_EVENT_EXIT                     =
+*     IS_PRINT                          =
+*     IS_REPREP_ID                      =
+*     I_SCREEN_START_COLUMN             = 0
+*     I_SCREEN_START_LINE               = 0
+*     I_SCREEN_END_COLUMN               = 0
+*     I_SCREEN_END_LINE                 = 0
+*     I_HTML_HEIGHT_TOP                 = 0
+*     I_HTML_HEIGHT_END                 = 0
+*     IT_ALV_GRAPHICS                   =
+*     IT_HYPERLINK                      =
+*     IT_ADD_FIELDCAT                   =
+     IT_EXCEPT_QINFO                   = gt_exc
+*     IR_SALV_FULLSCREEN_ADAPTER        =
+*   IMPORTING
+*     E_EXIT_CAUSED_BY_CALLER           =
+*     ES_EXIT_CAUSED_BY_USER            =
+    TABLES
+      T_OUTTAB                          = gt_outtab
+   EXCEPTIONS
+     PROGRAM_ERROR                     = 1
+     OTHERS                            = 2
+            .
+  IF SY-SUBRC <> 0.
+* MESSAGE ID SY-MSGID TYPE SY-MSGTY NUMBER SY-MSGNO
+*         WITH SY-MSGV1 SY-MSGV2 SY-MSGV3 SY-MSGV4.
+  ENDIF.
+
+
+
+endform.                    " display_list
+
+*&--------------------------------------------------------------------*
+*&      Form  display_grid
+*&--------------------------------------------------------------------*
+*       text
+*---------------------------------------------------------------------*
+form display_grid.
+
+  call screen 100.
+
+endform.                    "display_grid
+
+*&---------------------------------------------------------------------*
+*&      Module  d0100_pbo  OUTPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+module d0100_pbo output.
+  perform d0100_pbo.
+endmodule.                 " d0100_pbo  OUTPUT
+
+*&---------------------------------------------------------------------*
+*&      Module  d0100_pai  INPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+module d0100_pai input.
+  perform d0100_pai.
+endmodule.                 " d0100_pai  INPUT
+
+*&---------------------------------------------------------------------*
+*&      Form  d0100_pbo
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+form d0100_pbo .
+
+  set pf-status 'D0100'.
+
+  if gr_container is not bound.
+*§3a for displaying the data in your own Dynpro, create a container ...
+    create object gr_container
+      exporting
+        container_name = 'CONTAINER'.
+
+    create object gr_grid
+        exporting i_parent = gr_container.
+
+  data: ls_layout type lvc_s_layo,
+        lt_fcat type lvc_t_fcat,
+        ls_fcat type lvc_s_fcat.
+
+      ls_layout-excp_fname = 'LIGHTS'.
+      ls_layout-ctab_fname =  'TABCOL'.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'LIGHTS'.
+      ls_fcat-inttype = 'C'.
+      ls_fcat-scrtext_l = text-hl4.
+      ls_fcat-scrtext_m = text-hl4.
+      ls_fcat-scrtext_s = text-hl4.
+
+      append ls_fcat to lt_fcat.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'COLOR'.
+      ls_fcat-inttype = 'I'.
+      ls_fcat-scrtext_l = text-hl3.
+      ls_fcat-scrtext_m = text-hl3.
+      ls_fcat-scrtext_s = text-hl3.
+
+      append ls_fcat to lt_fcat.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'ID'.
+      ls_fcat-inttype = 'C'.
+      ls_fcat-scrtext_l = text-hl1.
+      ls_fcat-scrtext_m = text-hl1.
+      ls_fcat-scrtext_s = text-hl1.
+      ls_fcat-icon = abap_true.
+
+      append ls_fcat to lt_fcat.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'SYMBOL'.
+      ls_fcat-inttype = 'C'.
+      ls_fcat-scrtext_l = text-hl2.
+      ls_fcat-scrtext_m = text-hl2.
+      ls_fcat-scrtext_s = text-hl2.
+      ls_fcat-symbol = abap_true.
+
+      append ls_fcat to lt_fcat.
+
+      clear ls_fcat.
+      ls_fcat-fieldname = 'NAME'.
+      ls_fcat-tech = abap_true.
+
+      append ls_fcat to lt_fcat.
+
+  perform select_data.
+
+  perform set_tooltips.
+
+  data: lt_tooltips type lvc_t_qinf,
+        lt_toolb type ui_functions,
+        ls_toolb type UI_FUNC.
+
+  ls_toolb = CL_GUI_ALV_GRID=>mc_fc_call_crbatch.
+  append ls_toolb to lt_toolb.
+
+  lt_tooltips = gt_exc.
+
+
+    call method gr_grid->set_table_for_first_display
+        exporting is_layout   = ls_layout
+             it_except_qinfo  = lt_tooltips
+             it_toolbar_excluding = lt_toolb
+        changing
+              it_fieldcatalog = lt_fcat
+              it_outtab       = gt_outtab.
+
+  endif.
+
+endform.                                                    " d0100_pbo
+
+*&---------------------------------------------------------------------*
+*&      Form  d0100_pai
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+form d0100_pai .
+
+  case g_okcode.
+    when 'BACK' or 'EXIT' or 'CANC'.
+      set screen 0.
+      leave screen.
+  endcase.
+
+endform.                                                    " d0100_pai
+
+*&--------------------------------------------------------------------*
+*&      Form  show_salv_function
+*&--------------------------------------------------------------------*
+*       text
+*---------------------------------------------------------------------*
+form show_salv_function using value(i_function) type salv_de_function.
+
+  case i_function.
+    when 'TEST'.
+
+
+  endcase.
+
+endform.                    " show_salv_function
+
+*&---------------------------------------------------------------------*
+*&      Form  display
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+*  -->  p1        text
+*  <--  p2        text
+*----------------------------------------------------------------------*
+FORM display .
+
+
+  perform set_tooltips.
+
+ENDFORM.                    " display
+*&---------------------------------------------------------------------*
+*&      Form  set_tooltips
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+*  -->  p1        text
+*  <--  p2        text
+*----------------------------------------------------------------------*
+FORM set_tooltips .
+  data: ls_symbol type icon,
+        lt_symbol type standard table of icon,
+        ls_exc type ALV_S_QINF.
+
+  define mac_get_symbol.
+    ls_symbol-id   = &2.
+    ls_symbol-name = &1.
+    append ls_symbol to lt_symbol.
+  end-of-definition.
+
+  mac_get_symbol sym_space              ' ' ."  SPACE
+  mac_get_symbol sym_plus_box           '!' ."  box with plus inside
+  mac_get_symbol sym_minus_box          '"' ."  box with minus inside
+  mac_get_symbol sym_plus_circle        '#' ."  circle with plus inside
+  mac_get_symbol sym_minus_circle       '$' ."  circle with minus inside
+  mac_get_symbol sym_filled_square      '%' ."  filled square
+  mac_get_symbol sym_half_filled_square '&' ."  half-filled square
+  mac_get_symbol sym_square            '''' ."  empty square
+  mac_get_symbol sym_filled_circle      '(' ."  filled circle
+  mac_get_symbol sym_half_filled_circle ')' ."  half-filled circle
+  mac_get_symbol sym_circle             '*' ."  empty circle
+  mac_get_symbol sym_filled_diamond     '+' ."  filled diamond
+  mac_get_symbol sym_diamond            ',' ."  empty diamond
+  mac_get_symbol sym_bold_x             '.' ."  diagonal cross (cancel)
+  mac_get_symbol sym_note               '/ '."  word balloon, note
+  mac_get_symbol sym_document           '0' ."  document
+  mac_get_symbol sym_checked_document   '1' ."  document with checkmark
+  mac_get_symbol sym_documents          '2 '."  double documents
+  mac_get_symbol sym_folder             '3 '."  folder
+  mac_get_symbol sym_plus_folder        '4 '."  folder with plus inside
+  mac_get_symbol sym_minus_folder       '5 '."  folder with minus inside
+  mac_get_symbol sym_open_folder        '6 '."  open folder
+  mac_get_symbol sym_bold_minus         '7' ."  bold minus sign
+  mac_get_symbol sym_bold_plus          '8' ."  bold plus sign
+  mac_get_symbol sym_checkbox           '9 '."  selected checkbox
+  mac_get_symbol sym_radiobutton        ': '."  selected radiobutton
+  mac_get_symbol sym_left_triangle      ';' ."  triangle pointing left
+  mac_get_symbol sym_right_triangle     '<' ."  triangle pointing right
+  mac_get_symbol sym_up_triangle        '=' ."  triangle pointing up
+  mac_get_symbol sym_down_triangle      '>' ."  triangle pointing down
+  mac_get_symbol sym_left_hand          '? '."  hand pointing left
+  mac_get_symbol sym_left_arrow         'A' ."  left arrow
+  mac_get_symbol sym_right_arrow        'B' ."  right arrow
+  mac_get_symbol sym_up_arrow           'C' ."  up arrow
+  mac_get_symbol sym_down_arrow         'D' ."  down arrow
+  mac_get_symbol sym_check_mark         'E' ."  check mark
+  mac_get_symbol sym_pencil             'F' ."  pencil
+  mac_get_symbol sym_glasses            'G '."  glasses
+  mac_get_symbol sym_locked             'H' ."  closed padlock
+  mac_get_symbol sym_unlocked           'I' ."  open padlock
+  mac_get_symbol sym_phone              'J '."  telephone
+  mac_get_symbol sym_printer            'K '."  printer
+  mac_get_symbol sym_fax                'L '."  fax machine
+  mac_get_symbol sym_asterisk           'M' ."  asterisk
+  mac_get_symbol sym_right_hand         'N '."  hand pointing right
+  mac_get_symbol sym_sorted_up          'O '."  sorted ascending
+  mac_get_symbol sym_sorted_down        'P '."  sorted descending
+  mac_get_symbol sym_cumulated          'Q '."  cumulated
+  mac_get_symbol sym_delete             'R' ."  delete mark
+  mac_get_symbol sym_executable         'S '."  executable
+  mac_get_symbol sym_workflow_item      'T '."  workflow-object
+  mac_get_symbol sym_caution            'U '."  caution
+  mac_get_symbol sym_flash              'V' ."  express, urgent
+  mac_get_symbol sym_large_square       'W '."  large empty square
+  mac_get_symbol sym_ellipsis           'X'. "  ellipsis (...)
+
+* fill the symbols, colors in to table and set tooltips
+  field-symbols: <outtab> type gs_outtab.
+  data: tooltips type ref to cl_salv_tooltips,
+        settings type ref to cl_salv_functional_settings,
+        value type char128,
+        text type char40,
+        tabix type sy-tabix,
+        col type lvc_s_scol.
+
+  loop at gt_outtab assigning <outtab>.
+
+    tabix = sy-tabix.
+
+    read table lt_symbol index sy-tabix into ls_symbol.
+    <outtab>-symbol = ls_symbol-id.
+
+    value = <outtab>-id(3).
+    text = <outtab>-name.
+
+    concatenate value '\Q' text '@' into value.
+    <outtab>-id = value.
+
+    value = ls_symbol-id.
+    text  = ls_symbol-name.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_symbol.
+    ls_exc-value = value.
+    ls_exc-text = text.
+    append ls_exc to gt_exc.
+
+    <outtab>-color = tabix mod 7 + 1.
+    <outtab>-lights = tabix mod 3 + 1.
+
+    col-fname = 'COLOR'.
+    col-color-col = tabix mod 7 + 1.
+    if tabix ge 7.
+      col-color-inv = 1.
+    endif.
+    if tabix ge 14.
+      col-color-int = 1.
+    endif.
+
+    append col to <outtab>-tabcol.
+
+  endloop.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_exception.
+    ls_exc-value = '1'.
+    ls_exc-text = text-et1.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_exception.
+    ls_exc-value = '2'.
+    ls_exc-text = text-et2.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_exception.
+    ls_exc-value = '3'.
+    ls_exc-text = text-et3.
+    append ls_exc to gt_exc.
+
+* length 3 encoding for colors
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '110'.
+    ls_exc-text = text-ct1.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '210'.
+    ls_exc-text = text-ct2.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '310'.
+    ls_exc-text = text-ct3.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '410'.
+    ls_exc-text = text-ct4.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '510'.
+    ls_exc-text = text-ct5.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '610'.
+    ls_exc-text = text-ct6.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '710'.
+    ls_exc-text = text-ct7.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '101'.
+    ls_exc-text = text-ct1.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '201'.
+    ls_exc-text = text-ct2.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '301'.
+    ls_exc-text = text-ct3.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '401'.
+    ls_exc-text = text-ct4.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '501'.
+    ls_exc-text = text-ct5.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '601'.
+    ls_exc-text = text-ct6.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '701'.
+    ls_exc-text = text-ct7.
+    append ls_exc to gt_exc.
+
+* simple length 1 encoding for colors - corresponds to intensified and inverse off
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '1'.
+    ls_exc-text = text-ct1.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '2'.
+    ls_exc-text = text-ct2.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '3'.
+    ls_exc-text = text-ct3.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '4'.
+    ls_exc-text = text-ct4.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '5'.
+    ls_exc-text = text-ct5.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '6'.
+    ls_exc-text = text-ct6.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '7'.
+    ls_exc-text = text-ct7.
+    append ls_exc to gt_exc.
+
+    ls_exc-type = cl_salv_tooltip=>c_type_color.
+    ls_exc-value = '0'.
+    ls_exc-text = text-ct0.
+    append ls_exc to gt_exc.
+
+
+ENDFORM.                    " set_tooltips

@@ -1,0 +1,7 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Z_03_221_CAR (A03_203_devaaz-221_en),org.eclipse.launchbar.core.descriptorType.default\:Z_03_221_DYNPRO (A03_203_devaaz-221_en),org.eclipse.launchbar.core.descriptorType.default\:Z_03_221_FELADAT1 (A03_203_devaaz-221_en),org.eclipse.launchbar.core.descriptorType.default\:Z_03_221_LUGGWEIGHT (A03_203_devaaz-221_en),org.eclipse.launchbar.core.descriptorType.default\:Z_03_221_OBJECTS (A03_203_devaaz-221_en),org.eclipse.launchbar.core.descriptorType.default\:Z_03_221_OBJECTS_GLOBAL (A03_203_devaaz-221_en),org.eclipse.launchbar.core.descriptorType.default\:Z_03_221_PERSON (A03_203_devaaz-221_en),org.eclipse.launchbar.core.descriptorType.default\:Z_03_221_FLIGHTS (A03_203_devaaz-221_en)
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Z_03_221_CAR\ (A03_203_devaaz-221_en)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Z_03_221_CAR\ (A03_203_devaaz-221_en)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

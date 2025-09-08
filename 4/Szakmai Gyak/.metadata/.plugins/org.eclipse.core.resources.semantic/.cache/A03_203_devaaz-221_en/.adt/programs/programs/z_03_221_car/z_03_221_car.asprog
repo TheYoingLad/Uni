@@ -1,0 +1,41 @@
+*&---------------------------------------------------------------------*
+*& Report z_03_221_car
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT z_03_221_car.
+
+TYPES: BEGIN OF str_car,
+         brand(40)          TYPE c,
+         model(40)          TYPE c,
+         mileage            TYPE i,
+         fueltank_cap       TYPE i,
+         fuel_efficiency(6) TYPE c,
+       END OF str_car.
+
+PARAMETERS: trip_f  TYPE i, trip_m TYPE i, country TYPE c.
+
+DATA result TYPE f.
+DATA text TYPE string.
+DATA coolcar TYPE str_car.
+
+coolcar-brand = 'Frod'.
+coolcar-model = 'Mustaaang'.
+coolcar-mileage = '12340'.
+coolcar-fueltank_cap = '100'.
+
+CALL FUNCTION 'Z_03_221_CAR_FM_CALCULATION'
+  EXPORTING
+    im_trip_f  = trip_f
+    im_trip_m  = trip_m
+    im_country = country
+  IMPORTING
+    ex_result  = result
+    ex_txt     = text.
+
+WRITE result TO coolcar-fuel_efficiency EXPONENT 0.
+WRITE: / 'Brand: ', coolcar-brand,
+/ 'Model: ', coolcar-model,
+/ 'Mileage: ', coolcar-mileage,
+/ 'Fuel-Tank Capacity', coolcar-fueltank_cap,
+/ 'Result: ', coolcar-fuel_efficiency, text.

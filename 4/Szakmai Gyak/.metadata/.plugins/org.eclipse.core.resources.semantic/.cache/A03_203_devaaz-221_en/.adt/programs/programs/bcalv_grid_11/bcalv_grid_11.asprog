@@ -1,0 +1,441 @@
+REPORT TEST.
+TABLES: D020S.
+DATA: OK_CODE LIKE SY-UCOMM,
+      GT_SFLIGHT TYPE TABLE OF SFLIGHT,
+      G_CONTAINER TYPE SCRFNAME VALUE 'CONT1',
+      GRID1  TYPE REF TO CL_GUI_ALV_GRID,
+      G_CUSTOM_CONTAINER TYPE REF TO CL_GUI_CUSTOM_CONTAINER.
+DATA: G_VARIANT          LIKE DISVARIANT.
+DATA: GX_VARIANT         LIKE DISVARIANT.
+DATA: G_VARIANT_SAVE.
+DATA: P_VARIANT          LIKE DISVARIANT-VARIANT.
+DATA: G_REPID            LIKE SY-REPID.
+DATA: GT_FIELDCAT_LVC TYPE LVC_T_FCAT WITH HEADER LINE.
+DATA: T_DYNPREAD LIKE DYNPREAD OCCURS 0 WITH HEADER LINE.
+DATA  G_USER_SPECIFIC.
+DATA: GT_SORT_LVC TYPE LVC_T_SORT WITH HEADER LINE.
+DATA: GT_FILT_LVC TYPE LVC_T_FILT WITH HEADER LINE.
+
+SELECTION-SCREEN BEGIN OF BLOCK V WITH FRAME TITLE TEXT-000.
+PARAMETERS: SAVE_U RADIOBUTTON GROUP SAVE,
+            SAVE_X RADIOBUTTON GROUP SAVE,
+            SAVE_A RADIOBUTTON GROUP SAVE,
+            SAVE_N RADIOBUTTON GROUP SAVE.
+PARAMETERS: PDEFAULT AS CHECKBOX DEFAULT 'X'.
+SELECTION-SCREEN END OF BLOCK V.
+
+SELECTION-SCREEN BEGIN OF BLOCK F WITH FRAME TITLE TEXT-007.
+PARAMETERS: P_EXE_NV RADIOBUTTON GROUP EXEC.
+PARAMETERS: P_EXE_VA RADIOBUTTON GROUP EXEC.
+PARAMETERS:  VARIANT LIKE DISVARIANT-VARIANT.
+SELECTION-SCREEN END OF BLOCK F.
+
+SELECTION-SCREEN BEGIN OF BLOCK S WITH FRAME TITLE TEXT-009.
+PARAMETERS: DIAL AS CHECKBOX DEFAULT 'X'.
+PARAMETERS: OVER AS CHECKBOX DEFAULT 'X'.
+SELECTION-SCREEN END OF BLOCK S.
+
+*---------------------------------------------------------------------*
+AT SELECTION-SCREEN ON VALUE-REQUEST FOR VARIANT.
+  PERFORM VARIANT_F4 USING VARIANT.
+*---------------------------------------------------------------------*
+AT SELECTION-SCREEN.
+
+  PERFORM VARIANT_FILL.
+
+*---------------------------------------------------------------------*
+*       MAIN                                                          *
+*----------------------------------------------------------------------*
+INITIALIZATION.
+  PERFORM INIT_VARIANT.
+  PERFORM VARIANT_DEFAULT USING VARIANT.
+
+*----------------------------------------------------------------------*
+START-OF-SELECTION.
+
+  PERFORM READ_BUTTONS.
+  SELECT * FROM SFLIGHT UP TO 10 ROWS INTO TABLE GT_SFLIGHT.
+
+*----------------------------------------------------------------------*
+END-OF-SELECTION.
+
+  PERFORM FIELDCAT_BUILD.
+  PERFORM SELECT_VARIANT.
+  CALL SCREEN 100.
+*&---------------------------------------------------------------------*
+*&      Module  PBO  OUTPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+MODULE PBO OUTPUT.
+  SET PF-STATUS 'MAIN100'.
+  IF G_CUSTOM_CONTAINER IS INITIAL.
+    CREATE OBJECT G_CUSTOM_CONTAINER
+           EXPORTING CONTAINER_NAME = G_CONTAINER.
+    CREATE OBJECT GRID1
+           EXPORTING I_PARENT = G_CUSTOM_CONTAINER.
+    CALL METHOD GRID1->SET_TABLE_FOR_FIRST_DISPLAY
+         EXPORTING I_STRUCTURE_NAME = 'SFLIGHT'
+                   I_SAVE           =  G_VARIANT_SAVE
+                   IS_VARIANT       =  G_VARIANT
+                   I_DEFAULT        =  PDEFAULT
+         CHANGING  IT_FIELDCATALOG  = GT_FIELDCAT_LVC[]
+                   IT_OUTTAB        = GT_SFLIGHT.
+  ENDIF.
+
+ENDMODULE.                             " PBO  OUTPUT
+*&---------------------------------------------------------------------*
+*&      Module  PAI  INPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+MODULE PAI INPUT.
+  CASE OK_CODE.
+    WHEN 'EXIT'.
+      PERFORM EXIT_PROGRAM.
+    WHEN 'BACK'.
+      PERFORM BACK.
+    WHEN 'SAVE'.
+      PERFORM SAVE_VARIANT.
+    WHEN 'NLES'.
+      PERFORM VARIANT_INFO.
+    WHEN OTHERS.
+*     do nothing
+  ENDCASE.
+  CLEAR OK_CODE.
+ENDMODULE.
+
+*&---------------------------------------------------------------------*
+*&      Form  EXIT_PROGRAM
+*&---------------------------------------------------------------------*
+FORM EXIT_PROGRAM.
+  CALL METHOD G_CUSTOM_CONTAINER->FREE.
+  CALL METHOD CL_GUI_CFW=>FLUSH.
+  LEAVE PROGRAM.
+ENDFORM.                               " EXIT_PROGRAM
+*&---------------------------------------------------------------------*
+*&      Form  VARIANT_F4
+*&---------------------------------------------------------------------*
+FORM VARIANT_F4 USING    P_VARIANT.
+
+  DATA H_EXIT.
+
+  CLEAR GX_VARIANT.
+
+  CLEAR T_DYNPREAD[].
+  CLEAR T_DYNPREAD.
+  T_DYNPREAD-FIELDNAME = 'SAVE_X'.
+  APPEND T_DYNPREAD.
+  CLEAR T_DYNPREAD.
+  T_DYNPREAD-FIELDNAME = 'SAVE_A'.
+  APPEND T_DYNPREAD.
+  CLEAR T_DYNPREAD.
+  T_DYNPREAD-FIELDNAME = 'SAVE_N'.
+  APPEND T_DYNPREAD.
+  CLEAR T_DYNPREAD.
+  T_DYNPREAD-FIELDNAME = 'SAVE_U'.
+  APPEND T_DYNPREAD.
+  CALL FUNCTION 'DYNP_VALUES_READ'
+       EXPORTING
+            DYNAME               = D020S-PROG
+            DYNUMB               = D020S-DNUM
+            TRANSLATE_TO_UPPER   = 'X'
+*           REQUEST              = ' '
+       TABLES
+            DYNPFIELDS           = T_DYNPREAD.
+*
+  LOOP AT T_DYNPREAD.
+    CASE T_DYNPREAD-FIELDNAME.
+      WHEN 'SAVE_A'.
+        MOVE T_DYNPREAD-FIELDVALUE TO SAVE_A.
+      WHEN 'SAVE_X'.
+        MOVE T_DYNPREAD-FIELDVALUE TO SAVE_X.
+      WHEN 'SAVE_N'.
+        MOVE T_DYNPREAD-FIELDVALUE TO SAVE_N.
+      WHEN 'SAVE_U'.
+        MOVE T_DYNPREAD-FIELDVALUE TO SAVE_U.
+      WHEN OTHERS.
+        MESSAGE X000(0K) WITH TEXT-102.
+    ENDCASE.
+  ENDLOOP.
+
+  PERFORM READ_BUTTONS.
+
+  CALL FUNCTION 'LVC_VARIANT_F4'
+       EXPORTING
+            IS_VARIANT          = G_VARIANT
+*           IT_DEFAULT_FIELDCAT =
+            I_SAVE              = G_VARIANT_SAVE
+       IMPORTING
+            E_EXIT              = H_EXIT
+            ES_VARIANT          = GX_VARIANT
+       EXCEPTIONS
+            NOT_FOUND           = 1
+            PROGRAM_ERROR       = 2
+            OTHERS              = 3
+            .
+  IF SY-SUBRC <> 0.
+    MESSAGE I000(0K) WITH TEXT-101.
+  ENDIF.
+
+  IF H_EXIT IS INITIAL.
+    G_VARIANT-VARIANT = GX_VARIANT-VARIANT.
+    P_VARIANT         = GX_VARIANT-VARIANT.
+  ENDIF.
+ENDFORM.                               " VARIANT_F4
+*&---------------------------------------------------------------------*
+*&      Form  variant_default
+*&---------------------------------------------------------------------*
+FORM VARIANT_DEFAULT USING P_VARIANT LIKE G_VARIANT-VARIANT.
+
+  GX_VARIANT = G_VARIANT.
+
+  IF NOT P_VARIANT IS INITIAL.
+    GX_VARIANT-VARIANT = P_VARIANT.
+  ENDIF.
+
+  CALL FUNCTION 'LVC_VARIANT_DEFAULT_GET'
+       EXPORTING
+            I_SAVE        = G_VARIANT_SAVE
+       CHANGING
+            CS_VARIANT    = GX_VARIANT
+       EXCEPTIONS
+            WRONG_INPUT   = 1
+            NOT_FOUND     = 2
+            PROGRAM_ERROR = 3
+            OTHERS        = 4.
+
+  CASE SY-SUBRC.
+    WHEN 0.
+      P_VARIANT = GX_VARIANT-VARIANT.
+    WHEN 2.
+      CLEAR P_VARIANT.
+  ENDCASE.
+
+ENDFORM.                               " variant_default
+*&---------------------------------------------------------------------*
+*&      Form  init_variant
+*&---------------------------------------------------------------------*
+FORM INIT_VARIANT.
+
+  CLEAR G_VARIANT.
+  G_REPID              = SY-REPID.
+  D020S-PROG           = G_REPID.
+  D020S-DNUM           = SY-DYNNR.
+  G_VARIANT-REPORT     = G_REPID.
+  G_VARIANT-USERNAME   = SY-UNAME.
+
+ENDFORM.                               " init_variant
+*&---------------------------------------------------------------------*
+*&      Form  fieldcat_build
+*&---------------------------------------------------------------------*
+FORM FIELDCAT_BUILD.
+
+  CALL FUNCTION 'LVC_FIELDCATALOG_MERGE'
+       EXPORTING
+            I_STRUCTURE_NAME = 'SFLIGHT'
+       CHANGING
+            CT_FIELDCAT      = GT_FIELDCAT_LVC[].
+
+ENDFORM.                               " fieldcat_build
+*&---------------------------------------------------------------------*
+*&      Form  select_variant
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+FORM SELECT_VARIANT.
+
+  DATA: H_EXIT.
+
+* Execute without variant
+  IF P_EXE_NV = 'X'.
+    CLEAR GX_VARIANT.
+    MOVE G_REPID TO GX_VARIANT-REPORT.
+  ENDIF.
+* Execute with given variant
+  IF P_EXE_VA = 'X'.
+    MOVE G_VARIANT TO GX_VARIANT.
+  ENDIF.
+
+  CASE G_VARIANT_SAVE.
+    WHEN 'A' OR 'U'.
+      G_USER_SPECIFIC = 'X'.
+    WHEN 'X' OR SPACE.
+      G_USER_SPECIFIC = SPACE.
+  ENDCASE.
+
+  IF P_EXE_NV <> 'X'.
+
+    CALL FUNCTION 'LVC_VARIANT_SELECT'
+       EXPORTING
+         I_DIALOG            = ' '
+         I_USER_SPECIFIC     = G_USER_SPECIFIC
+*         I_DEFAULT           = 'X'
+         IT_DEFAULT_FIELDCAT = GT_FIELDCAT_LVC[]
+     IMPORTING
+         E_EXIT              = H_EXIT
+         ET_FIELDCAT         = GT_FIELDCAT_LVC[]
+         ET_SORT             = GT_SORT_LVC[]
+         ET_FILTER           = GT_FILT_LVC[]
+     TABLES
+         IT_DATA             = GT_SFLIGHT
+       CHANGING
+            CS_VARIANT          = GX_VARIANT
+     EXCEPTIONS
+          WRONG_INPUT         = 1
+          FC_NOT_COMPLETE     = 2
+          NOT_FOUND           = 3
+          PROGRAM_ERROR       = 4
+          OTHERS              = 5
+  .
+    IF SY-SUBRC <> 0.
+      MESSAGE I000(0K) WITH TEXT-103.
+    ENDIF.
+    IF H_EXIT IS INITIAL.
+      G_VARIANT-VARIANT = GX_VARIANT-VARIANT.
+    ENDIF.
+  ELSE.
+    CLEAR G_VARIANT.
+    MOVE G_REPID TO G_VARIANT-REPORT.
+  ENDIF.
+ENDFORM.                               " select_variant
+*&---------------------------------------------------------------------*
+*&      Form  back
+*&---------------------------------------------------------------------*
+FORM BACK.
+  CALL METHOD G_CUSTOM_CONTAINER->FREE.
+  CALL METHOD CL_GUI_CFW=>FLUSH.
+  SET SCREEN 0.
+  LEAVE SCREEN.
+ENDFORM.                               " back
+*&---------------------------------------------------------------------*
+*&      Form  read_buttons
+*&---------------------------------------------------------------------*
+FORM READ_BUTTONS.
+
+  IF SAVE_A = 'X'.
+    G_VARIANT_SAVE = 'A'.
+  ELSEIF SAVE_X = 'X'.
+    G_VARIANT_SAVE = 'X'.
+  ELSEIF SAVE_U = 'X'.
+    G_VARIANT_SAVE = 'U'.
+  ELSEIF SAVE_N = 'X'.
+    G_VARIANT_SAVE = SPACE.
+  ENDIF.
+
+ENDFORM.                               " read_buttons
+*&---------------------------------------------------------------------*
+*&      Form  variant_fill
+*&---------------------------------------------------------------------*
+FORM VARIANT_FILL.
+
+  PERFORM READ_BUTTONS.
+
+  IF P_EXE_VA = 'X'.
+    CLEAR G_VARIANT.
+    MOVE VARIANT TO G_VARIANT-VARIANT.
+    MOVE G_REPID TO G_VARIANT-REPORT.
+    CALL FUNCTION 'LVC_VARIANT_EXISTENCE_CHECK'
+         EXPORTING
+              I_SAVE     = G_VARIANT_SAVE
+         CHANGING
+              CS_VARIANT = G_VARIANT
+         EXCEPTIONS
+              OTHERS     = 01.
+    IF SY-SUBRC NE 0.
+      MESSAGE I000(0K) WITH TEXT-104.
+    ENDIF.
+  ENDIF.
+ENDFORM.                               " variant_fill
+*&---------------------------------------------------------------------*
+*&      Form  save_variant
+*&---------------------------------------------------------------------*
+FORM SAVE_VARIANT.
+
+  DATA: H_EXIT.
+  DATA: H_USER_SPECIFIC.
+
+  CLEAR H_USER_SPECIFIC.
+
+* all possibilities
+  IF SAVE_A = 'X'.
+    H_USER_SPECIFIC = 'A'.
+* only system
+  ELSEIF SAVE_X = 'X'.
+    G_VARIANT_SAVE = SPACE.
+* only user specific
+  ELSEIF SAVE_U = 'X'.
+    G_VARIANT_SAVE = 'X'.
+  ENDIF.
+
+  IF SAVE_N <> 'X'.
+
+    CALL METHOD GRID1->GET_SORT_CRITERIA
+       IMPORTING      ET_SORT = GT_SORT_LVC[].
+
+    CALL METHOD GRID1->GET_FILTER_CRITERIA
+       IMPORTING      ET_FILTER = GT_FILT_LVC[].
+
+    CALL METHOD GRID1->GET_FRONTEND_FIELDCATALOG
+       IMPORTING      ET_FIELDCATALOG = GT_FIELDCAT_LVC[].
+
+    CALL FUNCTION 'LVC_VARIANT_SAVE'
+         EXPORTING
+              IT_FIELDCAT     = GT_FIELDCAT_LVC[]
+              IT_SORT         = GT_SORT_LVC[]
+              IT_FILTER       = GT_FILT_LVC[]
+              I_DIALOG        = DIAL
+              I_OVERWRITE     = OVER
+              I_USER_SPECIFIC = G_VARIANT_SAVE
+         IMPORTING
+              E_EXIT          = H_EXIT
+         TABLES
+              IT_DATA         = GT_SFLIGHT
+         CHANGING
+              CS_VARIANT      = G_VARIANT
+         EXCEPTIONS
+              WRONG_INPUT     = 1
+              FC_NOT_COMPLETE = 2
+              FOREIGN_LOCK    = 3
+              VARIANT_EXISTS  = 4
+              NAME_RESERVED   = 5
+              PROGRAM_ERROR   = 6
+              OTHERS          = 7.
+    CASE SY-SUBRC.
+      WHEN 0.
+      WHEN 1.
+        MESSAGE I000(0K) WITH TEXT-105.
+      WHEN 3.
+        MESSAGE E000(0K) WITH TEXT-106.
+      WHEN 4.
+        MESSAGE E000(0K) WITH TEXT-107.
+      WHEN OTHERS.
+        MESSAGE E000(0K) WITH TEXT-108.
+    ENDCASE.
+
+    IF NOT H_EXIT IS INITIAL.
+      MESSAGE I000(0K) WITH TEXT-109.
+    ENDIF.
+
+  ELSE.
+    MESSAGE I000(0K) WITH TEXT-110.
+  ENDIF.
+
+ENDFORM.                               " save_variant
+*&---------------------------------------------------------------------*
+*&      Form  variant_info
+*&---------------------------------------------------------------------*
+FORM VARIANT_INFO.
+
+  CALL METHOD GRID1->SET_SORT_CRITERIA
+     EXPORTING      IT_SORT = GT_SORT_LVC[].
+
+  CALL METHOD GRID1->SET_FILTER_CRITERIA
+     EXPORTING      IT_FILTER = GT_FILT_LVC[].
+
+  CALL METHOD GRID1->SET_FRONTEND_FIELDCATALOG
+     EXPORTING      IT_FIELDCATALOG = GT_FIELDCAT_LVC[].
+
+  CALL METHOD GRID1->REFRESH_TABLE_DISPLAY.
+
+ENDFORM.                               " variant_info

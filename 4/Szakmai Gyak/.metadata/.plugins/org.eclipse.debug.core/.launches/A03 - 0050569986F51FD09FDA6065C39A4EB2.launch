@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.sap.adt.debugger.launchConfigurationType">
+    <mapAttribute key="SESSION_INFO">
+        <mapEntry key="APPSERVER" value="a03z.2.ucc.md"/>
+        <mapEntry key="CAN_ADT_CROSS_SERVER" value="true"/>
+        <mapEntry key="CLIENT" value="203"/>
+        <mapEntry key="DEBUGGEE_ID" value="0050569986F51FD09FDA6065C39A4EB2"/>
+        <mapEntry key="DEBUGGEE_SESSION_ID" value=""/>
+        <mapEntry key="DEBUGGEE_USER" value="DEVAAZ-221"/>
+        <mapEntry key="DUMP_ID" value="ABAP Runtime Error"/>
+        <mapEntry key="DUMP_TIME" value="00:00:00"/>
+        <mapEntry key="DUMP_URI" value=""/>
+        <mapEntry key="IDE_ID" value=""/>
+        <mapEntry key="INCL_CURR" value="Z_03_221_FELADAT1_ALV_0100"/>
+        <mapEntry key="INSTANCE_NAME" value="a03z_A03_03"/>
+        <mapEntry key="IS_POST_MORTEM" value="false"/>
+        <mapEntry key="IS_SAME_SERVER" value="true"/>
+        <mapEntry key="LINE_CURR" value="21"/>
+        <mapEntry key="NAME" value="Z_03_221_FELADAT1_ALV_0100"/>
+        <mapEntry key="PRG_CURR" value="Z_03_221_FELADAT1"/>
+        <mapEntry key="RFCDEST" value="a03z_A03_03"/>
+        <mapEntry key="SYSTEM_ID" value="A03"/>
+        <mapEntry key="SYSTEM_NO" value="03"/>
+        <mapEntry key="URI" value="/sap/bc/adt/programs/includes/z_03_221_feladat1_alv_0100/source/main?context=%2fsap%2fbc%2fadt%2fprograms%2fprograms%2fz_03_221_feladat1#start=21"/>
+    </mapAttribute>
+    <mapAttribute key="SETTINGS">
+        <mapEntry key="alwaysCreateExceptionObject" value="false"/>
+        <mapEntry key="debugAutomaticSharedObjectAreaConstructors" value="false"/>
+        <mapEntry key="debugSystemPrograms" value="false"/>
+        <mapEntry key="optimizeColumnWidthWithoutHeader" value="false"/>
+        <mapEntry key="optimizeStepPerformance" value="true"/>
+        <mapEntry key="showDataAging" value="false"/>
+        <mapEntry key="suspendBackgroundRfcRequests" value="false"/>
+        <mapEntry key="useMonospacedFont" value="false"/>
+    </mapAttribute>
+    <booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+    <stringAttribute key="projectName" value="A03_203_devaaz-221_en"/>
+</launchConfiguration>

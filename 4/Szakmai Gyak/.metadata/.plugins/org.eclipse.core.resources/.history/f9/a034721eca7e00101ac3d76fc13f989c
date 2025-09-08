@@ -1,0 +1,21 @@
+*----------------------------------------------------------------------*
+***INCLUDE Z_03_221_FELADAT1_ALV_0100.
+*----------------------------------------------------------------------*
+*&---------------------------------------------------------------------*
+*&      Module  ALV_DISPLAY_0100  INPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+MODULE alv_display_0100 INPUT.
+
+  CALL FUNCTION 'REUSE_ALV_GRID_DISPLAY'
+    EXPORTING
+      i_callback_program       = repid
+      i_callback_user_command  = lrv_user_command
+      is_layout                = lrs_layout
+      it_fieldcat              = lrt_fieldcat
+      i_save                   = 'A'
+    TABLES
+      t_outtab                 = lt_data.
+
+ENDMODULE.

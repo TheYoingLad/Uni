@@ -1,0 +1,24 @@
+*----------------------------------------------------------------------*
+***INCLUDE Z_03_221_DYNPRO_USER_CMD_0100.
+*----------------------------------------------------------------------*
+*&---------------------------------------------------------------------*
+*&      Module  USER_COMMAND_0100  INPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+MODULE user_command_0100 INPUT.
+
+  CASE ok_code.
+    WHEN 'BACK'.
+      LEAVE PROGRAM.
+    WHEN 'CHANGE'.
+      SELECT SINGLE * FROM spfli INTO wa_flight WHERE carrid = spfli-carrid AND connid = spfli-connid.
+    WHEN 'DISPLAY'.
+      SELECT SINGLE * FROM spfli INTO wa_flight WHERE carrid = spfli-carrid AND connid = spfli-connid.
+      SET SCREEN 0300.
+    WHEN 'DELETE'.
+      DELETE FROM spfli WHERE  carrid = spfli-carrid AND connid = spfli-connid.
+      SET SCREEN 0100.
+  ENDCASE.
+
+ENDMODULE.

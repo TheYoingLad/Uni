@@ -1,0 +1,21 @@
+FUNCTION z_03_221_car_fm_calculation
+  IMPORTING
+    VALUE(im_trip_f) TYPE i
+    VALUE(im_trip_m) TYPE i
+    VALUE(im_country) TYPE c
+  EXPORTING
+    VALUE(ex_result) TYPE f
+    VALUE(ex_txt) TYPE string.
+
+
+
+  CASE im_country.
+    WHEN 'G'.
+      ex_result = im_trip_f /  ( im_trip_m / 100 ).
+      ex_txt = 'l/100km'.
+    WHEN 'U'.
+      ex_result = im_trip_m / im_trip_f.
+      ex_txt = 'miles per gallon'.
+  ENDCASE.
+
+ENDFUNCTION.

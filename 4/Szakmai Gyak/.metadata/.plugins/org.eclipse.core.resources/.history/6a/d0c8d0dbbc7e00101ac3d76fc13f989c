@@ -1,0 +1,32 @@
+*----------------------------------------------------------------------*
+***INCLUDE Z_03_221_FELADAT1_FL_SY_0100.
+*----------------------------------------------------------------------*
+*&---------------------------------------------------------------------*
+*&      Module  FIELD_SYMBOL_0100  INPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+MODULE field_symbol_0100 INPUT.
+
+  DATA: it_vbrk TYPE TABLE OF vbrk,
+        it_adrc TYPE TABLE OF adrc,
+        it_t001 TYPE TABLE OF t001.
+
+  LOOP AT it_data ASSIGNING <fs_data>.
+    LOOP AT it_vbrk ASSIGNING FIELD-SYMBOL(<fs_vbrk>).
+        if <fs_data>-vbeln = <fs_vbrk>-vbeln.
+        
+        endif.
+    ENDLOOP.
+
+    LOOP AT it_adrc ASSIGNING FIELD-SYMBOL(<fs_adrc>).
+
+    ENDLOOP.
+
+    LOOP AT it_t001 ASSIGNING FIELD-SYMBOL(<fs_t001>).
+
+    ENDLOOP.
+  ENDLOOP.
+
+
+ENDMODULE.

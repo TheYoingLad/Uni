@@ -1,0 +1,52 @@
+*----------------------------------------------------------------------*
+***INCLUDE BC_ALV_DEMO_HTML_D0100 .
+*----------------------------------------------------------------------*
+*&---------------------------------------------------------------------*
+*&      Module  STATUS_0100  OUTPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+data name type aqs_fname value
+                     'file:\\p33228\dyn\listfield.htm'. "#EC NOTEXT
+MODULE STATUS_0100 OUTPUT.
+  SET PF-STATUS space.
+*  SET TITLEBAR 'DEMO_HTML'.
+data cont type ref to cl_gui_custom_container.
+data htmlinp type ref to lcl_htmlinput.
+data tmp type ref to lcl_tmp.
+data dynnr type sydynnr. dynnr = sy-dynnr.
+data repid type syrepid. repid = sy-repid.
+  if ( cont is initial ).
+    create object cont
+       exporting dynnr = dynnr
+                 repid = repid
+                 container_name = 'HTML'.
+    create object htmlinp
+           exporting parent = cont.
+    create object tmp.
+      call method tmp->update_html_form
+          exporting browser = htmlinp.
+  endif.
+ENDMODULE.                 " STATUS_0100  OUTPUT
+
+
+MODULE user_command_0100 input.
+  call method cl_gui_cfw=>dispatch.
+  if ( sy-ucomm = 'BACK' or sy-ucomm = 'EXIT' ).
+    leave to screen 0 .
+  endif.
+  if ( sy-ucomm = 'OTHER' ).
+     data ui_form type ref to lcl_ui_form.
+"class method due to internal buffering.
+   data nm type alvht_ty_url.
+   nm = name.
+     call method lcl_ui_form=>get_form exporting
+             url = nm
+                "   'file:\\p33228\dyn\listfield.htm' "#EC NOTEXT
+              browser = htmlinp
+             importing form = ui_form.
+    call method ui_form->post exporting
+            browser = htmlinp.
+
+  endif.
+ENDMODULE.                 " STATUS_0100  OUTPUT

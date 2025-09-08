@@ -1,0 +1,22 @@
+*&---------------------------------------------------------------------*
+*& Report z_03_221_luggweight
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT z_03_221_luggweight.
+
+TYPES: BEGIN OF flightweight,
+         weight_sum TYPE p,
+         planetype  TYPE sflight-planetype,
+       END OF flightweight.
+
+DATA it_flight TYPE TABLE OF flightweight.
+DATA wa_flight TYPE flightweight.
+
+SELECT SUM( b~luggweight ), f~planetype FROM sbook AS b INNER JOIN sflight AS f ON b~connid = f~connid GROUP BY f~planetype ORDER BY f~planetype INTO TABLE @it_flight.
+
+IF sy-subrc = 0.
+  LOOP AT it_flight INTO wa_flight.
+    WRITE: / wa_flight-planetype, wa_flight-weight_sum.
+  ENDLOOP.
+ENDIF.

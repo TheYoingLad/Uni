@@ -1,0 +1,77 @@
+*----------------------------------------------------------------------*
+***INCLUDE Z_03_221_FELADAT1_SUBMIT_0100.
+*----------------------------------------------------------------------*
+*&---------------------------------------------------------------------*
+*&      Module  SUBMIT_0100  INPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+MODULE submit_0100 INPUT.
+
+  DATA: lv_lines         TYPE sytfill,
+        lt_data_from_mem TYPE STANDARD TABLE OF abaplist,
+        lt_trash         TYPE string,
+        lt_ascii         TYPE TABLE OF char255.
+
+  FIELD-SYMBOLS: <data> LIKE LINE OF it_data.
+
+  CASE ok_code.
+    WHEN 'BACK'.
+      LEAVE PROGRAM.
+    WHEN 'SEARCH'.
+      SUBMIT erpsls_billdoc_view
+      WITH svbeln IN svbeln
+      WITH sfkart IN sfkart
+      WITH sfkdat IN sfkdat
+      WITH svkorg IN svkorg
+      WITH svtweg IN svtweg
+      WITH popen = gv_open
+      WITH pnotopen = gv_not_open
+      AND RETURN
+      EXPORTING LIST TO MEMORY.
+  ENDCASE.
+
+  CLEAR lt_data_from_mem.
+  CALL FUNCTION 'LIST_FROM_MEMORY'
+    TABLES
+      listobject = lt_data_from_mem
+    EXCEPTIONS
+      not_found  = 1.
+
+  IF sy-subrc = 1.
+    MESSAGE s490(vr).
+    RETURN.
+  ENDIF.
+
+  CLEAR lt_ascii.
+  CALL FUNCTION 'LIST_TO_ASCI'
+    TABLES
+      listobject = lt_data_from_mem
+      listasci   = lt_ascii.
+
+  DELETE lt_ascii INDEX 1.
+  DELETE lt_ascii INDEX 1.
+  DELETE lt_ascii INDEX 1.
+
+  lv_lines = lines( lt_ascii ).
+
+  DELETE lt_ascii INDEX lv_lines.
+
+  CLEAR it_data.
+  LOOP AT lt_ascii ASSIGNING FIELD-SYMBOL(<line>).
+    APPEND INITIAL LINE TO  it_data ASSIGNING <data>.
+    SPLIT <line> AT '|' INTO
+        lt_trash
+        <data>-fkart
+        lt_trash
+        lt_trash
+        <data>-fkdat
+        <data>-vkorg
+        <data>-vtweg
+        lt_trash
+        <data>-vbeln.
+  ENDLOOP.
+
+  lv_lines = 0. " dummy line for debugging
+
+ENDMODULE.

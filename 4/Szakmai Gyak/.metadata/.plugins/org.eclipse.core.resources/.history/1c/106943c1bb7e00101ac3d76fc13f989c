@@ -1,0 +1,25 @@
+*----------------------------------------------------------------------*
+***INCLUDE Z_03_221_FELADAT1_FL_SY_0100.
+*----------------------------------------------------------------------*
+*&---------------------------------------------------------------------*
+*&      Module  FIELD_SYMBOL_0100  INPUT
+*&---------------------------------------------------------------------*
+*       text
+*----------------------------------------------------------------------*
+MODULE field_symbol_0100 INPUT.
+
+  LOOP AT it_data ASSIGNING <data>.
+
+*    SELECT kalsm, land1, regio FROM vbrk INTO CORRESPONDING FIELDS OF @wa_mytable.
+    SELECT kalsm, land1, regio FROM vbrk WHERE vbeln = @wa_mytable-vbeln INTO CORRESPONDING FIELDS OF @wa_mytable.
+    ENDSELECT.
+
+*    IF wa_mytable-vbeln <> 90000083.
+*      CLEAR wa_mytable.
+*      CONTINUE.
+*    ENDIF.
+    CLEAR wa_mytable.
+  ENDLOOP.
+
+
+ENDMODULE.

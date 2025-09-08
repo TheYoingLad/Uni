@@ -1,0 +1,109 @@
+*&---------------------------------------------------------------------
+*& Report  ERPSLS_BILLDOC_VIEW
+*&
+*&---------------------------------------------------------------------*
+*&
+*&
+*&---------------------------------------------------------------------*
+
+REPORT  erpsls_billdoc_view.
+
+TYPE-POOLS: slis.
+
+TABLES: erpsls_billdoc.
+DATA: lrt_doc TYPE terpsls_billdoc.
+DATA: lrs_doc TYPE erpsls_billdoc.
+DATA: lrt_fieldcat TYPE slis_t_fieldcat_alv,
+      lrs_fieldcat LIKE LINE OF lrt_fieldcat,
+      lrs_layout TYPE slis_layout_alv,
+      lrv_status TYPE slis_formname VALUE 'SET_STATUS',
+      lrv_user_command TYPE slis_formname VALUE 'USER_COMMAND',
+      lrv_repid LIKE sy-repid VALUE sy-repid.
+
+
+SELECTION-SCREEN BEGIN OF BLOCK docnum WITH FRAME TITLE text-vbe.
+SELECT-OPTIONS: svbeln FOR erpsls_billdoc-vbeln.
+SELECTION-SCREEN END OF BLOCK docnum.
+
+SELECTION-SCREEN BEGIN OF BLOCK docdata WITH FRAME TITLE text-doc.
+SELECT-OPTIONS: sfkart FOR erpsls_billdoc-fkart,
+                skunag FOR erpsls_billdoc-kunag,
+                skunrg FOR erpsls_billdoc-kunrg,
+                sfkdat FOR erpsls_billdoc-fkdat.
+SELECTION-SCREEN END OF BLOCK docdata.
+
+SELECTION-SCREEN BEGIN OF BLOCK orgdata WITH FRAME TITLE text-org.
+SELECT-OPTIONS: svkorg FOR erpsls_billdoc-vkorg MEMORY ID vko,
+                svtweg FOR erpsls_billdoc-vtweg MEMORY ID vtw.
+SELECTION-SCREEN END OF BLOCK orgdata.
+
+SELECTION-SCREEN BEGIN OF BLOCK sperre WITH FRAME TITLE text-inc.
+PARAMETER  popen  AS CHECKBOX DEFAULT 'X'.
+PARAMETER  pnotopen   AS CHECKBOX DEFAULT ' '.
+SELECTION-SCREEN END   OF BLOCK sperre.
+
+START-OF-SELECTION.
+  PERFORM data_selection.
+  perform data_check.
+  IF lrt_doc[] IS INITIAL.
+    MESSAGE s490(vr).
+    EXIT.
+  ENDIF.
+
+
+END-OF-SELECTION.
+  PERFORM fill_fieldcatalog.
+  PERFORM build_layout.
+  PERFORM reuse_alv_list_display.
+
+  INCLUDE erpsls_billdoc_view_data_sef01.
+
+  INCLUDE erpsls_billdoc_view_fill_fif01.
+
+  INCLUDE erpsls_billdoc_view_build_lf01.
+
+  INCLUDE erpsls_billdoc_view_reuse_af01.
+
+*&--------------------------------------------------------------------*
+*&      Form  set_status
+*&--------------------------------------------------------------------*
+*       text
+*---------------------------------------------------------------------*
+*      -->EXTAB      text
+*---------------------------------------------------------------------*
+FORM set_status USING extab TYPE slis_t_extab.
+
+  DELETE extab WHERE fcode = '&AVE'.
+  DELETE extab WHERE fcode = '&OAD'.
+  DELETE extab WHERE fcode = '&ERW'.
+  SET PF-STATUS 'STATUS_DOCLIST_1' EXCLUDING extab.
+
+ENDFORM.                    "set_status
+
+*&--------------------------------------------------------------------*
+*&      Form  user_command
+*&--------------------------------------------------------------------*
+*       text
+*---------------------------------------------------------------------*
+*      -->R_UCOMM    text
+*      -->RS_SELFIELDtext
+*---------------------------------------------------------------------*
+FORM user_command USING r_ucomm LIKE sy-ucomm
+                        rs_selfield TYPE slis_selfield.
+
+  CASE r_ucomm.
+    WHEN  'DISPLAY'.
+      CHECK rs_selfield-tabindex > 0.
+      READ TABLE lrt_doc INTO lrs_doc INDEX rs_selfield-tabindex.
+      CALL FUNCTION 'RV_CALL_DISPLAY_TRANSACTION'
+        EXPORTING
+          vbeln = lrs_doc-vbeln.
+*    when  'CHANGE'.
+*      check rs_selfield-tabindex > 0.
+*      read table lrt_doc into lrs_doc index rs_selfield-tabindex.
+*      call function 'RV_CALL_CHANGE_TRANSACTION'
+*        exporting
+*          vbeln = lrs_doc-vbeln.
+  ENDCASE.
+
+ENDFORM.                    "set_status
