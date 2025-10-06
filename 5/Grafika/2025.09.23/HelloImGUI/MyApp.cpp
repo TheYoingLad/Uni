@@ -1,0 +1,150 @@
+#include "MyApp.h"
+#include "SDL_GLDebugMessageCallback.h"
+
+#include <imgui.h>
+
+CMyApp::CMyApp()
+{
+}
+
+CMyApp::~CMyApp()
+{
+}
+
+void CMyApp::SetupDebugCallback()
+{
+	// engedélyezzük és állítsuk be a debug callback függvényt ha debug context-ben vagyunk
+	GLint context_flags;
+	glGetIntegerv(GL_CONTEXT_FLAGS, &context_flags);
+	if (context_flags & GL_CONTEXT_FLAG_DEBUG_BIT) {
+		glEnable(GL_DEBUG_OUTPUT);
+		glEnable(GL_DEBUG_OUTPUT_SYNCHRONOUS);
+		glDebugMessageControl(GL_DONT_CARE, GL_DEBUG_TYPE_DEPRECATED_BEHAVIOR, GL_DONT_CARE, 0, nullptr, GL_FALSE);
+		glDebugMessageControl(GL_DONT_CARE, GL_DONT_CARE, GL_DEBUG_SEVERITY_NOTIFICATION, 0, nullptr, GL_FALSE);
+		glDebugMessageCallback(SDL_GLDebugMessageCallback, nullptr);
+	}
+}
+
+bool CMyApp::Init()
+{
+	SetupDebugCallback();
+
+	// törlési szín legyen kékes
+	glClearColor(0.125f, 0.25f, 0.5f, 1.0f);
+
+	//
+	// egyéb inicializálás
+	//
+
+	glEnable(GL_CULL_FACE); // kapcsoljuk be a hátrafelé néző lapok eldobását 
+	glCullFace(GL_BACK);    // GL_BACK: a kamerától "elfelé" néző lapok, GL_FRONT: a kamera felé néző lapok 
+
+	glEnable(GL_DEPTH_TEST); // mélységi teszt bekapcsolása (takarás) 
+
+	return true;
+}
+
+void CMyApp::Clean()
+{
+}
+
+void CMyApp::Update(const SUpdateInfo& updateInfo)
+{
+	m_ElapsedTimeInSec = updateInfo.ElapsedTimeInSec;
+
+	// 1; 3. feladat
+	glClearColor(m_r, m_g, m_b, 1);
+
+	// 2. feladat: [1,0,1] (lila) -> [0,1,0] (zöld) lin interpoláció
+	// lin interp: f(t) = a(0-t) + t*b; t:[0,1]
+	//glClearColor(1 - m_t, m_t, 1 - m_t, 1);
+}
+
+void CMyApp::Render()
+{
+	// töröljük a framepuffert (GL_COLOR_BUFFER_BIT)...
+	// ... és a mélységi Z puffert (GL_DEPTH_BUFFER_BIT)
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+}
+
+void CMyApp::RenderGUI()
+{
+	//ImGui::ShowDemoWindow(); // példa dolgok
+
+
+	ImGui::Begin("My GUI");
+
+	ImGui::Text("Gyak 3");
+	ImGui::Text("Elapsed time: %f", m_ElapsedTimeInSec);
+	ImGui::Text("Float variable: %f", m_t);
+
+	ImGui::SliderFloat("t##1", &m_t, 0.0f, 1.0f); // tényleg változtatja m_t értékét
+												  // ##<n> ez egy id, így lehet ugyan az a neve a slidernek
+
+	// 1. feladat: háttér szín változtatása csúszkákkal
+	ImGui::SliderFloat("r", &m_r, 0.0f, 1.0f);
+	ImGui::SliderFloat("g", &m_g, 0.0f, 1.0f);
+	ImGui::SliderFloat("b", &m_b, 0.0f, 1.0f);
+
+
+	// 3. feladat: gomb, ami randomizálja az rbg értékeket
+	if (ImGui::Button("Color random")) {
+		m_r = (float)(rand() % 1000) / 1000;
+		m_g = (float)(rand() % 1000) / 1000;
+		m_b = (float)(rand() % 1000) / 1000;
+	}
+
+	ImGui::End();
+}
+
+// https://wiki.libsdl.org/SDL2/SDL_KeyboardEvent
+// https://wiki.libsdl.org/SDL2/SDL_Keysym
+// https://wiki.libsdl.org/SDL2/SDL_Keycode
+// https://wiki.libsdl.org/SDL2/SDL_Keymod
+
+void CMyApp::KeyboardDown(const SDL_KeyboardEvent& key)
+{
+}
+
+void CMyApp::KeyboardUp(const SDL_KeyboardEvent& key)
+{
+}
+
+// https://wiki.libsdl.org/SDL2/SDL_MouseMotionEvent
+
+void CMyApp::MouseMove(const SDL_MouseMotionEvent& mouse)
+{
+
+}
+
+// https://wiki.libsdl.org/SDL2/SDL_MouseButtonEvent
+
+void CMyApp::MouseDown(const SDL_MouseButtonEvent& mouse)
+{
+}
+
+void CMyApp::MouseUp(const SDL_MouseButtonEvent& mouse)
+{
+}
+
+// https://wiki.libsdl.org/SDL2/SDL_MouseWheelEvent
+
+void CMyApp::MouseWheel(const SDL_MouseWheelEvent& wheel)
+{
+}
+
+
+// a két paraméterben az új ablakméret szélessége (_w) és magassága (_h) található
+void CMyApp::Resize(int _w, int _h)
+{
+	glViewport(0, 0, _w, _h);
+}
+
+// Le nem kezelt, egzotikus esemény kezelése
+// https://wiki.libsdl.org/SDL2/SDL_Event
+
+void CMyApp::OtherEvent(const SDL_Event& ev)
+{
+
+}

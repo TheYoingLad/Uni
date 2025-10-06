@@ -1,0 +1,6 @@
+﻿  MyApp.cpp
+C:\Users\sapman\Downloads\FullScreen_Shader\MyApp.cpp(151,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\sapman\Downloads\FullScreen_Shader\MyApp.cpp(152,14): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  FullScreen_Shader.vcxproj -> C:\Users\sapman\Downloads\FullScreen_Shader\x64\Debug\FullScreen_Shader.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
